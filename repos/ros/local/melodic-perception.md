@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:fdb7eff3ec6de906f3a2585d49c20927b6402fcfaa394bf35449143f387a4011`
-- Created: `2019-01-23T03:48:44.397167022Z`
-- Virtual Size: ~ 2.48 Gb  
+- Image ID: `sha256:9ed7b4d6cf1eff66c3f545520735f73bb983f2851219a786e0c20d133c1858d5`
+- Created: `2019-12-19T08:34:25.241439712Z`
+- Virtual Size: ~ 2.43 Gb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["/ros_entrypoint.sh"]`
@@ -171,12 +171,12 @@ $ apt-get source -qq --print-uris apr=1.6.3-2
 'http://archive.ubuntu.com/ubuntu/pool/main/a/apr/apr_1.6.3-2.debian.tar.xz' apr_1.6.3-2.debian.tar.xz 213068 SHA256:ac515f888f7157586631e3de9792ee01d239f9cbf1e768be31ee6daac61f2597
 ```
 
-### `dpkg` source package: `apt=1.6.6ubuntu0.1`
+### `dpkg` source package: `apt=1.6.12`
 
 Binary Packages:
 
-- `apt=1.6.6ubuntu0.1`
-- `libapt-pkg5.0:amd64=1.6.6ubuntu0.1`
+- `apt=1.6.12`
+- `libapt-pkg5.0:amd64=1.6.12`
 
 Licenses: (parsed from: `/usr/share/doc/apt/copyright`, `/usr/share/doc/libapt-pkg5.0/copyright`)
 
@@ -186,9 +186,9 @@ Licenses: (parsed from: `/usr/share/doc/apt/copyright`, `/usr/share/doc/libapt-p
 Source:
 
 ```console
-$ apt-get source -qq --print-uris apt=1.6.6ubuntu0.1
-'http://archive.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.6.6ubuntu0.1.dsc' apt_1.6.6ubuntu0.1.dsc 2837 SHA256:f16c1138e5ffa3c105ff388d028bc884746f2a2f73766c2e740827d5bf4d37d7
-'http://archive.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.6.6ubuntu0.1.tar.xz' apt_1.6.6ubuntu0.1.tar.xz 2141972 SHA256:76527ee62dc2c465a6bf5d0f46325608de75c8d02afc177591b12a25784c65ad
+$ apt-get source -qq --print-uris apt=1.6.12
+'http://archive.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.6.12.dsc' apt_1.6.12.dsc 2796 SHA256:061d7de8e9faea48b69b37f01a54b2eac04d39eaab143ec4ffb7cd534fa01cfd
+'http://archive.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.6.12.tar.xz' apt_1.6.12.tar.xz 2171176 SHA256:d4e2ae405a1ff12bd108a5a530a24d52afde9cde40065ed508fdea33302c8a35
 ```
 
 ### `dpkg` source package: `argon2=0~20161029-1.1`
@@ -483,16 +483,16 @@ $ apt-get source -qq --print-uris autotools-dev=20180224.1
 'http://archive.ubuntu.com/ubuntu/pool/main/a/autotools-dev/autotools-dev_20180224.1.tar.xz' autotools-dev_20180224.1.tar.xz 68256 SHA256:355a4d8461dfedebd2c5194603197712a10f71e20de73a35ab6e90b7acf3e837
 ```
 
-### `dpkg` source package: `avahi=0.7-3.1ubuntu1.1`
+### `dpkg` source package: `avahi=0.7-3.1ubuntu1.2`
 
 Binary Packages:
 
-- `avahi-daemon=0.7-3.1ubuntu1.1`
-- `libavahi-client3:amd64=0.7-3.1ubuntu1.1`
-- `libavahi-common-data:amd64=0.7-3.1ubuntu1.1`
-- `libavahi-common3:amd64=0.7-3.1ubuntu1.1`
-- `libavahi-core7:amd64=0.7-3.1ubuntu1.1`
-- `libavahi-glib1:amd64=0.7-3.1ubuntu1.1`
+- `avahi-daemon=0.7-3.1ubuntu1.2`
+- `libavahi-client3:amd64=0.7-3.1ubuntu1.2`
+- `libavahi-common-data:amd64=0.7-3.1ubuntu1.2`
+- `libavahi-common3:amd64=0.7-3.1ubuntu1.2`
+- `libavahi-core7:amd64=0.7-3.1ubuntu1.2`
+- `libavahi-glib1:amd64=0.7-3.1ubuntu1.2`
 
 Licenses: (parsed from: `/usr/share/doc/avahi-daemon/copyright`, `/usr/share/doc/libavahi-client3/copyright`, `/usr/share/doc/libavahi-common-data/copyright`, `/usr/share/doc/libavahi-common3/copyright`, `/usr/share/doc/libavahi-core7/copyright`, `/usr/share/doc/libavahi-glib1/copyright`)
 
@@ -503,17 +503,17 @@ Licenses: (parsed from: `/usr/share/doc/avahi-daemon/copyright`, `/usr/share/doc
 Source:
 
 ```console
-$ apt-get source -qq --print-uris avahi=0.7-3.1ubuntu1.1
-'http://archive.ubuntu.com/ubuntu/pool/main/a/avahi/avahi_0.7-3.1ubuntu1.1.dsc' avahi_0.7-3.1ubuntu1.1.dsc 4202 SHA256:11fdad4b4ca493ea1e63c88a7ceb35c8b6c0da5ec8ff90077b6d473651a6180a
+$ apt-get source -qq --print-uris avahi=0.7-3.1ubuntu1.2
+'http://archive.ubuntu.com/ubuntu/pool/main/a/avahi/avahi_0.7-3.1ubuntu1.2.dsc' avahi_0.7-3.1ubuntu1.2.dsc 4186 SHA256:7aa3692290fb1fbd04ca07b221b02eb861cfdbeeb35cf17cbdb7c81f6b02ed3c
 'http://archive.ubuntu.com/ubuntu/pool/main/a/avahi/avahi_0.7.orig.tar.gz' avahi_0.7.orig.tar.gz 1333400 SHA256:57a99b5dfe7fdae794e3d1ee7a62973a368e91e414bd0dfa5d84434de5b14804
-'http://archive.ubuntu.com/ubuntu/pool/main/a/avahi/avahi_0.7-3.1ubuntu1.1.debian.tar.xz' avahi_0.7-3.1ubuntu1.1.debian.tar.xz 34408 SHA256:21f22a4d36f2b620bf55c039ed40a62a35ca029fe228959f2baa58c21484b6a4
+'http://archive.ubuntu.com/ubuntu/pool/main/a/avahi/avahi_0.7-3.1ubuntu1.2.debian.tar.xz' avahi_0.7-3.1ubuntu1.2.debian.tar.xz 35124 SHA256:a72a1652e00b4385f99407e4f26eb1656e8eb0026d127e246533438d1ae05407
 ```
 
-### `dpkg` source package: `base-files=10.1ubuntu2.3`
+### `dpkg` source package: `base-files=10.1ubuntu2.7`
 
 Binary Packages:
 
-- `base-files=10.1ubuntu2.3`
+- `base-files=10.1ubuntu2.7`
 
 Licenses: (parsed from: `/usr/share/doc/base-files/copyright`)
 
@@ -522,9 +522,9 @@ Licenses: (parsed from: `/usr/share/doc/base-files/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris base-files=10.1ubuntu2.3
-'http://archive.ubuntu.com/ubuntu/pool/main/b/base-files/base-files_10.1ubuntu2.3.dsc' base-files_10.1ubuntu2.3.dsc 1620 SHA256:09df4de1d368582baec2118933103e533ee584dad99e20e9da4fc14cd3531d6c
-'http://archive.ubuntu.com/ubuntu/pool/main/b/base-files/base-files_10.1ubuntu2.3.tar.xz' base-files_10.1ubuntu2.3.tar.xz 78140 SHA256:96f33d65b216e1d980d807d979ff8a8230834790627df8afe63dfc758a45be69
+$ apt-get source -qq --print-uris base-files=10.1ubuntu2.7
+'http://archive.ubuntu.com/ubuntu/pool/main/b/base-files/base-files_10.1ubuntu2.7.dsc' base-files_10.1ubuntu2.7.dsc 1620 SHA256:86ce800b82d3968e5c81c1b154d4a515778193c0a516e92f17d3bc2d3c6d2457
+'http://archive.ubuntu.com/ubuntu/pool/main/b/base-files/base-files_10.1ubuntu2.7.tar.xz' base-files_10.1ubuntu2.7.tar.xz 78340 SHA256:17f7892cf87ec084ac4c8553f8884130127312d6b953345aa3c7e847b2ac4d0b
 ```
 
 ### `dpkg` source package: `base-passwd=3.5.44`
@@ -546,11 +546,11 @@ $ apt-get source -qq --print-uris base-passwd=3.5.44
 'http://archive.ubuntu.com/ubuntu/pool/main/b/base-passwd/base-passwd_3.5.44.tar.xz' base-passwd_3.5.44.tar.xz 52644 SHA256:f17a0746024572e86e60e4614cf226a81ffe682ceaf1a1fce9dc1a8002683e90
 ```
 
-### `dpkg` source package: `bash=4.4.18-2ubuntu1`
+### `dpkg` source package: `bash=4.4.18-2ubuntu1.2`
 
 Binary Packages:
 
-- `bash=4.4.18-2ubuntu1`
+- `bash=4.4.18-2ubuntu1.2`
 
 Licenses: (parsed from: `/usr/share/doc/bash/copyright`)
 
@@ -559,23 +559,23 @@ Licenses: (parsed from: `/usr/share/doc/bash/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris bash=4.4.18-2ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/b/bash/bash_4.4.18-2ubuntu1.dsc' bash_4.4.18-2ubuntu1.dsc 2428 SHA256:ec8a83c399050b93b519feb3d2c08a90f9c3b090c18b7741785af50ce04cb6be
+$ apt-get source -qq --print-uris bash=4.4.18-2ubuntu1.2
+'http://archive.ubuntu.com/ubuntu/pool/main/b/bash/bash_4.4.18-2ubuntu1.2.dsc' bash_4.4.18-2ubuntu1.2.dsc 2434 SHA256:febc739ab69e09853f8f1d4b1db7038937911bee7d715926f1e7ff461b63c82f
 'http://archive.ubuntu.com/ubuntu/pool/main/b/bash/bash_4.4.18.orig.tar.xz' bash_4.4.18.orig.tar.xz 5036272 SHA256:704143a7170041ac9f1025455d6d23ff0f353711a3dc557b47d6e6322f24cd02
-'http://archive.ubuntu.com/ubuntu/pool/main/b/bash/bash_4.4.18-2ubuntu1.debian.tar.xz' bash_4.4.18-2ubuntu1.debian.tar.xz 63912 SHA256:0f9a072b7a892c8ed388dac71783f8c4547c3b9737efa5ccb28bf243ab77ef10
+'http://archive.ubuntu.com/ubuntu/pool/main/b/bash/bash_4.4.18-2ubuntu1.2.debian.tar.xz' bash_4.4.18-2ubuntu1.2.debian.tar.xz 65236 SHA256:b0191aab30dd0531d7acbeab7c64014a1c9e484f417678a18ad1655a77b7b6f9
 ```
 
-### `dpkg` source package: `bind9=1:9.11.3+dfsg-1ubuntu1.3`
+### `dpkg` source package: `bind9=1:9.11.3+dfsg-1ubuntu1.11`
 
 Binary Packages:
 
-- `bind9-host=1:9.11.3+dfsg-1ubuntu1.3`
-- `libbind9-160:amd64=1:9.11.3+dfsg-1ubuntu1.3`
-- `libdns1100:amd64=1:9.11.3+dfsg-1ubuntu1.3`
-- `libisc169:amd64=1:9.11.3+dfsg-1ubuntu1.3`
-- `libisccc160:amd64=1:9.11.3+dfsg-1ubuntu1.3`
-- `libisccfg160:amd64=1:9.11.3+dfsg-1ubuntu1.3`
-- `liblwres160:amd64=1:9.11.3+dfsg-1ubuntu1.3`
+- `bind9-host=1:9.11.3+dfsg-1ubuntu1.11`
+- `libbind9-160:amd64=1:9.11.3+dfsg-1ubuntu1.11`
+- `libdns1100:amd64=1:9.11.3+dfsg-1ubuntu1.11`
+- `libisc169:amd64=1:9.11.3+dfsg-1ubuntu1.11`
+- `libisccc160:amd64=1:9.11.3+dfsg-1ubuntu1.11`
+- `libisccfg160:amd64=1:9.11.3+dfsg-1ubuntu1.11`
+- `liblwres160:amd64=1:9.11.3+dfsg-1ubuntu1.11`
 
 Licenses: (parsed from: `/usr/share/doc/bind9-host/copyright`, `/usr/share/doc/libbind9-160/copyright`, `/usr/share/doc/libdns1100/copyright`, `/usr/share/doc/libisc169/copyright`, `/usr/share/doc/libisccc160/copyright`, `/usr/share/doc/libisccfg160/copyright`, `/usr/share/doc/liblwres160/copyright`)
 
@@ -588,10 +588,10 @@ Licenses: (parsed from: `/usr/share/doc/bind9-host/copyright`, `/usr/share/doc/l
 Source:
 
 ```console
-$ apt-get source -qq --print-uris bind9=1:9.11.3+dfsg-1ubuntu1.3
-'http://archive.ubuntu.com/ubuntu/pool/main/b/bind9/bind9_9.11.3+dfsg-1ubuntu1.3.dsc' bind9_9.11.3+dfsg-1ubuntu1.3.dsc 3924 SHA256:ef1c2ef99f074c22246ec39bd94117d07e196e63769d69ee39302f0cb44d8579
+$ apt-get source -qq --print-uris bind9=1:9.11.3+dfsg-1ubuntu1.11
+'http://archive.ubuntu.com/ubuntu/pool/main/b/bind9/bind9_9.11.3+dfsg-1ubuntu1.11.dsc' bind9_9.11.3+dfsg-1ubuntu1.11.dsc 3928 SHA256:c80a2c901a76f52d3cc03e6a06d322f26c5641eadeaa60730927c94bdc591ca9
 'http://archive.ubuntu.com/ubuntu/pool/main/b/bind9/bind9_9.11.3+dfsg.orig.tar.gz' bind9_9.11.3+dfsg.orig.tar.gz 7196577 SHA256:1ba0ab6ac21cb3e5cdf103f00b98a259a67b29dcd2bc116b8ae643a394a954a4
-'http://archive.ubuntu.com/ubuntu/pool/main/b/bind9/bind9_9.11.3+dfsg-1ubuntu1.3.debian.tar.xz' bind9_9.11.3+dfsg-1ubuntu1.3.debian.tar.xz 86240 SHA256:c7b22b9d52cac35b29f1e11e4d17d568c55d96761da91c3054989ab77dad8e80
+'http://archive.ubuntu.com/ubuntu/pool/main/b/bind9/bind9_9.11.3+dfsg-1ubuntu1.11.debian.tar.xz' bind9_9.11.3+dfsg-1ubuntu1.11.debian.tar.xz 98672 SHA256:5e02aa2a77e2f29a7195f6f6768a17a2637afa8988f9b9e2c1c5b77240faece7
 ```
 
 ### `dpkg` source package: `binfmt-support=2.1.8-2`
@@ -615,14 +615,14 @@ $ apt-get source -qq --print-uris binfmt-support=2.1.8-2
 'http://archive.ubuntu.com/ubuntu/pool/main/b/binfmt-support/binfmt-support_2.1.8-2.debian.tar.xz' binfmt-support_2.1.8-2.debian.tar.xz 202736 SHA256:3f59796f0cd81c6e45e6ed2956f7b6e46bac845231e2893d24da19bc51457cb1
 ```
 
-### `dpkg` source package: `binutils=2.30-21ubuntu1~18.04`
+### `dpkg` source package: `binutils=2.30-21ubuntu1~18.04.2`
 
 Binary Packages:
 
-- `binutils=2.30-21ubuntu1~18.04`
-- `binutils-common:amd64=2.30-21ubuntu1~18.04`
-- `binutils-x86-64-linux-gnu=2.30-21ubuntu1~18.04`
-- `libbinutils:amd64=2.30-21ubuntu1~18.04`
+- `binutils=2.30-21ubuntu1~18.04.2`
+- `binutils-common:amd64=2.30-21ubuntu1~18.04.2`
+- `binutils-x86-64-linux-gnu=2.30-21ubuntu1~18.04.2`
+- `libbinutils:amd64=2.30-21ubuntu1~18.04.2`
 
 Licenses: (parsed from: `/usr/share/doc/binutils/copyright`, `/usr/share/doc/binutils-common/copyright`, `/usr/share/doc/binutils-x86-64-linux-gnu/copyright`, `/usr/share/doc/libbinutils/copyright`)
 
@@ -633,10 +633,10 @@ Licenses: (parsed from: `/usr/share/doc/binutils/copyright`, `/usr/share/doc/bin
 Source:
 
 ```console
-$ apt-get source -qq --print-uris binutils=2.30-21ubuntu1~18.04
-'http://archive.ubuntu.com/ubuntu/pool/main/b/binutils/binutils_2.30-21ubuntu1~18.04.dsc' binutils_2.30-21ubuntu1~18.04.dsc 11624 SHA256:4ffc258658dd2eeb10c3672bad9e0748d9cba59fc0651e9fd034aa386e7c5a71
+$ apt-get source -qq --print-uris binutils=2.30-21ubuntu1~18.04.2
+'http://archive.ubuntu.com/ubuntu/pool/main/b/binutils/binutils_2.30-21ubuntu1~18.04.2.dsc' binutils_2.30-21ubuntu1~18.04.2.dsc 11330 SHA256:9ff12c6cd40b1d4b9fbeb57baa3102de9d97a06b5d6ba36f85425aa53329aa80
 'http://archive.ubuntu.com/ubuntu/pool/main/b/binutils/binutils_2.30.orig.tar.xz' binutils_2.30.orig.tar.xz 20286700 SHA256:6e46b8aeae2f727a36f0bd9505e405768a72218f1796f0d09757d45209871ae6
-'http://archive.ubuntu.com/ubuntu/pool/main/b/binutils/binutils_2.30-21ubuntu1~18.04.debian.tar.xz' binutils_2.30-21ubuntu1~18.04.debian.tar.xz 559720 SHA256:e9bbd94d4afb31007b9729c1022bd4018a3279a7daf6d521b768b0e09881838e
+'http://archive.ubuntu.com/ubuntu/pool/main/b/binutils/binutils_2.30-21ubuntu1~18.04.2.debian.tar.xz' binutils_2.30-21ubuntu1~18.04.2.debian.tar.xz 560000 SHA256:506dd173a1507d2047789261df21c0fdc393dfcfd7aa2c92798c00b4dc4bfa98
 ```
 
 ### `dpkg` source package: `boost-defaults=1.65.1.0ubuntu1`
@@ -828,14 +828,14 @@ $ apt-get source -qq --print-uris build-essential=12.4ubuntu1
 'http://archive.ubuntu.com/ubuntu/pool/main/b/build-essential/build-essential_12.4ubuntu1.tar.gz' build-essential_12.4ubuntu1.tar.gz 64966 SHA256:890a4bb7b72ffa4fa152d6bb0a9cca8835b9e9c0f4e110c487a22de9903dce0a
 ```
 
-### `dpkg` source package: `bzip2=1.0.6-8.1`
+### `dpkg` source package: `bzip2=1.0.6-8.1ubuntu0.2`
 
 Binary Packages:
 
-- `bzip2=1.0.6-8.1`
-- `bzip2-doc=1.0.6-8.1`
-- `libbz2-1.0:amd64=1.0.6-8.1`
-- `libbz2-dev:amd64=1.0.6-8.1`
+- `bzip2=1.0.6-8.1ubuntu0.2`
+- `bzip2-doc=1.0.6-8.1ubuntu0.2`
+- `libbz2-1.0:amd64=1.0.6-8.1ubuntu0.2`
+- `libbz2-dev:amd64=1.0.6-8.1ubuntu0.2`
 
 Licenses: (parsed from: `/usr/share/doc/bzip2/copyright`, `/usr/share/doc/bzip2-doc/copyright`, `/usr/share/doc/libbz2-1.0/copyright`, `/usr/share/doc/libbz2-dev/copyright`)
 
@@ -844,10 +844,10 @@ Licenses: (parsed from: `/usr/share/doc/bzip2/copyright`, `/usr/share/doc/bzip2-
 Source:
 
 ```console
-$ apt-get source -qq --print-uris bzip2=1.0.6-8.1
-'http://archive.ubuntu.com/ubuntu/pool/main/b/bzip2/bzip2_1.0.6-8.1.dsc' bzip2_1.0.6-8.1.dsc 2082 SHA256:d80deed11a1419ad090cb486dd2335850fd8719b809c32002dea04b485f55dbd
+$ apt-get source -qq --print-uris bzip2=1.0.6-8.1ubuntu0.2
+'http://archive.ubuntu.com/ubuntu/pool/main/b/bzip2/bzip2_1.0.6-8.1ubuntu0.2.dsc' bzip2_1.0.6-8.1ubuntu0.2.dsc 2181 SHA256:62f49d3ded30713bbae8a0aaab69bebdc5533afe6e488ceb0aa03bce7c2c5ff3
 'http://archive.ubuntu.com/ubuntu/pool/main/b/bzip2/bzip2_1.0.6.orig.tar.bz2' bzip2_1.0.6.orig.tar.bz2 708737 SHA256:d70a9ccd8bdf47e302d96c69fecd54925f45d9c7b966bb4ef5f56b770960afa7
-'http://archive.ubuntu.com/ubuntu/pool/main/b/bzip2/bzip2_1.0.6-8.1.debian.tar.bz2' bzip2_1.0.6-8.1.debian.tar.bz2 59875 SHA256:bdbe7bf29e014e44d79bb7c733fe63cae990ab50882a4a07867cf69c61ad72b7
+'http://archive.ubuntu.com/ubuntu/pool/main/b/bzip2/bzip2_1.0.6-8.1ubuntu0.2.debian.tar.bz2' bzip2_1.0.6-8.1ubuntu0.2.debian.tar.bz2 61477 SHA256:b4fede4240afa43e0e666e5a539da8d9744b2b2917388cfe93574f967e328e6a
 ```
 
 ### `dpkg` source package: `bzr=2.7.0+bzr6622-10`
@@ -891,14 +891,14 @@ $ apt-get source -qq --print-uris ca-certificates=20180409
 'http://archive.ubuntu.com/ubuntu/pool/main/c/ca-certificates/ca-certificates_20180409.tar.xz' ca-certificates_20180409.tar.xz 246908 SHA256:7af6f5bfc619fd29cbf0258c1d95107c38ce840ad6274e343e1e0d971fc72b51
 ```
 
-### `dpkg` source package: `cairo=1.15.10-2`
+### `dpkg` source package: `cairo=1.15.10-2ubuntu0.1`
 
 Binary Packages:
 
-- `libcairo-gobject2:amd64=1.15.10-2`
-- `libcairo-script-interpreter2:amd64=1.15.10-2`
-- `libcairo2:amd64=1.15.10-2`
-- `libcairo2-dev:amd64=1.15.10-2`
+- `libcairo-gobject2:amd64=1.15.10-2ubuntu0.1`
+- `libcairo-script-interpreter2:amd64=1.15.10-2ubuntu0.1`
+- `libcairo2:amd64=1.15.10-2ubuntu0.1`
+- `libcairo2-dev:amd64=1.15.10-2ubuntu0.1`
 
 Licenses: (parsed from: `/usr/share/doc/libcairo-gobject2/copyright`, `/usr/share/doc/libcairo-script-interpreter2/copyright`, `/usr/share/doc/libcairo2/copyright`, `/usr/share/doc/libcairo2-dev/copyright`)
 
@@ -907,10 +907,10 @@ Licenses: (parsed from: `/usr/share/doc/libcairo-gobject2/copyright`, `/usr/shar
 Source:
 
 ```console
-$ apt-get source -qq --print-uris cairo=1.15.10-2
-'http://archive.ubuntu.com/ubuntu/pool/main/c/cairo/cairo_1.15.10-2.dsc' cairo_1.15.10-2.dsc 2877 SHA256:f7b2a64535e931a8953e526c3e326ef18a3d6697b43b0f57436ba4bf99a6b025
+$ apt-get source -qq --print-uris cairo=1.15.10-2ubuntu0.1
+'http://archive.ubuntu.com/ubuntu/pool/main/c/cairo/cairo_1.15.10-2ubuntu0.1.dsc' cairo_1.15.10-2ubuntu0.1.dsc 2290 SHA256:f46a6d10e734d78f328bdf5505adec6e8283745a9aff395c506848f5a3346873
 'http://archive.ubuntu.com/ubuntu/pool/main/c/cairo/cairo_1.15.10.orig.tar.xz' cairo_1.15.10.orig.tar.xz 41881364 SHA256:62ca226134cf2f1fd114bea06f8b374eb37f35d8e22487eaa54d5e9428958392
-'http://archive.ubuntu.com/ubuntu/pool/main/c/cairo/cairo_1.15.10-2.debian.tar.xz' cairo_1.15.10-2.debian.tar.xz 29760 SHA256:8524ef23ee7c626e487d39b7c2e246084fbc2840a45d66d3fe5feb16e11fd9f5
+'http://archive.ubuntu.com/ubuntu/pool/main/c/cairo/cairo_1.15.10-2ubuntu0.1.debian.tar.xz' cairo_1.15.10-2ubuntu0.1.debian.tar.xz 31128 SHA256:5e23a8cf88a4cc11935ef84ef33661611cefafd72281ae20c58016a3788e1b5f
 ```
 
 ### `dpkg` source package: `cdebconf=0.213ubuntu1`
@@ -994,12 +994,12 @@ $ apt-get source -qq --print-uris chromaprint=1.4.3-1
 'http://archive.ubuntu.com/ubuntu/pool/universe/c/chromaprint/chromaprint_1.4.3-1.debian.tar.xz' chromaprint_1.4.3-1.debian.tar.xz 5648 SHA256:400f44ab9a509675ccc93b7619b90919019b50e049ed573c7085a4475c5c617e
 ```
 
-### `dpkg` source package: `cmake=3.10.2-1ubuntu2`
+### `dpkg` source package: `cmake=3.10.2-1ubuntu2.18.04.1`
 
 Binary Packages:
 
-- `cmake=3.10.2-1ubuntu2`
-- `cmake-data=3.10.2-1ubuntu2`
+- `cmake=3.10.2-1ubuntu2.18.04.1`
+- `cmake-data=3.10.2-1ubuntu2.18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/cmake/copyright`, `/usr/share/doc/cmake-data/copyright`)
 
@@ -1018,10 +1018,10 @@ Licenses: (parsed from: `/usr/share/doc/cmake/copyright`, `/usr/share/doc/cmake-
 Source:
 
 ```console
-$ apt-get source -qq --print-uris cmake=3.10.2-1ubuntu2
-'http://archive.ubuntu.com/ubuntu/pool/main/c/cmake/cmake_3.10.2-1ubuntu2.dsc' cmake_3.10.2-1ubuntu2.dsc 3064 SHA256:7be9f9d50948156490a438988b504e51863229b0af2272c6d9617042f9f40dfe
+$ apt-get source -qq --print-uris cmake=3.10.2-1ubuntu2.18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/c/cmake/cmake_3.10.2-1ubuntu2.18.04.1.dsc' cmake_3.10.2-1ubuntu2.18.04.1.dsc 3128 SHA256:7bfca7d610549dcec19d3b4d9e243fc715dd5ccecb23fe90f60355c3ea6f1b28
 'http://archive.ubuntu.com/ubuntu/pool/main/c/cmake/cmake_3.10.2.orig.tar.gz' cmake_3.10.2.orig.tar.gz 7824452 SHA256:80d0faad4ab56de07aa21a7fc692c88c4ce6156d42b0579c6962004a70a3218b
-'http://archive.ubuntu.com/ubuntu/pool/main/c/cmake/cmake_3.10.2-1ubuntu2.debian.tar.xz' cmake_3.10.2-1ubuntu2.debian.tar.xz 29008 SHA256:c8b5e980882128f085757500c109865773e9145ac7d9bf01abe91f50f8b24fe1
+'http://archive.ubuntu.com/ubuntu/pool/main/c/cmake/cmake_3.10.2-1ubuntu2.18.04.1.debian.tar.xz' cmake_3.10.2-1ubuntu2.18.04.1.debian.tar.xz 30048 SHA256:94840f8fd049baf3b6a535e590442a17c097094b91e5c745a82d3827a3d97999
 ```
 
 ### `dpkg` source package: `colord=1.3.3-2build1`
@@ -1172,11 +1172,11 @@ $ apt-get source -qq --print-uris crystalhd=1:0.0~git20110715.fdd2f19-12
 'http://archive.ubuntu.com/ubuntu/pool/universe/c/crystalhd/crystalhd_0.0~git20110715.fdd2f19-12.debian.tar.xz' crystalhd_0.0~git20110715.fdd2f19-12.debian.tar.xz 15260 SHA256:b634af1ff394c6e44445e29e7e6b27648d35f58e475ed1749eeaf3dc80ca15a1
 ```
 
-### `dpkg` source package: `cups=2.2.7-1ubuntu2.3`
+### `dpkg` source package: `cups=2.2.7-1ubuntu2.7`
 
 Binary Packages:
 
-- `libcups2:amd64=2.2.7-1ubuntu2.3`
+- `libcups2:amd64=2.2.7-1ubuntu2.7`
 
 Licenses: (parsed from: `/usr/share/doc/libcups2/copyright`)
 
@@ -1190,21 +1190,21 @@ Licenses: (parsed from: `/usr/share/doc/libcups2/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris cups=2.2.7-1ubuntu2.3
-'http://archive.ubuntu.com/ubuntu/pool/main/c/cups/cups_2.2.7-1ubuntu2.3.dsc' cups_2.2.7-1ubuntu2.3.dsc 3007 SHA256:346b0c419424b7e81852ad391831d85c168fbf73050fd446fe796ade5d6c6160
+$ apt-get source -qq --print-uris cups=2.2.7-1ubuntu2.7
+'http://archive.ubuntu.com/ubuntu/pool/main/c/cups/cups_2.2.7-1ubuntu2.7.dsc' cups_2.2.7-1ubuntu2.7.dsc 3339 SHA256:48a48cc93a931a3a22b04f68cdaa736421759888e72e54dee2acfd3dae9fe1ea
 'http://archive.ubuntu.com/ubuntu/pool/main/c/cups/cups_2.2.7.orig.tar.gz' cups_2.2.7.orig.tar.gz 10330296 SHA256:3c4b637b737077565ccdfbd5f61785d03f49461ae736fcc2c0ffaf41d2c6ea6a
 'http://archive.ubuntu.com/ubuntu/pool/main/c/cups/cups_2.2.7.orig.tar.gz.asc' cups_2.2.7.orig.tar.gz.asc 872 SHA256:2b17bef166e1f8a0dece544c0e4f0d847f6d2c8e784298898966352f4e47581a
-'http://archive.ubuntu.com/ubuntu/pool/main/c/cups/cups_2.2.7-1ubuntu2.3.debian.tar.xz' cups_2.2.7-1ubuntu2.3.debian.tar.xz 359184 SHA256:6deccffb812018c529061f0d190ca6d65789272ba3e1e89248d46141154fab4d
+'http://archive.ubuntu.com/ubuntu/pool/main/c/cups/cups_2.2.7-1ubuntu2.7.debian.tar.xz' cups_2.2.7-1ubuntu2.7.debian.tar.xz 362500 SHA256:9d603bfc13ffa9ba8ad8f94ab3ca0e5779eeaa546809381e1580fc3da132cfe9
 ```
 
-### `dpkg` source package: `curl=7.58.0-2ubuntu3.5`
+### `dpkg` source package: `curl=7.58.0-2ubuntu3.8`
 
 Binary Packages:
 
-- `curl=7.58.0-2ubuntu3.5`
-- `libcurl3-gnutls:amd64=7.58.0-2ubuntu3.5`
-- `libcurl4:amd64=7.58.0-2ubuntu3.5`
-- `libcurl4-gnutls-dev:amd64=7.58.0-2ubuntu3.5`
+- `curl=7.58.0-2ubuntu3.8`
+- `libcurl3-gnutls:amd64=7.58.0-2ubuntu3.8`
+- `libcurl4:amd64=7.58.0-2ubuntu3.8`
+- `libcurl4-gnutls-dev:amd64=7.58.0-2ubuntu3.8`
 
 Licenses: (parsed from: `/usr/share/doc/curl/copyright`, `/usr/share/doc/libcurl3-gnutls/copyright`, `/usr/share/doc/libcurl4/copyright`, `/usr/share/doc/libcurl4-gnutls-dev/copyright`)
 
@@ -1218,10 +1218,10 @@ Licenses: (parsed from: `/usr/share/doc/curl/copyright`, `/usr/share/doc/libcurl
 Source:
 
 ```console
-$ apt-get source -qq --print-uris curl=7.58.0-2ubuntu3.5
-'http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_7.58.0-2ubuntu3.5.dsc' curl_7.58.0-2ubuntu3.5.dsc 2777 SHA256:452b48935c1f8188f716ffe6efe1c5fa6213d9a57f92e96c0bd825182836443c
+$ apt-get source -qq --print-uris curl=7.58.0-2ubuntu3.8
+'http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_7.58.0-2ubuntu3.8.dsc' curl_7.58.0-2ubuntu3.8.dsc 2469 SHA256:15017c2311ce25857714d6c623aa9d67cde05125cdeda0d6a102bef5e8ffd658
 'http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_7.58.0.orig.tar.gz' curl_7.58.0.orig.tar.gz 3879728 SHA256:cc245bf9a1a42a45df491501d97d5593392a03f7b4f07b952793518d97666115
-'http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_7.58.0-2ubuntu3.5.debian.tar.xz' curl_7.58.0-2ubuntu3.5.debian.tar.xz 37444 SHA256:dbce6d663e68afcee5c818fd9302d3059983763bfcc4a3f7edba328b7aacf0bc
+'http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_7.58.0-2ubuntu3.8.debian.tar.xz' curl_7.58.0-2ubuntu3.8.debian.tar.xz 40156 SHA256:0afbab0a9b208c5368e9f82e16c27fc94022e0a0e203e085c5627409ffaacc5b
 ```
 
 ### `dpkg` source package: `cyrus-sasl2=2.1.27~101-g0780600+dfsg-3ubuntu2`
@@ -1307,11 +1307,11 @@ $ apt-get source -qq --print-uris dash=0.5.8-2.10
 'http://archive.ubuntu.com/ubuntu/pool/main/d/dash/dash_0.5.8-2.10.debian.tar.xz' dash_0.5.8-2.10.debian.tar.xz 43920 SHA256:0d870b0cf9b3ad40e4d4f1e3d4d9097f4d62151693a48f34cb1d49865fd4abdb
 ```
 
-### `dpkg` source package: `db5.3=5.3.28-13.1ubuntu1`
+### `dpkg` source package: `db5.3=5.3.28-13.1ubuntu1.1`
 
 Binary Packages:
 
-- `libdb5.3:amd64=5.3.28-13.1ubuntu1`
+- `libdb5.3:amd64=5.3.28-13.1ubuntu1.1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -1320,10 +1320,10 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris db5.3=5.3.28-13.1ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/d/db5.3/db5.3_5.3.28-13.1ubuntu1.dsc' db5.3_5.3.28-13.1ubuntu1.dsc 3113 SHA256:af89bf00a4732155c8cf253cbadf6e0e0738d747eb08641f8432ec831d06fc94
+$ apt-get source -qq --print-uris db5.3=5.3.28-13.1ubuntu1.1
+'http://archive.ubuntu.com/ubuntu/pool/main/d/db5.3/db5.3_5.3.28-13.1ubuntu1.1.dsc' db5.3_5.3.28-13.1ubuntu1.1.dsc 3068 SHA256:1f438506524139f9cb87d3566a6f593186a6543070046e90e1c14c04740d7a0f
 'http://archive.ubuntu.com/ubuntu/pool/main/d/db5.3/db5.3_5.3.28.orig.tar.xz' db5.3_5.3.28.orig.tar.xz 24154920 SHA256:e1f85c8b6ebd0ed3ca72fa0ae97b65006f6d0bd0cd6f4ac24bed103cb5497bf5
-'http://archive.ubuntu.com/ubuntu/pool/main/d/db5.3/db5.3_5.3.28-13.1ubuntu1.debian.tar.xz' db5.3_5.3.28-13.1ubuntu1.debian.tar.xz 28560 SHA256:17b85931297dd02cfa775b94324f8ab611115d8da983828746b30e34ea06fb28
+'http://archive.ubuntu.com/ubuntu/pool/main/d/db5.3/db5.3_5.3.28-13.1ubuntu1.1.debian.tar.xz' db5.3_5.3.28-13.1ubuntu1.1.debian.tar.xz 29444 SHA256:d5b19e81a0d94bb29965b84e03855219b80b3bc782aea47e12ad2ace9995b099
 ```
 
 ### `dpkg` source package: `dbus-python=1.2.6-1`
@@ -1349,12 +1349,12 @@ $ apt-get source -qq --print-uris dbus-python=1.2.6-1
 'http://archive.ubuntu.com/ubuntu/pool/main/d/dbus-python/dbus-python_1.2.6-1.debian.tar.xz' dbus-python_1.2.6-1.debian.tar.xz 32772 SHA256:d342f25b63dbddb8664e6e1bdf400d8c7da081919124b8f56e27252d313a0533
 ```
 
-### `dpkg` source package: `dbus=1.12.2-1ubuntu1`
+### `dpkg` source package: `dbus=1.12.2-1ubuntu1.1`
 
 Binary Packages:
 
-- `dbus=1.12.2-1ubuntu1`
-- `libdbus-1-3:amd64=1.12.2-1ubuntu1`
+- `dbus=1.12.2-1ubuntu1.1`
+- `libdbus-1-3:amd64=1.12.2-1ubuntu1.1`
 
 Licenses: (parsed from: `/usr/share/doc/dbus/copyright`, `/usr/share/doc/libdbus-1-3/copyright`)
 
@@ -1371,17 +1371,17 @@ Licenses: (parsed from: `/usr/share/doc/dbus/copyright`, `/usr/share/doc/libdbus
 Source:
 
 ```console
-$ apt-get source -qq --print-uris dbus=1.12.2-1ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/d/dbus/dbus_1.12.2-1ubuntu1.dsc' dbus_1.12.2-1ubuntu1.dsc 3521 SHA256:c8f7be73fbf84d1dfded786c12ff351e86e4413706a90c711d90f923202cae3b
+$ apt-get source -qq --print-uris dbus=1.12.2-1ubuntu1.1
+'http://archive.ubuntu.com/ubuntu/pool/main/d/dbus/dbus_1.12.2-1ubuntu1.1.dsc' dbus_1.12.2-1ubuntu1.1.dsc 3561 SHA256:195b44d70dcafc5a84f6b948385bc0b1a1bc58a26097000cb3782c1f2105a689
 'http://archive.ubuntu.com/ubuntu/pool/main/d/dbus/dbus_1.12.2.orig.tar.gz' dbus_1.12.2.orig.tar.gz 2063143 SHA256:272bb5091770b047c8188b926d5e6038fa4fe6745488b2add96b23e2d9a83d88
-'http://archive.ubuntu.com/ubuntu/pool/main/d/dbus/dbus_1.12.2-1ubuntu1.debian.tar.xz' dbus_1.12.2-1ubuntu1.debian.tar.xz 62420 SHA256:7c968a77cc7f8512229f190b51a619cf7b5901db0cf43fcae6c367eff1ede78c
+'http://archive.ubuntu.com/ubuntu/pool/main/d/dbus/dbus_1.12.2-1ubuntu1.1.debian.tar.xz' dbus_1.12.2-1ubuntu1.1.debian.tar.xz 66172 SHA256:31519f67adf4bcd56cf1f4b5c61221af90573867f188ee6588d0286abf4a22da
 ```
 
-### `dpkg` source package: `debconf=1.5.66`
+### `dpkg` source package: `debconf=1.5.66ubuntu1`
 
 Binary Packages:
 
-- `debconf=1.5.66`
+- `debconf=1.5.66ubuntu1`
 
 Licenses: (parsed from: `/usr/share/doc/debconf/copyright`)
 
@@ -1390,9 +1390,9 @@ Licenses: (parsed from: `/usr/share/doc/debconf/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris debconf=1.5.66
-'http://archive.ubuntu.com/ubuntu/pool/main/d/debconf/debconf_1.5.66.dsc' debconf_1.5.66.dsc 2059 SHA256:5b8586443a0a5a85b745b2c6b97a8aeab65be403d3f6a9ff42a7f79508a393cb
-'http://archive.ubuntu.com/ubuntu/pool/main/d/debconf/debconf_1.5.66.tar.xz' debconf_1.5.66.tar.xz 572936 SHA256:e2ba95f6e6229e4c6c8e12b8f193491b48c10479074e8de7aeb7fca2176cd657
+$ apt-get source -qq --print-uris debconf=1.5.66ubuntu1
+'http://archive.ubuntu.com/ubuntu/pool/main/d/debconf/debconf_1.5.66ubuntu1.dsc' debconf_1.5.66ubuntu1.dsc 2087 SHA256:6bc588eaa2e880ac33800384328b95a50542097baaba5e89d363798840bb05a2
+'http://archive.ubuntu.com/ubuntu/pool/main/d/debconf/debconf_1.5.66ubuntu1.tar.xz' debconf_1.5.66ubuntu1.tar.xz 572556 SHA256:d044d6707a6f44a58022575899c852d256ee5b88f4e136f5394652f263e17a95
 ```
 
 ### `dpkg` source package: `debhelper=11.1.6ubuntu2`
@@ -1512,11 +1512,11 @@ $ apt-get source -qq --print-uris diffutils=1:3.6-1
 'http://archive.ubuntu.com/ubuntu/pool/main/d/diffutils/diffutils_3.6-1.debian.tar.xz' diffutils_3.6-1.debian.tar.xz 10808 SHA256:f6ab546a134bde18a87ca8e3c98919680e79d81a65a24801ae06ef69b33f24d8
 ```
 
-### `dpkg` source package: `distro-info-data=0.37ubuntu0.2`
+### `dpkg` source package: `distro-info-data=0.37ubuntu0.6`
 
 Binary Packages:
 
-- `distro-info-data=0.37ubuntu0.2`
+- `distro-info-data=0.37ubuntu0.6`
 
 Licenses: (parsed from: `/usr/share/doc/distro-info-data/copyright`)
 
@@ -1525,9 +1525,9 @@ Licenses: (parsed from: `/usr/share/doc/distro-info-data/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris distro-info-data=0.37ubuntu0.2
-'http://archive.ubuntu.com/ubuntu/pool/main/d/distro-info-data/distro-info-data_0.37ubuntu0.2.dsc' distro-info-data_0.37ubuntu0.2.dsc 1441 SHA256:2f45b2bf501386a2ff64fc87d9d25ccc38741a0a4a8b50e3866510c99e75fa60
-'http://archive.ubuntu.com/ubuntu/pool/main/d/distro-info-data/distro-info-data_0.37ubuntu0.2.tar.xz' distro-info-data_0.37ubuntu0.2.tar.xz 6772 SHA256:ce7a876ec904c9d3a8190572e1865609e816abe4ed2bc93799112cab81716a87
+$ apt-get source -qq --print-uris distro-info-data=0.37ubuntu0.6
+'http://archive.ubuntu.com/ubuntu/pool/main/d/distro-info-data/distro-info-data_0.37ubuntu0.6.dsc' distro-info-data_0.37ubuntu0.6.dsc 1413 SHA256:d2dfc96ee96fcbc77f2df04cbff1cd362fd2e6f14d58babbf46cb91781d6314b
+'http://archive.ubuntu.com/ubuntu/pool/main/d/distro-info-data/distro-info-data_0.37ubuntu0.6.tar.xz' distro-info-data_0.37ubuntu0.6.tar.xz 7080 SHA256:40350e06e84c61f68b81ee0163b275c2a59d1908ee06c30ec0311b9c9186873d
 ```
 
 ### `dpkg` source package: `double-conversion=2.0.1-4ubuntu1`
@@ -1549,13 +1549,13 @@ $ apt-get source -qq --print-uris double-conversion=2.0.1-4ubuntu1
 'http://archive.ubuntu.com/ubuntu/pool/main/d/double-conversion/double-conversion_2.0.1-4ubuntu1.debian.tar.xz' double-conversion_2.0.1-4ubuntu1.debian.tar.xz 5008 SHA256:b5948b9b29907d17b8fcd59f1c17a1b603c2778731cb84fe83c1156e9af292ee
 ```
 
-### `dpkg` source package: `dpkg=1.19.0.5ubuntu2.1`
+### `dpkg` source package: `dpkg=1.19.0.5ubuntu2.3`
 
 Binary Packages:
 
-- `dpkg=1.19.0.5ubuntu2.1`
-- `dpkg-dev=1.19.0.5ubuntu2.1`
-- `libdpkg-perl=1.19.0.5ubuntu2.1`
+- `dpkg=1.19.0.5ubuntu2.3`
+- `dpkg-dev=1.19.0.5ubuntu2.3`
+- `libdpkg-perl=1.19.0.5ubuntu2.3`
 
 Licenses: (parsed from: `/usr/share/doc/dpkg/copyright`, `/usr/share/doc/dpkg-dev/copyright`, `/usr/share/doc/libdpkg-perl/copyright`)
 
@@ -1568,19 +1568,19 @@ Licenses: (parsed from: `/usr/share/doc/dpkg/copyright`, `/usr/share/doc/dpkg-de
 Source:
 
 ```console
-$ apt-get source -qq --print-uris dpkg=1.19.0.5ubuntu2.1
-'http://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.19.0.5ubuntu2.1.dsc' dpkg_1.19.0.5ubuntu2.1.dsc 2140 SHA256:98044f3fb11b12c8e08930adc3a3057f8e4f542d11aee929a6e2a7dea0d4cd9b
-'http://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.19.0.5ubuntu2.1.tar.xz' dpkg_1.19.0.5ubuntu2.1.tar.xz 4570912 SHA256:3e8bd743f1b953095bba765bfb75eaaa68a6aba3bc8de97e3f9d1dff754addaa
+$ apt-get source -qq --print-uris dpkg=1.19.0.5ubuntu2.3
+'http://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.19.0.5ubuntu2.3.dsc' dpkg_1.19.0.5ubuntu2.3.dsc 2144 SHA256:ac37d92c336bf4360cedce228d94ba4af248da265e5c161f33b06ed929fbe401
+'http://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.19.0.5ubuntu2.3.tar.xz' dpkg_1.19.0.5ubuntu2.3.tar.xz 4571256 SHA256:4945a605113fac66d275937b5de3678398f32ded55352cd773619c30ab1bd9a5
 ```
 
-### `dpkg` source package: `e2fsprogs=1.44.1-1ubuntu1`
+### `dpkg` source package: `e2fsprogs=1.44.1-1ubuntu1.2`
 
 Binary Packages:
 
-- `e2fsprogs=1.44.1-1ubuntu1`
-- `libcom-err2:amd64=1.44.1-1ubuntu1`
-- `libext2fs2:amd64=1.44.1-1ubuntu1`
-- `libss2:amd64=1.44.1-1ubuntu1`
+- `e2fsprogs=1.44.1-1ubuntu1.2`
+- `libcom-err2:amd64=1.44.1-1ubuntu1.2`
+- `libext2fs2:amd64=1.44.1-1ubuntu1.2`
+- `libss2:amd64=1.44.1-1ubuntu1.2`
 
 Licenses: (parsed from: `/usr/share/doc/e2fsprogs/copyright`, `/usr/share/doc/libcom-err2/copyright`, `/usr/share/doc/libext2fs2/copyright`, `/usr/share/doc/libss2/copyright`)
 
@@ -1590,11 +1590,11 @@ Licenses: (parsed from: `/usr/share/doc/e2fsprogs/copyright`, `/usr/share/doc/li
 Source:
 
 ```console
-$ apt-get source -qq --print-uris e2fsprogs=1.44.1-1ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.44.1-1ubuntu1.dsc' e2fsprogs_1.44.1-1ubuntu1.dsc 3233 SHA256:15d3701762aa0d25563773a952152b239a4dffded7a53d2abbfa8007d154c018
+$ apt-get source -qq --print-uris e2fsprogs=1.44.1-1ubuntu1.2
+'http://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.44.1-1ubuntu1.2.dsc' e2fsprogs_1.44.1-1ubuntu1.2.dsc 3188 SHA256:1df3a9138e27642d0f254bdf59764db0d9b30d3f87651160aa4cce080f578513
 'http://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.44.1.orig.tar.gz' e2fsprogs_1.44.1.orig.tar.gz 7544908 SHA256:a5a8068dfe105050d8c63d67515a0ae5fff3f37232f725e0aa72b389eeb6c1e6
 'http://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.44.1.orig.tar.gz.asc' e2fsprogs_1.44.1.orig.tar.gz.asc 488 SHA256:6e8eb8df52f5cd577f5eae489108c6fbe2c5381e01f83c325873e034d5a84e46
-'http://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.44.1-1ubuntu1.debian.tar.xz' e2fsprogs_1.44.1-1ubuntu1.debian.tar.xz 77340 SHA256:2f0121c7cfc3c40d39932cd53faf35fccf0ce33a2e2edf90ea4eb6a594e072ae
+'http://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.44.1-1ubuntu1.2.debian.tar.xz' e2fsprogs_1.44.1-1ubuntu1.2.debian.tar.xz 80184 SHA256:851ccaa85dfb4b5f4c12b52b37321e4de18ec78f8c0893dc51a0fe43c1e71338
 ```
 
 ### `dpkg` source package: `eigen3=3.3.4-4`
@@ -1619,11 +1619,11 @@ $ apt-get source -qq --print-uris eigen3=3.3.4-4
 'http://archive.ubuntu.com/ubuntu/pool/universe/e/eigen3/eigen3_3.3.4-4.debian.tar.xz' eigen3_3.3.4-4.debian.tar.xz 44568 SHA256:37108f240488e9185e17f357742e41b390b78ccce148f0ccd722f4c1b905a285
 ```
 
-### `dpkg` source package: `elfutils=0.170-0.4`
+### `dpkg` source package: `elfutils=0.170-0.4ubuntu0.1`
 
 Binary Packages:
 
-- `libelf1:amd64=0.170-0.4`
+- `libelf1:amd64=0.170-0.4ubuntu0.1`
 
 Licenses: (parsed from: `/usr/share/doc/libelf1/copyright`)
 
@@ -1634,10 +1634,10 @@ Licenses: (parsed from: `/usr/share/doc/libelf1/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris elfutils=0.170-0.4
-'http://archive.ubuntu.com/ubuntu/pool/main/e/elfutils/elfutils_0.170-0.4.dsc' elfutils_0.170-0.4.dsc 2332 SHA256:d9ccf2b3fe282ef41d590b6f1f079d4b1758c3244104a39202e81cae42f59927
+$ apt-get source -qq --print-uris elfutils=0.170-0.4ubuntu0.1
+'http://archive.ubuntu.com/ubuntu/pool/main/e/elfutils/elfutils_0.170-0.4ubuntu0.1.dsc' elfutils_0.170-0.4ubuntu0.1.dsc 2422 SHA256:2c856af4e5833a5546ed8d82886fe8e7e3017375b1f2572d1873790bbf124b12
 'http://archive.ubuntu.com/ubuntu/pool/main/e/elfutils/elfutils_0.170.orig.tar.bz2' elfutils_0.170.orig.tar.bz2 8358001 SHA256:1f844775576b79bdc9f9c717a50058d08620323c1e935458223a12f249c9e066
-'http://archive.ubuntu.com/ubuntu/pool/main/e/elfutils/elfutils_0.170-0.4.debian.tar.xz' elfutils_0.170-0.4.debian.tar.xz 45208 SHA256:d5b2934893ef975bf3dfb0772624a5cff1a96a226f4d60f0dbe7296870508aaa
+'http://archive.ubuntu.com/ubuntu/pool/main/e/elfutils/elfutils_0.170-0.4ubuntu0.1.debian.tar.xz' elfutils_0.170-0.4ubuntu0.1.debian.tar.xz 51740 SHA256:9978a38393fac9df0bcb6eeb08741cf29d3161beeb463e2d8e26cb1a7fe8a3cc
 ```
 
 ### `dpkg` source package: `empy=3.3.2-1build1`
@@ -1679,12 +1679,12 @@ $ apt-get source -qq --print-uris enum34=1.1.6-2
 'http://archive.ubuntu.com/ubuntu/pool/main/e/enum34/enum34_1.1.6-2.debian.tar.xz' enum34_1.1.6-2.debian.tar.xz 4036 SHA256:2b2a7b18652a66a81c23b665b9dfcc35bfd3d3d6d2262b6b4faf32cf0bc97ab7
 ```
 
-### `dpkg` source package: `expat=2.2.5-3`
+### `dpkg` source package: `expat=2.2.5-3ubuntu0.2`
 
 Binary Packages:
 
-- `libexpat1:amd64=2.2.5-3`
-- `libexpat1-dev:amd64=2.2.5-3`
+- `libexpat1:amd64=2.2.5-3ubuntu0.2`
+- `libexpat1-dev:amd64=2.2.5-3ubuntu0.2`
 
 Licenses: (parsed from: `/usr/share/doc/libexpat1/copyright`, `/usr/share/doc/libexpat1-dev/copyright`)
 
@@ -1693,10 +1693,10 @@ Licenses: (parsed from: `/usr/share/doc/libexpat1/copyright`, `/usr/share/doc/li
 Source:
 
 ```console
-$ apt-get source -qq --print-uris expat=2.2.5-3
-'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.2.5-3.dsc' expat_2.2.5-3.dsc 2099 SHA256:21c9f507f332a388a8224ebe19e030bd04a9627d255138acc3efef467604c55f
+$ apt-get source -qq --print-uris expat=2.2.5-3ubuntu0.2
+'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.2.5-3ubuntu0.2.dsc' expat_2.2.5-3ubuntu0.2.dsc 2198 SHA256:680793c534c3f2ccee1251f6b03c445454250d320e31021a30f8b2fe571e75d5
 'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.2.5.orig.tar.gz' expat_2.2.5.orig.tar.gz 8273003 SHA256:b3781742738611eaa737543ee94264dd511c52a3ba7e53111f7d705f6bff65a8
-'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.2.5-3.debian.tar.xz' expat_2.2.5-3.debian.tar.xz 10640 SHA256:497d14ac905cb70fc4cacc1e4d92bcccf792237b31fc506a5ea7c4d3aa6c8235
+'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.2.5-3ubuntu0.2.debian.tar.xz' expat_2.2.5-3ubuntu0.2.debian.tar.xz 12024 SHA256:9d9b040636ebf98fe3e401e6ebacc53073a2d508385bc91bde0fcb6b2aaa5675
 ```
 
 ### `dpkg` source package: `fakeroot=1.22-2ubuntu1`
@@ -1720,22 +1720,22 @@ $ apt-get source -qq --print-uris fakeroot=1.22-2ubuntu1
 'http://archive.ubuntu.com/ubuntu/pool/main/f/fakeroot/fakeroot_1.22-2ubuntu1.debian.tar.xz' fakeroot_1.22-2ubuntu1.debian.tar.xz 44960 SHA256:ffcfc108ec282b729937ada529729b1ab071e10d70f0e3f6977a1bfddc75f172
 ```
 
-### `dpkg` source package: `ffmpeg=7:3.4.4-0ubuntu0.18.04.1`
+### `dpkg` source package: `ffmpeg=7:3.4.6-0ubuntu0.18.04.1`
 
 Binary Packages:
 
-- `libavcodec-dev:amd64=7:3.4.4-0ubuntu0.18.04.1`
-- `libavcodec57:amd64=7:3.4.4-0ubuntu0.18.04.1`
-- `libavformat-dev:amd64=7:3.4.4-0ubuntu0.18.04.1`
-- `libavformat57:amd64=7:3.4.4-0ubuntu0.18.04.1`
-- `libavresample-dev:amd64=7:3.4.4-0ubuntu0.18.04.1`
-- `libavresample3:amd64=7:3.4.4-0ubuntu0.18.04.1`
-- `libavutil-dev:amd64=7:3.4.4-0ubuntu0.18.04.1`
-- `libavutil55:amd64=7:3.4.4-0ubuntu0.18.04.1`
-- `libswresample-dev:amd64=7:3.4.4-0ubuntu0.18.04.1`
-- `libswresample2:amd64=7:3.4.4-0ubuntu0.18.04.1`
-- `libswscale-dev:amd64=7:3.4.4-0ubuntu0.18.04.1`
-- `libswscale4:amd64=7:3.4.4-0ubuntu0.18.04.1`
+- `libavcodec-dev:amd64=7:3.4.6-0ubuntu0.18.04.1`
+- `libavcodec57:amd64=7:3.4.6-0ubuntu0.18.04.1`
+- `libavformat-dev:amd64=7:3.4.6-0ubuntu0.18.04.1`
+- `libavformat57:amd64=7:3.4.6-0ubuntu0.18.04.1`
+- `libavresample-dev:amd64=7:3.4.6-0ubuntu0.18.04.1`
+- `libavresample3:amd64=7:3.4.6-0ubuntu0.18.04.1`
+- `libavutil-dev:amd64=7:3.4.6-0ubuntu0.18.04.1`
+- `libavutil55:amd64=7:3.4.6-0ubuntu0.18.04.1`
+- `libswresample-dev:amd64=7:3.4.6-0ubuntu0.18.04.1`
+- `libswresample2:amd64=7:3.4.6-0ubuntu0.18.04.1`
+- `libswscale-dev:amd64=7:3.4.6-0ubuntu0.18.04.1`
+- `libswscale4:amd64=7:3.4.6-0ubuntu0.18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/libavcodec-dev/copyright`, `/usr/share/doc/libavcodec57/copyright`, `/usr/share/doc/libavformat-dev/copyright`, `/usr/share/doc/libavformat57/copyright`, `/usr/share/doc/libavresample-dev/copyright`, `/usr/share/doc/libavresample3/copyright`, `/usr/share/doc/libavutil-dev/copyright`, `/usr/share/doc/libavutil55/copyright`, `/usr/share/doc/libswresample-dev/copyright`, `/usr/share/doc/libswresample2/copyright`, `/usr/share/doc/libswscale-dev/copyright`, `/usr/share/doc/libswscale4/copyright`)
 
@@ -1763,20 +1763,20 @@ Licenses: (parsed from: `/usr/share/doc/libavcodec-dev/copyright`, `/usr/share/d
 Source:
 
 ```console
-$ apt-get source -qq --print-uris ffmpeg=7:3.4.4-0ubuntu0.18.04.1
-'http://archive.ubuntu.com/ubuntu/pool/universe/f/ffmpeg/ffmpeg_3.4.4-0ubuntu0.18.04.1.dsc' ffmpeg_3.4.4-0ubuntu0.18.04.1.dsc 5245 SHA256:97a6f37b80b1230574b796582a7048ceedf009174eaccbeb4dfc224bc86a00e8
-'http://archive.ubuntu.com/ubuntu/pool/universe/f/ffmpeg/ffmpeg_3.4.4.orig.tar.xz' ffmpeg_3.4.4.orig.tar.xz 8485304 SHA256:386f7601e865df6bddde05bb6927119b5a853f0b92e2e9834f59c125a17d3fc6
-'http://archive.ubuntu.com/ubuntu/pool/universe/f/ffmpeg/ffmpeg_3.4.4.orig.tar.xz.asc' ffmpeg_3.4.4.orig.tar.xz.asc 473 SHA256:6ada8ffb5bf8a4850b3fc2646c13d42f5e4c168a71cb0e259686af35004928e2
-'http://archive.ubuntu.com/ubuntu/pool/universe/f/ffmpeg/ffmpeg_3.4.4-0ubuntu0.18.04.1.debian.tar.xz' ffmpeg_3.4.4-0ubuntu0.18.04.1.debian.tar.xz 41928 SHA256:9435d582c463df6e42529ac8e710c753885aeacd14f51d5aa7ea2422b9de0e37
+$ apt-get source -qq --print-uris ffmpeg=7:3.4.6-0ubuntu0.18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/universe/f/ffmpeg/ffmpeg_3.4.6-0ubuntu0.18.04.1.dsc' ffmpeg_3.4.6-0ubuntu0.18.04.1.dsc 5245 SHA256:8b4dbf0e8953391273ac3fc0cc198d8baee69d8adce16df878fefbec76a1cebe
+'http://archive.ubuntu.com/ubuntu/pool/universe/f/ffmpeg/ffmpeg_3.4.6.orig.tar.xz' ffmpeg_3.4.6.orig.tar.xz 8491548 SHA256:3572279cb139d9e39dcfbc23edf438ff5311ec3fc5d0dcb3558e49591e5cb83e
+'http://archive.ubuntu.com/ubuntu/pool/universe/f/ffmpeg/ffmpeg_3.4.6.orig.tar.xz.asc' ffmpeg_3.4.6.orig.tar.xz.asc 473 SHA256:6cd45b126580463eef7a3c302a9a8a23db6dd89257daab413654aedeac147e61
+'http://archive.ubuntu.com/ubuntu/pool/universe/f/ffmpeg/ffmpeg_3.4.6-0ubuntu0.18.04.1.debian.tar.xz' ffmpeg_3.4.6-0ubuntu0.18.04.1.debian.tar.xz 41976 SHA256:9b501729cb8640219c019d24dfebc225f36608d53b1f9dbc56a47ee3cd5ff3ff
 ```
 
-### `dpkg` source package: `file=1:5.32-2ubuntu0.1`
+### `dpkg` source package: `file=1:5.32-2ubuntu0.3`
 
 Binary Packages:
 
-- `file=1:5.32-2ubuntu0.1`
-- `libmagic-mgc=1:5.32-2ubuntu0.1`
-- `libmagic1:amd64=1:5.32-2ubuntu0.1`
+- `file=1:5.32-2ubuntu0.3`
+- `libmagic-mgc=1:5.32-2ubuntu0.3`
+- `libmagic1:amd64=1:5.32-2ubuntu0.3`
 
 Licenses: (parsed from: `/usr/share/doc/file/copyright`, `/usr/share/doc/libmagic-mgc/copyright`, `/usr/share/doc/libmagic1/copyright`)
 
@@ -1789,10 +1789,10 @@ Licenses: (parsed from: `/usr/share/doc/file/copyright`, `/usr/share/doc/libmagi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris file=1:5.32-2ubuntu0.1
-'http://archive.ubuntu.com/ubuntu/pool/main/f/file/file_5.32-2ubuntu0.1.dsc' file_5.32-2ubuntu0.1.dsc 1972 SHA256:9a51e2699d9868215f103a43073d67264523bef725e41ecc5a70fe6e6aa6b5e1
+$ apt-get source -qq --print-uris file=1:5.32-2ubuntu0.3
+'http://archive.ubuntu.com/ubuntu/pool/main/f/file/file_5.32-2ubuntu0.3.dsc' file_5.32-2ubuntu0.3.dsc 1972 SHA256:821a16b82933d389739edad6a476381672ad1a3fde7355a800d248b72477456a
 'http://archive.ubuntu.com/ubuntu/pool/main/f/file/file_5.32.orig.tar.xz' file_5.32.orig.tar.xz 584352 SHA256:07627dc16c9a5b64352b00f24afb8d328b9ecade82afe2e2fa55201d324fd360
-'http://archive.ubuntu.com/ubuntu/pool/main/f/file/file_5.32-2ubuntu0.1.debian.tar.xz' file_5.32-2ubuntu0.1.debian.tar.xz 31976 SHA256:9ccbc392cd885ed276ae5680e817a8332912be1f8b4f5709fa0c2dea6df8c0cc
+'http://archive.ubuntu.com/ubuntu/pool/main/f/file/file_5.32-2ubuntu0.3.debian.tar.xz' file_5.32-2ubuntu0.3.debian.tar.xz 33820 SHA256:e3aaaf526a2fda754c658d15e4ea56de0c69b9aeac5738858bb4aa2375773da9
 ```
 
 ### `dpkg` source package: `findutils=4.6.0+git+20170828-2`
@@ -2047,20 +2047,20 @@ $ apt-get source -qq --print-uris gcc-4.8=4.8.5-4ubuntu8
 'http://archive.ubuntu.com/ubuntu/pool/universe/g/gcc-4.8/gcc-4.8_4.8.5-4ubuntu8.diff.gz' gcc-4.8_4.8.5-4ubuntu8.diff.gz 975822 SHA256:fc707c27b4298e69cbc2765cfa2f1f418f5f666fe528e606cca458318a9d00d4
 ```
 
-### `dpkg` source package: `gcc-7=7.3.0-27ubuntu1~18.04`
+### `dpkg` source package: `gcc-7=7.4.0-1ubuntu1~18.04.1`
 
 Binary Packages:
 
-- `cpp-7=7.3.0-27ubuntu1~18.04`
-- `g++-7=7.3.0-27ubuntu1~18.04`
-- `gcc-7=7.3.0-27ubuntu1~18.04`
-- `gcc-7-base:amd64=7.3.0-27ubuntu1~18.04`
-- `libasan4:amd64=7.3.0-27ubuntu1~18.04`
-- `libcilkrts5:amd64=7.3.0-27ubuntu1~18.04`
-- `libgcc-7-dev:amd64=7.3.0-27ubuntu1~18.04`
-- `libgfortran4:amd64=7.3.0-27ubuntu1~18.04`
-- `libstdc++-7-dev:amd64=7.3.0-27ubuntu1~18.04`
-- `libubsan0:amd64=7.3.0-27ubuntu1~18.04`
+- `cpp-7=7.4.0-1ubuntu1~18.04.1`
+- `g++-7=7.4.0-1ubuntu1~18.04.1`
+- `gcc-7=7.4.0-1ubuntu1~18.04.1`
+- `gcc-7-base:amd64=7.4.0-1ubuntu1~18.04.1`
+- `libasan4:amd64=7.4.0-1ubuntu1~18.04.1`
+- `libcilkrts5:amd64=7.4.0-1ubuntu1~18.04.1`
+- `libgcc-7-dev:amd64=7.4.0-1ubuntu1~18.04.1`
+- `libgfortran4:amd64=7.4.0-1ubuntu1~18.04.1`
+- `libstdc++-7-dev:amd64=7.4.0-1ubuntu1~18.04.1`
+- `libubsan0:amd64=7.4.0-1ubuntu1~18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/cpp-7/copyright`, `/usr/share/doc/g++-7/copyright`, `/usr/share/doc/gcc-7/copyright`, `/usr/share/doc/gcc-7-base/copyright`, `/usr/share/doc/libasan4/copyright`, `/usr/share/doc/libcilkrts5/copyright`, `/usr/share/doc/libgcc-7-dev/copyright`, `/usr/share/doc/libgfortran4/copyright`, `/usr/share/doc/libstdc++-7-dev/copyright`, `/usr/share/doc/libubsan0/copyright`)
 
@@ -2074,27 +2074,27 @@ Licenses: (parsed from: `/usr/share/doc/cpp-7/copyright`, `/usr/share/doc/g++-7/
 Source:
 
 ```console
-$ apt-get source -qq --print-uris gcc-7=7.3.0-27ubuntu1~18.04
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-7/gcc-7_7.3.0-27ubuntu1~18.04.dsc' gcc-7_7.3.0-27ubuntu1~18.04.dsc 28285 SHA256:5374b6648fdc46ff2d9b5267d9b03bbf6c9d7a48e273f666d3a14bcdb01f2ce0
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-7/gcc-7_7.3.0.orig.tar.gz' gcc-7_7.3.0.orig.tar.gz 73555852 SHA256:9e29793395d3012c0d71ee5f680642c594bf1dee0184cd74d2e0e67c70598283
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-7/gcc-7_7.3.0-27ubuntu1~18.04.diff.gz' gcc-7_7.3.0-27ubuntu1~18.04.diff.gz 996303 SHA256:ad7f083469cd4b7dad8796ed779504e742caae862ac13351ca6fb0b27d745a56
+$ apt-get source -qq --print-uris gcc-7=7.4.0-1ubuntu1~18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-7/gcc-7_7.4.0-1ubuntu1~18.04.1.dsc' gcc-7_7.4.0-1ubuntu1~18.04.1.dsc 28013 SHA256:91aeb251b10c95ee63fffac161c4c2acbbda3cc4e84d8ca44b68fe2c78754409
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-7/gcc-7_7.4.0.orig.tar.gz' gcc-7_7.4.0.orig.tar.gz 73695608 SHA256:5b4807f26217a79529db1e4f786ac1771b2caee5c7ff487bb72c1f633c29a705
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-7/gcc-7_7.4.0-1ubuntu1~18.04.1.diff.gz' gcc-7_7.4.0-1ubuntu1~18.04.1.diff.gz 569357 SHA256:a3d368ba2c5f1355702879333031b08b3e9af524a102878c6c0e7fbeb0dfe909
 ```
 
-### `dpkg` source package: `gcc-8=8.2.0-1ubuntu2~18.04`
+### `dpkg` source package: `gcc-8=8.3.0-6ubuntu1~18.04.1`
 
 Binary Packages:
 
-- `gcc-8-base:amd64=8.2.0-1ubuntu2~18.04`
-- `libatomic1:amd64=8.2.0-1ubuntu2~18.04`
-- `libcc1-0:amd64=8.2.0-1ubuntu2~18.04`
-- `libgcc1:amd64=1:8.2.0-1ubuntu2~18.04`
-- `libgomp1:amd64=8.2.0-1ubuntu2~18.04`
-- `libitm1:amd64=8.2.0-1ubuntu2~18.04`
-- `liblsan0:amd64=8.2.0-1ubuntu2~18.04`
-- `libmpx2:amd64=8.2.0-1ubuntu2~18.04`
-- `libquadmath0:amd64=8.2.0-1ubuntu2~18.04`
-- `libstdc++6:amd64=8.2.0-1ubuntu2~18.04`
-- `libtsan0:amd64=8.2.0-1ubuntu2~18.04`
+- `gcc-8-base:amd64=8.3.0-6ubuntu1~18.04.1`
+- `libatomic1:amd64=8.3.0-6ubuntu1~18.04.1`
+- `libcc1-0:amd64=8.3.0-6ubuntu1~18.04.1`
+- `libgcc1:amd64=1:8.3.0-6ubuntu1~18.04.1`
+- `libgomp1:amd64=8.3.0-6ubuntu1~18.04.1`
+- `libitm1:amd64=8.3.0-6ubuntu1~18.04.1`
+- `liblsan0:amd64=8.3.0-6ubuntu1~18.04.1`
+- `libmpx2:amd64=8.3.0-6ubuntu1~18.04.1`
+- `libquadmath0:amd64=8.3.0-6ubuntu1~18.04.1`
+- `libstdc++6:amd64=8.3.0-6ubuntu1~18.04.1`
+- `libtsan0:amd64=8.3.0-6ubuntu1~18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/gcc-8-base/copyright`, `/usr/share/doc/libatomic1/copyright`, `/usr/share/doc/libcc1-0/copyright`, `/usr/share/doc/libgcc1/copyright`, `/usr/share/doc/libgomp1/copyright`, `/usr/share/doc/libitm1/copyright`, `/usr/share/doc/liblsan0/copyright`, `/usr/share/doc/libmpx2/copyright`, `/usr/share/doc/libquadmath0/copyright`, `/usr/share/doc/libstdc++6/copyright`, `/usr/share/doc/libtsan0/copyright`)
 
@@ -2108,19 +2108,19 @@ Licenses: (parsed from: `/usr/share/doc/gcc-8-base/copyright`, `/usr/share/doc/l
 Source:
 
 ```console
-$ apt-get source -qq --print-uris gcc-8=8.2.0-1ubuntu2~18.04
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-8/gcc-8_8.2.0-1ubuntu2~18.04.dsc' gcc-8_8.2.0-1ubuntu2~18.04.dsc 36291 SHA256:73af7438517e473ce305701bab7d9fa764e59432317f8244112046bda9633136
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-8/gcc-8_8.2.0.orig.tar.gz' gcc-8_8.2.0.orig.tar.gz 75164400 SHA256:e1009caeec1d024f278de02238d3a558bc23b0cd3ae08c885c36fe5a44b3269d
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-8/gcc-8_8.2.0-1ubuntu2~18.04.diff.gz' gcc-8_8.2.0-1ubuntu2~18.04.diff.gz 3960987 SHA256:0d9d73f1de12d04fcfe9042f32fc97a19e0f5439b2d553ce450405642a3494f5
+$ apt-get source -qq --print-uris gcc-8=8.3.0-6ubuntu1~18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-8/gcc-8_8.3.0-6ubuntu1~18.04.1.dsc' gcc-8_8.3.0-6ubuntu1~18.04.1.dsc 35751 SHA256:6d73229917cfc03f826c967f61a065d1f8faba2faa20cdee8c130b3b97554bbc
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-8/gcc-8_8.3.0.orig.tar.gz' gcc-8_8.3.0.orig.tar.gz 85259886 SHA256:561c1bc647ade738c14efe5a298fc0cee2e2efd3dec9fefb66b724dbd50437e6
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-8/gcc-8_8.3.0-6ubuntu1~18.04.1.diff.gz' gcc-8_8.3.0-6ubuntu1~18.04.1.diff.gz 566564 SHA256:a3b1c9a26470622c308fa6f9194b87cc806fa4c7b58a63889c66553ae85719d7
 ```
 
-### `dpkg` source package: `gcc-defaults=1.176ubuntu2.1`
+### `dpkg` source package: `gcc-defaults=1.176ubuntu2.3`
 
 Binary Packages:
 
-- `cpp=4:7.3.0-3ubuntu2.1`
-- `g++=4:7.3.0-3ubuntu2.1`
-- `gcc=4:7.3.0-3ubuntu2.1`
+- `cpp=4:7.4.0-1ubuntu2.3`
+- `g++=4:7.4.0-1ubuntu2.3`
+- `gcc=4:7.4.0-1ubuntu2.3`
 
 Licenses: (parsed from: `/usr/share/doc/cpp/copyright`, `/usr/share/doc/g++/copyright`, `/usr/share/doc/gcc/copyright`)
 
@@ -2129,9 +2129,9 @@ Licenses: (parsed from: `/usr/share/doc/cpp/copyright`, `/usr/share/doc/g++/copy
 Source:
 
 ```console
-$ apt-get source -qq --print-uris gcc-defaults=1.176ubuntu2.1
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-defaults/gcc-defaults_1.176ubuntu2.1.dsc' gcc-defaults_1.176ubuntu2.1.dsc 15556 SHA256:f6d94600f03ddcaa7f51278abd22486146fb96efdcdbdab73e2e28f8ae4b6208
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-defaults/gcc-defaults_1.176ubuntu2.1.tar.gz' gcc-defaults_1.176ubuntu2.1.tar.gz 208462 SHA256:b2130b006973d6a723a2961e94d96c524cabf5e6c839d14adcab21aea9c87004
+$ apt-get source -qq --print-uris gcc-defaults=1.176ubuntu2.3
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-defaults/gcc-defaults_1.176ubuntu2.3.dsc' gcc-defaults_1.176ubuntu2.3.dsc 15463 SHA256:effaa8ad1f705006442122375b445d02a500d20ef9565e6613cd04d0b201b660
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gcc-defaults/gcc-defaults_1.176ubuntu2.3.tar.gz' gcc-defaults_1.176ubuntu2.3.tar.gz 208597 SHA256:5ddfada25e49d0cbc842ebbf3a8885cfdd7ba5f500ffdbfa2e20758d268254fa
 ```
 
 ### `dpkg` source package: `gdal=2.2.3+dfsg-2`
@@ -2363,13 +2363,13 @@ $ apt-get source -qq --print-uris geos=3.6.2-1build2
 'http://archive.ubuntu.com/ubuntu/pool/universe/g/geos/geos_3.6.2-1build2.debian.tar.xz' geos_3.6.2-1build2.debian.tar.xz 45568 SHA256:127175d5dcf63e46e99a658bd52c59a859420132db8259d6721dabe5ffabc911
 ```
 
-### `dpkg` source package: `gettext=0.19.8.1-6ubuntu0.1`
+### `dpkg` source package: `gettext=0.19.8.1-6ubuntu0.3`
 
 Binary Packages:
 
-- `autopoint=0.19.8.1-6ubuntu0.1`
-- `gettext=0.19.8.1-6ubuntu0.1`
-- `gettext-base=0.19.8.1-6ubuntu0.1`
+- `autopoint=0.19.8.1-6ubuntu0.3`
+- `gettext=0.19.8.1-6ubuntu0.3`
+- `gettext-base=0.19.8.1-6ubuntu0.3`
 
 Licenses: (parsed from: `/usr/share/doc/autopoint/copyright`, `/usr/share/doc/gettext/copyright`, `/usr/share/doc/gettext-base/copyright`)
 
@@ -2380,18 +2380,18 @@ Licenses: (parsed from: `/usr/share/doc/autopoint/copyright`, `/usr/share/doc/ge
 Source:
 
 ```console
-$ apt-get source -qq --print-uris gettext=0.19.8.1-6ubuntu0.1
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gettext/gettext_0.19.8.1-6ubuntu0.1.dsc' gettext_0.19.8.1-6ubuntu0.1.dsc 2446 SHA256:773e4ec93c809f2a0e8e57e06ba254aae8bbb790fc7dbec79812b356f2e48ee3
+$ apt-get source -qq --print-uris gettext=0.19.8.1-6ubuntu0.3
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gettext/gettext_0.19.8.1-6ubuntu0.3.dsc' gettext_0.19.8.1-6ubuntu0.3.dsc 2495 SHA256:44bc8bf8ef314e562ed8c0cb340adad45e2cbbc99aa278f862ac488c009c6d31
 'http://archive.ubuntu.com/ubuntu/pool/main/g/gettext/gettext_0.19.8.1.orig.tar.xz' gettext_0.19.8.1.orig.tar.xz 7209808 SHA256:105556dbc5c3fbbc2aa0edb46d22d055748b6f5c7cd7a8d99f8e7eb84e938be4
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gettext/gettext_0.19.8.1-6ubuntu0.1.debian.tar.xz' gettext_0.19.8.1-6ubuntu0.1.debian.tar.xz 32328 SHA256:3d25403746cf6f1a8267e393ce210eb699a8f70fe384ae7f4d2d1989fbf17e58
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gettext/gettext_0.19.8.1-6ubuntu0.3.debian.tar.xz' gettext_0.19.8.1-6ubuntu0.3.debian.tar.xz 33416 SHA256:b49d39e3b23552e921ca6275c1f395611ebd1eb94628160eb7cd8663822f0b46
 ```
 
-### `dpkg` source package: `giflib=5.1.4-2`
+### `dpkg` source package: `giflib=5.1.4-2ubuntu0.1`
 
 Binary Packages:
 
-- `libgif-dev=5.1.4-2`
-- `libgif7:amd64=5.1.4-2`
+- `libgif-dev=5.1.4-2ubuntu0.1`
+- `libgif7:amd64=5.1.4-2ubuntu0.1`
 
 Licenses: (parsed from: `/usr/share/doc/libgif-dev/copyright`, `/usr/share/doc/libgif7/copyright`)
 
@@ -2400,18 +2400,18 @@ Licenses: (parsed from: `/usr/share/doc/libgif-dev/copyright`, `/usr/share/doc/l
 Source:
 
 ```console
-$ apt-get source -qq --print-uris giflib=5.1.4-2
-'http://archive.ubuntu.com/ubuntu/pool/main/g/giflib/giflib_5.1.4-2.dsc' giflib_5.1.4-2.dsc 1919 SHA256:ad93dac1249eecf8e9828d5588a86113ffef0e011f36e57ffb1ccf60e7f406b6
+$ apt-get source -qq --print-uris giflib=5.1.4-2ubuntu0.1
+'http://archive.ubuntu.com/ubuntu/pool/main/g/giflib/giflib_5.1.4-2ubuntu0.1.dsc' giflib_5.1.4-2ubuntu0.1.dsc 2018 SHA256:39a998b7a6aa4616e8dc1b8e51468889a955ce9048e88c55a264e87e8de36098
 'http://archive.ubuntu.com/ubuntu/pool/main/g/giflib/giflib_5.1.4.orig.tar.bz2' giflib_5.1.4.orig.tar.bz2 639703 SHA256:df27ec3ff24671f80b29e6ab1c4971059c14ac3db95406884fc26574631ba8d5
-'http://archive.ubuntu.com/ubuntu/pool/main/g/giflib/giflib_5.1.4-2.debian.tar.xz' giflib_5.1.4-2.debian.tar.xz 6988 SHA256:9430e43ee2ce876ef15deb151d360262c66405075fab297698a13ff68c123fc7
+'http://archive.ubuntu.com/ubuntu/pool/main/g/giflib/giflib_5.1.4-2ubuntu0.1.debian.tar.xz' giflib_5.1.4-2ubuntu0.1.debian.tar.xz 8768 SHA256:bd02b35a5001b5934e669edb38191c50e2f16aecd54721f55833c6db0c9233d9
 ```
 
-### `dpkg` source package: `git=1:2.17.1-1ubuntu0.4`
+### `dpkg` source package: `git=1:2.17.1-1ubuntu0.5`
 
 Binary Packages:
 
-- `git=1:2.17.1-1ubuntu0.4`
-- `git-man=1:2.17.1-1ubuntu0.4`
+- `git=1:2.17.1-1ubuntu0.5`
+- `git-man=1:2.17.1-1ubuntu0.5`
 
 Licenses: (parsed from: `/usr/share/doc/git/copyright`, `/usr/share/doc/git-man/copyright`)
 
@@ -2437,10 +2437,10 @@ Licenses: (parsed from: `/usr/share/doc/git/copyright`, `/usr/share/doc/git-man/
 Source:
 
 ```console
-$ apt-get source -qq --print-uris git=1:2.17.1-1ubuntu0.4
-'http://archive.ubuntu.com/ubuntu/pool/main/g/git/git_2.17.1-1ubuntu0.4.dsc' git_2.17.1-1ubuntu0.4.dsc 2943 SHA256:15b2496e63c2234fd6e9a4b03dac9e93bb6939bc5e432917afaf6b93a082224d
+$ apt-get source -qq --print-uris git=1:2.17.1-1ubuntu0.5
+'http://archive.ubuntu.com/ubuntu/pool/main/g/git/git_2.17.1-1ubuntu0.5.dsc' git_2.17.1-1ubuntu0.5.dsc 2959 SHA256:9e4245391338a63dcf4671414ec1d53480846a1463daaff5b957b879dcd5a02e
 'http://archive.ubuntu.com/ubuntu/pool/main/g/git/git_2.17.1.orig.tar.xz' git_2.17.1.orig.tar.xz 5015484 SHA256:79136e7aa83abae4d8a25c8111f113d3c5a63aeb5fd93cc72c26d49c6d5ba65e
-'http://archive.ubuntu.com/ubuntu/pool/main/g/git/git_2.17.1-1ubuntu0.4.debian.tar.xz' git_2.17.1-1ubuntu0.4.debian.tar.xz 574144 SHA256:58099c54314f64626f42a3e03469ffff9e63c877b0452818c8aebfb93b0fc7a0
+'http://archive.ubuntu.com/ubuntu/pool/main/g/git/git_2.17.1-1ubuntu0.5.debian.tar.xz' git_2.17.1-1ubuntu0.5.debian.tar.xz 603188 SHA256:9d10bf1045eb3632ff949c754139f90d4278ca0bd8fd03c405f1dec8e9baad92
 ```
 
 ### `dpkg` source package: `gl2ps=1.4.0+dfsg1-1`
@@ -2487,15 +2487,15 @@ $ apt-get source -qq --print-uris glib-networking=2.56.0-1
 'http://archive.ubuntu.com/ubuntu/pool/main/g/glib-networking/glib-networking_2.56.0-1.debian.tar.xz' glib-networking_2.56.0-1.debian.tar.xz 7972 SHA256:d7508951b05952bea47dbbee1ddb6433b96875fc7801a9d9c47fcc256041dadd
 ```
 
-### `dpkg` source package: `glib2.0=2.56.3-0ubuntu0.18.04.1`
+### `dpkg` source package: `glib2.0=2.56.4-0ubuntu0.18.04.4`
 
 Binary Packages:
 
-- `libglib2.0-0:amd64=2.56.3-0ubuntu0.18.04.1`
-- `libglib2.0-bin=2.56.3-0ubuntu0.18.04.1`
-- `libglib2.0-data=2.56.3-0ubuntu0.18.04.1`
-- `libglib2.0-dev:amd64=2.56.3-0ubuntu0.18.04.1`
-- `libglib2.0-dev-bin=2.56.3-0ubuntu0.18.04.1`
+- `libglib2.0-0:amd64=2.56.4-0ubuntu0.18.04.4`
+- `libglib2.0-bin=2.56.4-0ubuntu0.18.04.4`
+- `libglib2.0-data=2.56.4-0ubuntu0.18.04.4`
+- `libglib2.0-dev:amd64=2.56.4-0ubuntu0.18.04.4`
+- `libglib2.0-dev-bin=2.56.4-0ubuntu0.18.04.4`
 
 Licenses: (parsed from: `/usr/share/doc/libglib2.0-0/copyright`, `/usr/share/doc/libglib2.0-bin/copyright`, `/usr/share/doc/libglib2.0-data/copyright`, `/usr/share/doc/libglib2.0-dev/copyright`, `/usr/share/doc/libglib2.0-dev-bin/copyright`)
 
@@ -2504,10 +2504,10 @@ Licenses: (parsed from: `/usr/share/doc/libglib2.0-0/copyright`, `/usr/share/doc
 Source:
 
 ```console
-$ apt-get source -qq --print-uris glib2.0=2.56.3-0ubuntu0.18.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/glib2.0_2.56.3-0ubuntu0.18.04.1.dsc' glib2.0_2.56.3-0ubuntu0.18.04.1.dsc 3583 SHA256:59acbed92f28ed082ca91eebfaa0a7c46a5b4e26657942184e422e3a57540686
-'http://archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/glib2.0_2.56.3.orig.tar.xz' glib2.0_2.56.3.orig.tar.xz 7009912 SHA256:a9a4c5b4c81b6c75bc140bdf5e32120ef3ce841b7413214ecf5f987acec74cb2
-'http://archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/glib2.0_2.56.3-0ubuntu0.18.04.1.debian.tar.xz' glib2.0_2.56.3-0ubuntu0.18.04.1.debian.tar.xz 79184 SHA256:dfb6fd85913758841461f5e6318597fd57f4fc6a95b9bbde66b608cf4638f1f3
+$ apt-get source -qq --print-uris glib2.0=2.56.4-0ubuntu0.18.04.4
+'http://archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/glib2.0_2.56.4-0ubuntu0.18.04.4.dsc' glib2.0_2.56.4-0ubuntu0.18.04.4.dsc 3567 SHA256:cf6c1bad61ca8f19bdb5aa12df05999e2812b46d50413ac1534c0c4df2a48489
+'http://archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/glib2.0_2.56.4.orig.tar.xz' glib2.0_2.56.4.orig.tar.xz 7029768 SHA256:27f703d125efb07f8a743666b580df0b4095c59fc8750e8890132c91d437504c
+'http://archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/glib2.0_2.56.4-0ubuntu0.18.04.4.debian.tar.xz' glib2.0_2.56.4-0ubuntu0.18.04.4.debian.tar.xz 82472 SHA256:da8273fc3f78390ce1e4f7d5a2818352ab85a5ef790306d2f1b61d50cbd0718c
 ```
 
 ### `dpkg` source package: `glibc=2.27-3ubuntu1`
@@ -2597,11 +2597,11 @@ $ apt-get source -qq --print-uris gnupg2=2.2.4-1ubuntu1.2
 'http://archive.ubuntu.com/ubuntu/pool/main/g/gnupg2/gnupg2_2.2.4-1ubuntu1.2.debian.tar.bz2' gnupg2_2.2.4-1ubuntu1.2.debian.tar.bz2 82238 SHA256:ad2e70205e5d5f52c092c58e619ee58e5f5bc2b44f44a2c462296fc34a1960de
 ```
 
-### `dpkg` source package: `gnutls28=3.5.18-1ubuntu1`
+### `dpkg` source package: `gnutls28=3.5.18-1ubuntu1.1`
 
 Binary Packages:
 
-- `libgnutls30:amd64=3.5.18-1ubuntu1`
+- `libgnutls30:amd64=3.5.18-1ubuntu1.1`
 
 Licenses: (parsed from: `/usr/share/doc/libgnutls30/copyright`)
 
@@ -2615,15 +2615,9 @@ Licenses: (parsed from: `/usr/share/doc/libgnutls30/copyright`)
 - `The MIT License (MIT)`
 - `The main library is licensed under GNU Lesser`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris gnutls28=3.5.18-1ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gnutls28/gnutls28_3.5.18-1ubuntu1.dsc' gnutls28_3.5.18-1ubuntu1.dsc 3455 SHA256:1bda752730abcbe4b4fd1ca2a1717c8937c4fe1cf462a9ad6044c765fab3f8d8
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gnutls28/gnutls28_3.5.18.orig.tar.xz' gnutls28_3.5.18.orig.tar.xz 7261980 SHA256:ae2248d9e78747cf9c469dde81ff8f90b56838b707a0637f3f7d4eee90e80234
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gnutls28/gnutls28_3.5.18.orig.tar.xz.asc' gnutls28_3.5.18.orig.tar.xz.asc 534 SHA256:50bb942469be0639bbab925de630fb921aa8cac5f40072cb1c2cf1fb7ae7977b
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gnutls28/gnutls28_3.5.18-1ubuntu1.debian.tar.xz' gnutls28_3.5.18-1ubuntu1.debian.tar.xz 66900 SHA256:c14acc84669e0c570dc8edcd5847ba2a1fd7cc2a942be467342743824a827406
-```
 
 ### `dpkg` source package: `gobject-introspection=1.56.1-1`
 
@@ -2762,11 +2756,11 @@ $ apt-get source -qq --print-uris graphviz=2.40.1-2
 'http://archive.ubuntu.com/ubuntu/pool/universe/g/graphviz/graphviz_2.40.1-2.debian.tar.xz' graphviz_2.40.1-2.debian.tar.xz 42752 SHA256:fca1a570f6a7b54ece9e8485cb3b01bfb5d2857f40577dc784c96ddf713d3cdc
 ```
 
-### `dpkg` source package: `grep=3.1-2`
+### `dpkg` source package: `grep=3.1-2build1`
 
 Binary Packages:
 
-- `grep=3.1-2`
+- `grep=3.1-2build1`
 
 Licenses: (parsed from: `/usr/share/doc/grep/copyright`)
 
@@ -2776,10 +2770,10 @@ Licenses: (parsed from: `/usr/share/doc/grep/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris grep=3.1-2
-'http://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_3.1-2.dsc' grep_3.1-2.dsc 2046 SHA256:b75ef8eb1399a49274bafe972679680b7add1500a4ee82eedaa0372f8ed744a0
+$ apt-get source -qq --print-uris grep=3.1-2build1
+'http://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_3.1-2build1.dsc' grep_3.1-2build1.dsc 2116 SHA256:b9dff3a4089e3491a057c76fe2d941bbc669c1f9d934f5929052d32abd952961
 'http://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_3.1.orig.tar.xz' grep_3.1.orig.tar.xz 1370880 SHA256:db625c7ab3bb3ee757b3926a5cfa8d9e1c3991ad24707a83dde8a5ef2bf7a07e
-'http://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_3.1-2.debian.tar.bz2' grep_3.1-2.debian.tar.bz2 110067 SHA256:f09ce7a3c860a5de8939ebceb5fcd85d00d1537ad9f998dae5f623d9bcfe4e40
+'http://archive.ubuntu.com/ubuntu/pool/main/g/grep/grep_3.1-2build1.debian.tar.bz2' grep_3.1-2build1.debian.tar.bz2 110087 SHA256:699bbd6681e4ef27a24b9876b6b2c3b1ce1be1b140676cd051170e5cc05dd876
 ```
 
 ### `dpkg` source package: `groff=1.22.3-10`
@@ -2822,12 +2816,12 @@ $ apt-get source -qq --print-uris gsettings-desktop-schemas=3.28.0-1ubuntu1
 'http://archive.ubuntu.com/ubuntu/pool/main/g/gsettings-desktop-schemas/gsettings-desktop-schemas_3.28.0-1ubuntu1.debian.tar.xz' gsettings-desktop-schemas_3.28.0-1ubuntu1.debian.tar.xz 7644 SHA256:149a50f92971df5794ff431f68ceaea1a9b84dd3a472bfee62957cbee4f2a9d7
 ```
 
-### `dpkg` source package: `gst-plugins-base1.0=1.14.1-1ubuntu1~ubuntu18.04.1`
+### `dpkg` source package: `gst-plugins-base1.0=1.14.5-0ubuntu1~18.04.1`
 
 Binary Packages:
 
-- `gstreamer1.0-plugins-base:amd64=1.14.1-1ubuntu1~ubuntu18.04.1`
-- `libgstreamer-plugins-base1.0-0:amd64=1.14.1-1ubuntu1~ubuntu18.04.1`
+- `gstreamer1.0-plugins-base:amd64=1.14.5-0ubuntu1~18.04.1`
+- `libgstreamer-plugins-base1.0-0:amd64=1.14.5-0ubuntu1~18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/gstreamer1.0-plugins-base/copyright`, `/usr/share/doc/libgstreamer-plugins-base1.0-0/copyright`)
 
@@ -2841,17 +2835,17 @@ Licenses: (parsed from: `/usr/share/doc/gstreamer1.0-plugins-base/copyright`, `/
 Source:
 
 ```console
-$ apt-get source -qq --print-uris gst-plugins-base1.0=1.14.1-1ubuntu1~ubuntu18.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gst-plugins-base1.0/gst-plugins-base1.0_1.14.1-1ubuntu1~ubuntu18.04.1.dsc' gst-plugins-base1.0_1.14.1-1ubuntu1~ubuntu18.04.1.dsc 4406 SHA256:a9448ef0baabebaadd3cfdd552d8330a686afc034e35389bd951e4d2f97a1352
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gst-plugins-base1.0/gst-plugins-base1.0_1.14.1.orig.tar.xz' gst-plugins-base1.0_1.14.1.orig.tar.xz 3689184 SHA256:1026c7c3082d825d9b5d034c1a6dd8a4ebab60eb3738b0a0afde4ad2dc0b0db5
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gst-plugins-base1.0/gst-plugins-base1.0_1.14.1-1ubuntu1~ubuntu18.04.1.debian.tar.xz' gst-plugins-base1.0_1.14.1-1ubuntu1~ubuntu18.04.1.debian.tar.xz 45208 SHA256:a21464e14fcbd66b885bdc292f6202693226c39c1bfe06f385418a1779acbccc
+$ apt-get source -qq --print-uris gst-plugins-base1.0=1.14.5-0ubuntu1~18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gst-plugins-base1.0/gst-plugins-base1.0_1.14.5-0ubuntu1~18.04.1.dsc' gst-plugins-base1.0_1.14.5-0ubuntu1~18.04.1.dsc 4444 SHA256:ba08578352c3f032120647a591a189fced869eb4123874c74806c8f90f4a49c9
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gst-plugins-base1.0/gst-plugins-base1.0_1.14.5.orig.tar.xz' gst-plugins-base1.0_1.14.5.orig.tar.xz 3717076 SHA256:7bfa9b329ea7f3c654fa1b2d43650bf2646598a5e3cb21f42c516b7e975d638e
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gst-plugins-base1.0/gst-plugins-base1.0_1.14.5-0ubuntu1~18.04.1.debian.tar.xz' gst-plugins-base1.0_1.14.5-0ubuntu1~18.04.1.debian.tar.xz 45600 SHA256:55b60c10a296977b5c52b2dd333a5a2f505e9f32ead87f73423c7fece0ea1ef7
 ```
 
-### `dpkg` source package: `gstreamer1.0=1.14.1-1~ubuntu18.04.1`
+### `dpkg` source package: `gstreamer1.0=1.14.5-0ubuntu1~18.04.1`
 
 Binary Packages:
 
-- `libgstreamer1.0-0:amd64=1.14.1-1~ubuntu18.04.1`
+- `libgstreamer1.0-0:amd64=1.14.5-0ubuntu1~18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/libgstreamer1.0-0/copyright`)
 
@@ -2864,10 +2858,10 @@ Licenses: (parsed from: `/usr/share/doc/libgstreamer1.0-0/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris gstreamer1.0=1.14.1-1~ubuntu18.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gstreamer1.0/gstreamer1.0_1.14.1-1~ubuntu18.04.1.dsc' gstreamer1.0_1.14.1-1~ubuntu18.04.1.dsc 3035 SHA256:bab712f1f5ea153a3ce9e3ec5f2436732a956133b1ddfe41ebb881d522e9f029
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gstreamer1.0/gstreamer1.0_1.14.1.orig.tar.xz' gstreamer1.0_1.14.1.orig.tar.xz 3252440 SHA256:28d82b0d261544a9bf85b429399929e4986eb00efcf1ce16cc71d269a4c3186c
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gstreamer1.0/gstreamer1.0_1.14.1-1~ubuntu18.04.1.debian.tar.xz' gstreamer1.0_1.14.1-1~ubuntu18.04.1.debian.tar.xz 43732 SHA256:0d48da5c2bf4a7caecc22c50c697a184f6dc11205e0b4f09d97741c5e3c64e58
+$ apt-get source -qq --print-uris gstreamer1.0=1.14.5-0ubuntu1~18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gstreamer1.0/gstreamer1.0_1.14.5-0ubuntu1~18.04.1.dsc' gstreamer1.0_1.14.5-0ubuntu1~18.04.1.dsc 3052 SHA256:5a657bab269dde8bf08f0a3df510794ed59211f850a5792f10d1c90d26657462
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gstreamer1.0/gstreamer1.0_1.14.5.orig.tar.xz' gstreamer1.0_1.14.5.orig.tar.xz 3268756 SHA256:e40888752883177e97b2d90cd68591f87ccd213dc0178ff721d80a4cdaad34b5
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gstreamer1.0/gstreamer1.0_1.14.5-0ubuntu1~18.04.1.debian.tar.xz' gstreamer1.0_1.14.5-0ubuntu1~18.04.1.debian.tar.xz 44584 SHA256:b181b69ec4f952848efef822105aa4ab6b0acab54ade8d859fa3a3642824075d
 ```
 
 ### `dpkg` source package: `gtk+2.0=2.24.32-1ubuntu1`
@@ -2896,14 +2890,14 @@ $ apt-get source -qq --print-uris gtk+2.0=2.24.32-1ubuntu1
 'http://archive.ubuntu.com/ubuntu/pool/main/g/gtk+2.0/gtk+2.0_2.24.32-1ubuntu1.debian.tar.xz' gtk+2.0_2.24.32-1ubuntu1.debian.tar.xz 103116 SHA256:da2adb218e807207a574d47ca4797b02e9f821d11b4aa24af0de83ab43f0a09d
 ```
 
-### `dpkg` source package: `gtk+3.0=3.22.30-1ubuntu1`
+### `dpkg` source package: `gtk+3.0=3.22.30-1ubuntu4`
 
 Binary Packages:
 
-- `gtk-update-icon-cache=3.22.30-1ubuntu1`
-- `libgtk-3-0:amd64=3.22.30-1ubuntu1`
-- `libgtk-3-bin=3.22.30-1ubuntu1`
-- `libgtk-3-common=3.22.30-1ubuntu1`
+- `gtk-update-icon-cache=3.22.30-1ubuntu4`
+- `libgtk-3-0:amd64=3.22.30-1ubuntu4`
+- `libgtk-3-bin=3.22.30-1ubuntu4`
+- `libgtk-3-common=3.22.30-1ubuntu4`
 
 Licenses: (parsed from: `/usr/share/doc/gtk-update-icon-cache/copyright`, `/usr/share/doc/libgtk-3-0/copyright`, `/usr/share/doc/libgtk-3-bin/copyright`, `/usr/share/doc/libgtk-3-common/copyright`)
 
@@ -2919,10 +2913,10 @@ Licenses: (parsed from: `/usr/share/doc/gtk-update-icon-cache/copyright`, `/usr/
 Source:
 
 ```console
-$ apt-get source -qq --print-uris gtk+3.0=3.22.30-1ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gtk+3.0/gtk+3.0_3.22.30-1ubuntu1.dsc' gtk+3.0_3.22.30-1ubuntu1.dsc 3967 SHA256:54983d5e822764198c3f8ddf137db5bdc2b9584b70bb25433f61c26ee4370b68
+$ apt-get source -qq --print-uris gtk+3.0=3.22.30-1ubuntu4
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gtk+3.0/gtk+3.0_3.22.30-1ubuntu4.dsc' gtk+3.0_3.22.30-1ubuntu4.dsc 3364 SHA256:f4b7cbc787b8e65d02186f43ba78935040bbb5381693da8aa8455a9fc1436e9e
 'http://archive.ubuntu.com/ubuntu/pool/main/g/gtk+3.0/gtk+3.0_3.22.30.orig.tar.xz' gtk+3.0_3.22.30.orig.tar.xz 18946084 SHA256:a1a4a5c12703d4e1ccda28333b87ff462741dc365131fbc94c218ae81d9a6567
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gtk+3.0/gtk+3.0_3.22.30-1ubuntu1.debian.tar.xz' gtk+3.0_3.22.30-1ubuntu1.debian.tar.xz 160396 SHA256:7e2ffd9c2409cfaa4649055f4aefddb6a898314d0f672185c8a8dcb4e3bbe7a6
+'http://archive.ubuntu.com/ubuntu/pool/main/g/gtk+3.0/gtk+3.0_3.22.30-1ubuntu4.debian.tar.xz' gtk+3.0_3.22.30-1ubuntu4.debian.tar.xz 162544 SHA256:24bc3d5c670bb77840ee5cc83d39970aee76a3364ff6422b9ebaeac4bc7a6292
 ```
 
 ### `dpkg` source package: `gts=0.7.6+darcs121130-4`
@@ -3540,11 +3534,11 @@ $ apt-get source -qq --print-uris keyutils=1.5.9-9.2ubuntu2
 'http://archive.ubuntu.com/ubuntu/pool/main/k/keyutils/keyutils_1.5.9-9.2ubuntu2.debian.tar.xz' keyutils_1.5.9-9.2ubuntu2.debian.tar.xz 18492 SHA256:51706bd0d480913584d3fa8fcfe32dcf210742bb75c08e6a2d5f022748654086
 ```
 
-### `dpkg` source package: `kmod=24-1ubuntu3.1`
+### `dpkg` source package: `kmod=24-1ubuntu3.2`
 
 Binary Packages:
 
-- `libkmod2:amd64=24-1ubuntu3.1`
+- `libkmod2:amd64=24-1ubuntu3.2`
 
 Licenses: (parsed from: `/usr/share/doc/libkmod2/copyright`)
 
@@ -3554,10 +3548,10 @@ Licenses: (parsed from: `/usr/share/doc/libkmod2/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris kmod=24-1ubuntu3.1
-'http://archive.ubuntu.com/ubuntu/pool/main/k/kmod/kmod_24-1ubuntu3.1.dsc' kmod_24-1ubuntu3.1.dsc 2170 SHA256:c47b2753208f85a3ba05be43446a01789e3b3d1082887f2336546e0af79430e7
+$ apt-get source -qq --print-uris kmod=24-1ubuntu3.2
+'http://archive.ubuntu.com/ubuntu/pool/main/k/kmod/kmod_24-1ubuntu3.2.dsc' kmod_24-1ubuntu3.2.dsc 2170 SHA256:5f03b840aa963c9dbf1f9e4c889542352b001cedcbab77cb00755c6cce281594
 'http://archive.ubuntu.com/ubuntu/pool/main/k/kmod/kmod_24.orig.tar.xz' kmod_24.orig.tar.xz 244640 SHA256:e1a9d8e450d1a3167e07f8ccbc49615c25eff89e09a09c985ff7a532ea52138e
-'http://archive.ubuntu.com/ubuntu/pool/main/k/kmod/kmod_24-1ubuntu3.1.debian.tar.xz' kmod_24-1ubuntu3.1.debian.tar.xz 13352 SHA256:19a8ff012c1ed6eeb086329b06bad5126ab88fc808224045da3116d4d28cf2e9
+'http://archive.ubuntu.com/ubuntu/pool/main/k/kmod/kmod_24-1ubuntu3.2.debian.tar.xz' kmod_24-1ubuntu3.2.debian.tar.xz 13496 SHA256:e1cfe79228a8e37dd770aade76f08e677cf5a5237e840390b3158b7d944176db
 ```
 
 ### `dpkg` source package: `krb5=1.16-2ubuntu0.1`
@@ -3818,11 +3812,11 @@ $ apt-get source -qq --print-uris libarchive-zip-perl=1.60-1ubuntu0.1
 'http://archive.ubuntu.com/ubuntu/pool/main/liba/libarchive-zip-perl/libarchive-zip-perl_1.60-1ubuntu0.1.debian.tar.xz' libarchive-zip-perl_1.60-1ubuntu0.1.debian.tar.xz 12280 SHA256:85994748fee23ee396fee95889960bc2943408e2dcfd9e2330b9edd7a27c0f7e
 ```
 
-### `dpkg` source package: `libarchive=3.2.2-3.1ubuntu0.2`
+### `dpkg` source package: `libarchive=3.2.2-3.1ubuntu0.5`
 
 Binary Packages:
 
-- `libarchive13:amd64=3.2.2-3.1ubuntu0.2`
+- `libarchive13:amd64=3.2.2-3.1ubuntu0.5`
 
 Licenses: (parsed from: `/usr/share/doc/libarchive13/copyright`)
 
@@ -3838,10 +3832,10 @@ Licenses: (parsed from: `/usr/share/doc/libarchive13/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libarchive=3.2.2-3.1ubuntu0.2
-'http://archive.ubuntu.com/ubuntu/pool/main/liba/libarchive/libarchive_3.2.2-3.1ubuntu0.2.dsc' libarchive_3.2.2-3.1ubuntu0.2.dsc 2457 SHA256:045d05e149d105deaf431763a87add61a742be4e5766f0861c92780eadb8f248
+$ apt-get source -qq --print-uris libarchive=3.2.2-3.1ubuntu0.5
+'http://archive.ubuntu.com/ubuntu/pool/main/liba/libarchive/libarchive_3.2.2-3.1ubuntu0.5.dsc' libarchive_3.2.2-3.1ubuntu0.5.dsc 2457 SHA256:e15c8624c578dc43e15a57a7ecc93220d829ea367266a9f716c18c931fc2b91d
 'http://archive.ubuntu.com/ubuntu/pool/main/liba/libarchive/libarchive_3.2.2.orig.tar.gz' libarchive_3.2.2.orig.tar.gz 5458241 SHA256:691c194ee132d1f0f7a42541f091db811bc2e56f7107e9121be2bc8c04f1060f
-'http://archive.ubuntu.com/ubuntu/pool/main/liba/libarchive/libarchive_3.2.2-3.1ubuntu0.2.debian.tar.xz' libarchive_3.2.2-3.1ubuntu0.2.debian.tar.xz 20200 SHA256:da99ae224f2d7b2c8545514e6ddb7af85d21f1a59c6a4f5ffc118e3a50c4f2b6
+'http://archive.ubuntu.com/ubuntu/pool/main/liba/libarchive/libarchive_3.2.2-3.1ubuntu0.5.debian.tar.xz' libarchive_3.2.2-3.1ubuntu0.5.debian.tar.xz 23952 SHA256:6e3bd6adb7f2cb2b15d58bc16955bee855b1256c78ea742902db8655bf09d6b8
 ```
 
 ### `dpkg` source package: `libassuan=2.5.1-2`
@@ -4107,17 +4101,17 @@ $ apt-get source -qq --print-uris libdc1394-22=2.2.5-1
 'http://archive.ubuntu.com/ubuntu/pool/universe/libd/libdc1394-22/libdc1394-22_2.2.5-1.debian.tar.xz' libdc1394-22_2.2.5-1.debian.tar.xz 8244 SHA256:895eeea4458059ae65a879a7d1c625508b854eb5f3d472192b94bd5ba281e316
 ```
 
-### `dpkg` source package: `libdrm=2.4.91-2`
+### `dpkg` source package: `libdrm=2.4.97-1ubuntu1~18.04.1`
 
 Binary Packages:
 
-- `libdrm-amdgpu1:amd64=2.4.91-2`
-- `libdrm-common=2.4.91-2`
-- `libdrm-dev:amd64=2.4.91-2`
-- `libdrm-intel1:amd64=2.4.91-2`
-- `libdrm-nouveau2:amd64=2.4.91-2`
-- `libdrm-radeon1:amd64=2.4.91-2`
-- `libdrm2:amd64=2.4.91-2`
+- `libdrm-amdgpu1:amd64=2.4.97-1ubuntu1~18.04.1`
+- `libdrm-common=2.4.97-1ubuntu1~18.04.1`
+- `libdrm-dev:amd64=2.4.97-1ubuntu1~18.04.1`
+- `libdrm-intel1:amd64=2.4.97-1ubuntu1~18.04.1`
+- `libdrm-nouveau2:amd64=2.4.97-1ubuntu1~18.04.1`
+- `libdrm-radeon1:amd64=2.4.97-1ubuntu1~18.04.1`
+- `libdrm2:amd64=2.4.97-1ubuntu1~18.04.1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -4126,10 +4120,10 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libdrm=2.4.91-2
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.91-2.dsc' libdrm_2.4.91-2.dsc 3040 SHA256:e2e0b5953eec9f014d63e47234977a6b9c9213cdf964afa124d65f5cb2bd5465
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.91.orig.tar.gz' libdrm_2.4.91.orig.tar.gz 1088866 SHA256:c8ea3343d5bfc356550f0b5632403359d050fa09cf05d61e96e73adba0c407a9
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.91-2.diff.gz' libdrm_2.4.91-2.diff.gz 50222 SHA256:3e872509dd77c9316b10653394886dfaf2a31fc915a576b567af52e708b30c8c
+$ apt-get source -qq --print-uris libdrm=2.4.97-1ubuntu1~18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.97-1ubuntu1~18.04.1.dsc' libdrm_2.4.97-1ubuntu1~18.04.1.dsc 3020 SHA256:f56adf4f421f6fcdfc3a1a881450c7c5fe558105644d4ce2831b48cd2bcb3ae6
+'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.97.orig.tar.gz' libdrm_2.4.97.orig.tar.gz 1124510 SHA256:8c6f4d0934f5e005cc61bc05a917463b0c867403de176499256965f6797092f1
+'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.97-1ubuntu1~18.04.1.diff.gz' libdrm_2.4.97-1ubuntu1~18.04.1.diff.gz 52342 SHA256:644fc2b764a1e87f91b8d20451403b68a88c950d07808ea04fa199197b7d1313
 ```
 
 ### `dpkg` source package: `libedit=3.1-20170329-1`
@@ -4365,11 +4359,11 @@ $ apt-get source -qq --print-uris libgcrypt20=1.8.1-4ubuntu1.1
 'http://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.8.1-4ubuntu1.1.debian.tar.xz' libgcrypt20_1.8.1-4ubuntu1.1.debian.tar.xz 31408 SHA256:897cb9aacc7d1cc8c1de6f81c2690eb8cdcb5d6a5fa8dc99b56275d9c00c511b
 ```
 
-### `dpkg` source package: `libgd2=2.2.5-4ubuntu0.2`
+### `dpkg` source package: `libgd2=2.2.5-4ubuntu0.3`
 
 Binary Packages:
 
-- `libgd3:amd64=2.2.5-4ubuntu0.2`
+- `libgd3:amd64=2.2.5-4ubuntu0.3`
 
 Licenses: (parsed from: `/usr/share/doc/libgd3/copyright`)
 
@@ -4388,10 +4382,10 @@ Licenses: (parsed from: `/usr/share/doc/libgd3/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libgd2=2.2.5-4ubuntu0.2
-'http://archive.ubuntu.com/ubuntu/pool/main/libg/libgd2/libgd2_2.2.5-4ubuntu0.2.dsc' libgd2_2.2.5-4ubuntu0.2.dsc 2333 SHA256:265d943968ba4b5b0becd5a2e7e14ab579176159d336b2673fda03e0330a9016
+$ apt-get source -qq --print-uris libgd2=2.2.5-4ubuntu0.3
+'http://archive.ubuntu.com/ubuntu/pool/main/libg/libgd2/libgd2_2.2.5-4ubuntu0.3.dsc' libgd2_2.2.5-4ubuntu0.3.dsc 2349 SHA256:0c238d212adaedd2ec3fa48c82f0161fa6658b79cc229d469794755b3abd4916
 'http://archive.ubuntu.com/ubuntu/pool/main/libg/libgd2/libgd2_2.2.5.orig.tar.gz' libgd2_2.2.5.orig.tar.gz 3326856 SHA256:150e6952af874bbccb33cf0f87288b41a8fd54f0ce4cff914ef90a80ef9d0162
-'http://archive.ubuntu.com/ubuntu/pool/main/libg/libgd2/libgd2_2.2.5-4ubuntu0.2.debian.tar.xz' libgd2_2.2.5-4ubuntu0.2.debian.tar.xz 33260 SHA256:b157c646727527e146dd53a374ad4da6293d13c953f30758a2f9f154bb9c6fa1
+'http://archive.ubuntu.com/ubuntu/pool/main/libg/libgd2/libgd2_2.2.5-4ubuntu0.3.debian.tar.xz' libgd2_2.2.5-4ubuntu0.3.debian.tar.xz 35660 SHA256:0bb12854aa07981d0e5693ab586d58f55dc0ed34c57175449580586462105c05
 ```
 
 ### `dpkg` source package: `libgeotiff-dfsg=1.4.2-2build1`
@@ -4449,19 +4443,19 @@ $ apt-get source -qq --print-uris libglu=9.0.0-2.1build1
 'http://archive.ubuntu.com/ubuntu/pool/main/libg/libglu/libglu_9.0.0-2.1build1.diff.gz' libglu_9.0.0-2.1build1.diff.gz 14740 SHA256:823038bcb4418ae2756d2bbd4c9b9a90d2997806ebcfe6460cffa688cf1b8ede
 ```
 
-### `dpkg` source package: `libglvnd=1.0.0-2ubuntu2.2`
+### `dpkg` source package: `libglvnd=1.0.0-2ubuntu2.3`
 
 Binary Packages:
 
-- `libegl1:amd64=1.0.0-2ubuntu2.2`
-- `libgl1:amd64=1.0.0-2ubuntu2.2`
-- `libgles1:amd64=1.0.0-2ubuntu2.2`
-- `libgles2:amd64=1.0.0-2ubuntu2.2`
-- `libglvnd-core-dev:amd64=1.0.0-2ubuntu2.2`
-- `libglvnd-dev:amd64=1.0.0-2ubuntu2.2`
-- `libglvnd0:amd64=1.0.0-2ubuntu2.2`
-- `libglx0:amd64=1.0.0-2ubuntu2.2`
-- `libopengl0:amd64=1.0.0-2ubuntu2.2`
+- `libegl1:amd64=1.0.0-2ubuntu2.3`
+- `libgl1:amd64=1.0.0-2ubuntu2.3`
+- `libgles1:amd64=1.0.0-2ubuntu2.3`
+- `libgles2:amd64=1.0.0-2ubuntu2.3`
+- `libglvnd-core-dev:amd64=1.0.0-2ubuntu2.3`
+- `libglvnd-dev:amd64=1.0.0-2ubuntu2.3`
+- `libglvnd0:amd64=1.0.0-2ubuntu2.3`
+- `libglx0:amd64=1.0.0-2ubuntu2.3`
+- `libopengl0:amd64=1.0.0-2ubuntu2.3`
 
 Licenses: (parsed from: `/usr/share/doc/libegl1/copyright`, `/usr/share/doc/libgl1/copyright`, `/usr/share/doc/libgles1/copyright`, `/usr/share/doc/libgles2/copyright`, `/usr/share/doc/libglvnd-core-dev/copyright`, `/usr/share/doc/libglvnd-dev/copyright`, `/usr/share/doc/libglvnd0/copyright`, `/usr/share/doc/libglx0/copyright`, `/usr/share/doc/libopengl0/copyright`)
 
@@ -4474,10 +4468,10 @@ Licenses: (parsed from: `/usr/share/doc/libegl1/copyright`, `/usr/share/doc/libg
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libglvnd=1.0.0-2ubuntu2.2
-'http://archive.ubuntu.com/ubuntu/pool/main/libg/libglvnd/libglvnd_1.0.0-2ubuntu2.2.dsc' libglvnd_1.0.0-2ubuntu2.2.dsc 2435 SHA256:2c009014177905e98de33f6aa67ff5e4f4faa71732c1893c63dc69b8a8506e61
+$ apt-get source -qq --print-uris libglvnd=1.0.0-2ubuntu2.3
+'http://archive.ubuntu.com/ubuntu/pool/main/libg/libglvnd/libglvnd_1.0.0-2ubuntu2.3.dsc' libglvnd_1.0.0-2ubuntu2.3.dsc 2435 SHA256:83000006090b83fc72df72fd45c140479a1a4c47bb069d4aaa9967e515b36da8
 'http://archive.ubuntu.com/ubuntu/pool/main/libg/libglvnd/libglvnd_1.0.0.orig.tar.gz' libglvnd_1.0.0.orig.tar.gz 795552 SHA256:d1cb238081f8fc708178f21e7e6b33a009c0807eae7a11b790146043f6e8eea5
-'http://archive.ubuntu.com/ubuntu/pool/main/libg/libglvnd/libglvnd_1.0.0-2ubuntu2.2.debian.tar.xz' libglvnd_1.0.0-2ubuntu2.2.debian.tar.xz 21048 SHA256:be975fd04b74904ed4cf0d878f811030f3f1ecc1e19cefd9f6c2d2e88b08c776
+'http://archive.ubuntu.com/ubuntu/pool/main/libg/libglvnd/libglvnd_1.0.0-2ubuntu2.3.debian.tar.xz' libglvnd_1.0.0-2ubuntu2.3.debian.tar.xz 21704 SHA256:d8fd9eb5fe47852f7cc9c94b7b9ac1bd311d01b0e071d381c25e59bf745af272
 ```
 
 ### `dpkg` source package: `libgpg-error=1.27-6`
@@ -4630,11 +4624,11 @@ $ apt-get source -qq --print-uris libice=2:1.0.9-2
 'http://archive.ubuntu.com/ubuntu/pool/main/libi/libice/libice_1.0.9-2.diff.gz' libice_1.0.9-2.diff.gz 6384 SHA256:777f13e08aada3103c32a0b93a26782ca959027bcd98c2c1ddaade8f944fa40a
 ```
 
-### `dpkg` source package: `libidn2=2.0.4-1.1build2`
+### `dpkg` source package: `libidn2=2.0.4-1.1ubuntu0.2`
 
 Binary Packages:
 
-- `libidn2-0:amd64=2.0.4-1.1build2`
+- `libidn2-0:amd64=2.0.4-1.1ubuntu0.2`
 
 Licenses: (parsed from: `/usr/share/doc/libidn2-0/copyright`)
 
@@ -4649,17 +4643,17 @@ Licenses: (parsed from: `/usr/share/doc/libidn2-0/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libidn2=2.0.4-1.1build2
-'http://archive.ubuntu.com/ubuntu/pool/main/libi/libidn2/libidn2_2.0.4-1.1build2.dsc' libidn2_2.0.4-1.1build2.dsc 2284 SHA256:1a2ebdd471b5d3da5674337594d28213b134464c53d0f5ae529a4bc53f2115fe
+$ apt-get source -qq --print-uris libidn2=2.0.4-1.1ubuntu0.2
+'http://archive.ubuntu.com/ubuntu/pool/main/libi/libidn2/libidn2_2.0.4-1.1ubuntu0.2.dsc' libidn2_2.0.4-1.1ubuntu0.2.dsc 2391 SHA256:013191e4a413de9928b5f76b2ab7237055d2e51ed1f82c7bd5ddddff6615d7c8
 'http://archive.ubuntu.com/ubuntu/pool/main/libi/libidn2/libidn2_2.0.4.orig.tar.gz' libidn2_2.0.4.orig.tar.gz 2008524 SHA256:644b6b03b285fb0ace02d241d59483d98bc462729d8bb3608d5cad5532f3d2f0
-'http://archive.ubuntu.com/ubuntu/pool/main/libi/libidn2/libidn2_2.0.4-1.1build2.debian.tar.xz' libidn2_2.0.4-1.1build2.debian.tar.xz 10285784 SHA256:fd3d28167dba38fcfd2951f09a6dc5408fa0a62c68597e743bb20e6b0a0367d1
+'http://archive.ubuntu.com/ubuntu/pool/main/libi/libidn2/libidn2_2.0.4-1.1ubuntu0.2.debian.tar.xz' libidn2_2.0.4-1.1ubuntu0.2.debian.tar.xz 10290460 SHA256:45c587e0bf489b0367a7a1c2eadbd2efcc774c035ef4868c95ea5b0e0f399be2
 ```
 
-### `dpkg` source package: `libidn=1.33-2.1ubuntu1`
+### `dpkg` source package: `libidn=1.33-2.1ubuntu1.2`
 
 Binary Packages:
 
-- `libidn11:amd64=1.33-2.1ubuntu1`
+- `libidn11:amd64=1.33-2.1ubuntu1.2`
 
 Licenses: (parsed from: `/usr/share/doc/libidn11/copyright`)
 
@@ -4679,18 +4673,18 @@ Licenses: (parsed from: `/usr/share/doc/libidn11/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libidn=1.33-2.1ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/libi/libidn/libidn_1.33-2.1ubuntu1.dsc' libidn_1.33-2.1ubuntu1.dsc 2225 SHA256:a0e44363deda8ab26502b1f7d9fcbb40a1ec57e0e06cf75d18aea7740ffa9a0f
+$ apt-get source -qq --print-uris libidn=1.33-2.1ubuntu1.2
+'http://archive.ubuntu.com/ubuntu/pool/main/libi/libidn/libidn_1.33-2.1ubuntu1.2.dsc' libidn_1.33-2.1ubuntu1.2.dsc 2208 SHA256:b648ee307573a0283e6b0180cddb268bff994d32afeda67150a109732998400d
 'http://archive.ubuntu.com/ubuntu/pool/main/libi/libidn/libidn_1.33.orig.tar.gz' libidn_1.33.orig.tar.gz 3501056 SHA256:44a7aab635bb721ceef6beecc4d49dfd19478325e1b47f3196f7d2acc4930e19
-'http://archive.ubuntu.com/ubuntu/pool/main/libi/libidn/libidn_1.33-2.1ubuntu1.debian.tar.xz' libidn_1.33-2.1ubuntu1.debian.tar.xz 65428 SHA256:37841df744737b90fdf984dcd1d2fda6e0f3885632e884f4acbebd5dca9fa84a
+'http://archive.ubuntu.com/ubuntu/pool/main/libi/libidn/libidn_1.33-2.1ubuntu1.2.debian.tar.xz' libidn_1.33-2.1ubuntu1.2.debian.tar.xz 65932 SHA256:6a4868705358041c3591060f9610704064b6212f6a139deaceac66396d2bc11f
 ```
 
-### `dpkg` source package: `libinput=1.10.4-1`
+### `dpkg` source package: `libinput=1.10.4-1ubuntu0.18.04.1`
 
 Binary Packages:
 
-- `libinput-bin=1.10.4-1`
-- `libinput10:amd64=1.10.4-1`
+- `libinput-bin=1.10.4-1ubuntu0.18.04.1`
+- `libinput10:amd64=1.10.4-1ubuntu0.18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/libinput-bin/copyright`, `/usr/share/doc/libinput10/copyright`)
 
@@ -4700,19 +4694,19 @@ Licenses: (parsed from: `/usr/share/doc/libinput-bin/copyright`, `/usr/share/doc
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libinput=1.10.4-1
-'http://archive.ubuntu.com/ubuntu/pool/main/libi/libinput/libinput_1.10.4-1.dsc' libinput_1.10.4-1.dsc 2574 SHA256:33996aece5d596aa7c2474008de5af8741485bfb650d59ae0aafb247ca49ca69
+$ apt-get source -qq --print-uris libinput=1.10.4-1ubuntu0.18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/libi/libinput/libinput_1.10.4-1ubuntu0.18.04.1.dsc' libinput_1.10.4-1ubuntu0.18.04.1.dsc 2634 SHA256:91f0073967c4caaadcc7ed31cfc2dea572cdabbe9b5e0a1803e41145f3dd9996
 'http://archive.ubuntu.com/ubuntu/pool/main/libi/libinput/libinput_1.10.4.orig.tar.xz' libinput_1.10.4.orig.tar.xz 493152 SHA256:2330a82f3e4b617a4f9ff0f2bf9cc217b3c4e69d767e61ca59ca07add61f68ac
 'http://archive.ubuntu.com/ubuntu/pool/main/libi/libinput/libinput_1.10.4.orig.tar.xz.asc' libinput_1.10.4.orig.tar.xz.asc 241 SHA256:2e9382151543a5801ca00241abc443dd7c55484acdd617238828e858a3aed0f9
-'http://archive.ubuntu.com/ubuntu/pool/main/libi/libinput/libinput_1.10.4-1.debian.tar.xz' libinput_1.10.4-1.debian.tar.xz 8156 SHA256:8fcafb7131acc7db43647848cd8d923684a00a2b8b363730616b7c375c7b66f0
+'http://archive.ubuntu.com/ubuntu/pool/main/libi/libinput/libinput_1.10.4-1ubuntu0.18.04.1.debian.tar.xz' libinput_1.10.4-1ubuntu0.18.04.1.debian.tar.xz 9140 SHA256:6c2c40948627985d77333af83954f8a5830622cb8963d595a8d21adb1ceb73c5
 ```
 
-### `dpkg` source package: `libjpeg-turbo=1.5.2-0ubuntu5.18.04.1`
+### `dpkg` source package: `libjpeg-turbo=1.5.2-0ubuntu5.18.04.3`
 
 Binary Packages:
 
-- `libjpeg-turbo8:amd64=1.5.2-0ubuntu5.18.04.1`
-- `libjpeg-turbo8-dev:amd64=1.5.2-0ubuntu5.18.04.1`
+- `libjpeg-turbo8:amd64=1.5.2-0ubuntu5.18.04.3`
+- `libjpeg-turbo8-dev:amd64=1.5.2-0ubuntu5.18.04.3`
 
 Licenses: (parsed from: `/usr/share/doc/libjpeg-turbo8/copyright`, `/usr/share/doc/libjpeg-turbo8-dev/copyright`)
 
@@ -4722,10 +4716,10 @@ Licenses: (parsed from: `/usr/share/doc/libjpeg-turbo8/copyright`, `/usr/share/d
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libjpeg-turbo=1.5.2-0ubuntu5.18.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/libj/libjpeg-turbo/libjpeg-turbo_1.5.2-0ubuntu5.18.04.1.dsc' libjpeg-turbo_1.5.2-0ubuntu5.18.04.1.dsc 2391 SHA256:d73d719393b288466b4028b54c4307551efdc9a14abd480d02d0c61b2d4431be
+$ apt-get source -qq --print-uris libjpeg-turbo=1.5.2-0ubuntu5.18.04.3
+'http://archive.ubuntu.com/ubuntu/pool/main/libj/libjpeg-turbo/libjpeg-turbo_1.5.2-0ubuntu5.18.04.3.dsc' libjpeg-turbo_1.5.2-0ubuntu5.18.04.3.dsc 2375 SHA256:b28df4b4442f2f2538005a5719e1ff6c1a0f852b67e071076c3d5b92cf8670c9
 'http://archive.ubuntu.com/ubuntu/pool/main/libj/libjpeg-turbo/libjpeg-turbo_1.5.2.orig.tar.gz' libjpeg-turbo_1.5.2.orig.tar.gz 1657235 SHA256:9098943b270388727ae61de82adec73cf9f0dbb240b3bc8b172595ebf405b528
-'http://archive.ubuntu.com/ubuntu/pool/main/libj/libjpeg-turbo/libjpeg-turbo_1.5.2-0ubuntu5.18.04.1.debian.tar.xz' libjpeg-turbo_1.5.2-0ubuntu5.18.04.1.debian.tar.xz 29492 SHA256:2224964b4f5429223aa7d31db8eb6ac06339dcfe50489484d1fdbfe7ef938073
+'http://archive.ubuntu.com/ubuntu/pool/main/libj/libjpeg-turbo/libjpeg-turbo_1.5.2-0ubuntu5.18.04.3.debian.tar.xz' libjpeg-turbo_1.5.2-0ubuntu5.18.04.3.debian.tar.xz 34800 SHA256:801d3ecf9a49f76f0ca9f6605758490384d682970998c95e0aadf340229e2e5d
 ```
 
 ### `dpkg` source package: `libjpeg8-empty=8c-2ubuntu8`
@@ -4861,12 +4855,12 @@ $ apt-get source -qq --print-uris libmail-sendmail-perl=0.80-1
 'http://archive.ubuntu.com/ubuntu/pool/main/libm/libmail-sendmail-perl/libmail-sendmail-perl_0.80-1.debian.tar.xz' libmail-sendmail-perl_0.80-1.debian.tar.xz 4520 SHA256:d60f1f98add9fbe5a96ede678751cd75bffab8aac016bde61d1ef055d3ccf8fd
 ```
 
-### `dpkg` source package: `libmbim=1.14.2-2.1ubuntu1`
+### `dpkg` source package: `libmbim=1.18.0-1~ubuntu18.04.1`
 
 Binary Packages:
 
-- `libmbim-glib4:amd64=1.14.2-2.1ubuntu1`
-- `libmbim-proxy=1.14.2-2.1ubuntu1`
+- `libmbim-glib4:amd64=1.18.0-1~ubuntu18.04.1`
+- `libmbim-proxy=1.18.0-1~ubuntu18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/libmbim-glib4/copyright`, `/usr/share/doc/libmbim-proxy/copyright`)
 
@@ -4880,10 +4874,10 @@ Licenses: (parsed from: `/usr/share/doc/libmbim-glib4/copyright`, `/usr/share/do
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libmbim=1.14.2-2.1ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/libm/libmbim/libmbim_1.14.2-2.1ubuntu1.dsc' libmbim_1.14.2-2.1ubuntu1.dsc 2249 SHA256:a16baad30ef3d7afda8fc41fa8070a811a37ebce6eeba6d4b77c4abb6475cc03
-'http://archive.ubuntu.com/ubuntu/pool/main/libm/libmbim/libmbim_1.14.2.orig.tar.xz' libmbim_1.14.2.orig.tar.xz 401688 SHA256:22cafe6b8432433aa58bedcf7db71111522ce6531bfe24e8e9b6058412cd31cf
-'http://archive.ubuntu.com/ubuntu/pool/main/libm/libmbim/libmbim_1.14.2-2.1ubuntu1.debian.tar.xz' libmbim_1.14.2-2.1ubuntu1.debian.tar.xz 6592 SHA256:7fd064c0ca324ff46ff2e459f9d648d9f4e905da4dab2062632bcfc4c742cad0
+$ apt-get source -qq --print-uris libmbim=1.18.0-1~ubuntu18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/libm/libmbim/libmbim_1.18.0-1~ubuntu18.04.1.dsc' libmbim_1.18.0-1~ubuntu18.04.1.dsc 1639 SHA256:f8110e886cb3cfbf5ab57156529769d70765f46bed7736226af40e761f488c2d
+'http://archive.ubuntu.com/ubuntu/pool/main/libm/libmbim/libmbim_1.18.0.orig.tar.xz' libmbim_1.18.0.orig.tar.xz 474768 SHA256:6cf40128d83d087946a7d8577e735526202e034d52f90047735329609097b282
+'http://archive.ubuntu.com/ubuntu/pool/main/libm/libmbim/libmbim_1.18.0-1~ubuntu18.04.1.debian.tar.xz' libmbim_1.18.0-1~ubuntu18.04.1.debian.tar.xz 6748 SHA256:8fea9f953ff4d28416d6eedf3a279f90996ad99bb9244dabe0ebccfc531a04bf
 ```
 
 ### `dpkg` source package: `libnl3=3.2.29-0ubuntu3`
@@ -5016,13 +5010,13 @@ $ apt-get source -qq --print-uris libpipeline=1.5.0-1
 'http://archive.ubuntu.com/ubuntu/pool/main/libp/libpipeline/libpipeline_1.5.0-1.debian.tar.xz' libpipeline_1.5.0-1.debian.tar.xz 197352 SHA256:a5875fbb453df5570ad91f943574758b586b83f7fa8778d956d082e2ec3f70ce
 ```
 
-### `dpkg` source package: `libpng1.6=1.6.34-1ubuntu0.18.04.1`
+### `dpkg` source package: `libpng1.6=1.6.34-1ubuntu0.18.04.2`
 
 Binary Packages:
 
-- `libpng-dev:amd64=1.6.34-1ubuntu0.18.04.1`
-- `libpng-tools=1.6.34-1ubuntu0.18.04.1`
-- `libpng16-16:amd64=1.6.34-1ubuntu0.18.04.1`
+- `libpng-dev:amd64=1.6.34-1ubuntu0.18.04.2`
+- `libpng-tools=1.6.34-1ubuntu0.18.04.2`
+- `libpng16-16:amd64=1.6.34-1ubuntu0.18.04.2`
 
 Licenses: (parsed from: `/usr/share/doc/libpng-dev/copyright`, `/usr/share/doc/libpng-tools/copyright`, `/usr/share/doc/libpng16-16/copyright`)
 
@@ -5038,10 +5032,10 @@ Licenses: (parsed from: `/usr/share/doc/libpng-dev/copyright`, `/usr/share/doc/l
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libpng1.6=1.6.34-1ubuntu0.18.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/libp/libpng1.6/libpng1.6_1.6.34-1ubuntu0.18.04.1.dsc' libpng1.6_1.6.34-1ubuntu0.18.04.1.dsc 2346 SHA256:2b227336bc96188c0a09c90817f8e97a84d92b81f5b7cd71b7c74a5e6a786190
+$ apt-get source -qq --print-uris libpng1.6=1.6.34-1ubuntu0.18.04.2
+'http://archive.ubuntu.com/ubuntu/pool/main/libp/libpng1.6/libpng1.6_1.6.34-1ubuntu0.18.04.2.dsc' libpng1.6_1.6.34-1ubuntu0.18.04.2.dsc 2362 SHA256:d121cf079c097f868b33f234601baadc6e34d5e96320f427eb3482e28900c321
 'http://archive.ubuntu.com/ubuntu/pool/main/libp/libpng1.6/libpng1.6_1.6.34.orig.tar.xz' libpng1.6_1.6.34.orig.tar.xz 997968 SHA256:2f1e960d92ce3b3abd03d06dfec9637dfbd22febf107a536b44f7a47c60659f6
-'http://archive.ubuntu.com/ubuntu/pool/main/libp/libpng1.6/libpng1.6_1.6.34-1ubuntu0.18.04.1.debian.tar.xz' libpng1.6_1.6.34-1ubuntu0.18.04.1.debian.tar.xz 24128 SHA256:e1766dbb7bb0344a3ad4776ec6cfaf0314e25e4af12f5322e62df076bdf17015
+'http://archive.ubuntu.com/ubuntu/pool/main/libp/libpng1.6/libpng1.6_1.6.34-1ubuntu0.18.04.2.debian.tar.xz' libpng1.6_1.6.34-1ubuntu0.18.04.2.debian.tar.xz 24572 SHA256:08abc3815a3ce53c46717a3a5c1b2044782c5659639afc9f6f9cb6fdcb386d90
 ```
 
 ### `dpkg` source package: `libproxy=0.4.15-1`
@@ -5103,12 +5097,12 @@ $ apt-get source -qq --print-uris libpthread-stubs=0.3-4
 'http://archive.ubuntu.com/ubuntu/pool/main/libp/libpthread-stubs/libpthread-stubs_0.3-4.diff.gz' libpthread-stubs_0.3-4.diff.gz 2413 SHA256:ce3eb8bdc0f1a4347d42c5736d056973fae46908b764a9f2be83e1bd210f2024
 ```
 
-### `dpkg` source package: `libqmi=1.18.0-3ubuntu1`
+### `dpkg` source package: `libqmi=1.22.0-1.2~ubuntu18.04.1`
 
 Binary Packages:
 
-- `libqmi-glib5:amd64=1.18.0-3ubuntu1`
-- `libqmi-proxy=1.18.0-3ubuntu1`
+- `libqmi-glib5:amd64=1.22.0-1.2~ubuntu18.04.1`
+- `libqmi-proxy=1.22.0-1.2~ubuntu18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/libqmi-glib5/copyright`, `/usr/share/doc/libqmi-proxy/copyright`)
 
@@ -5122,10 +5116,10 @@ Licenses: (parsed from: `/usr/share/doc/libqmi-glib5/copyright`, `/usr/share/doc
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libqmi=1.18.0-3ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/libq/libqmi/libqmi_1.18.0-3ubuntu1.dsc' libqmi_1.18.0-3ubuntu1.dsc 2369 SHA256:440b04fae68c76d006411cfe8a8b0d53710600d0ea45d1c1b943ca587b959baa
-'http://archive.ubuntu.com/ubuntu/pool/main/libq/libqmi/libqmi_1.18.0.orig.tar.xz' libqmi_1.18.0.orig.tar.xz 873176 SHA256:a0a42c55935e75a630208e2f70840bd4407f56fe1c5258f5b0f6c0aaedf88cec
-'http://archive.ubuntu.com/ubuntu/pool/main/libq/libqmi/libqmi_1.18.0-3ubuntu1.debian.tar.xz' libqmi_1.18.0-3ubuntu1.debian.tar.xz 19540 SHA256:d8e6ea2091e344b9679892ea51caa02baf51a8dc1e598dce48ed4b68081d38e4
+$ apt-get source -qq --print-uris libqmi=1.22.0-1.2~ubuntu18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/libq/libqmi/libqmi_1.22.0-1.2~ubuntu18.04.1.dsc' libqmi_1.22.0-1.2~ubuntu18.04.1.dsc 1694 SHA256:453d43b58a8297549d8e41e7a77dc686782860b7460dfa2275c92743b9484c81
+'http://archive.ubuntu.com/ubuntu/pool/main/libq/libqmi/libqmi_1.22.0.orig.tar.xz' libqmi_1.22.0.orig.tar.xz 973264 SHA256:21c198b481f1617bb7edb1960d823569de3e38b269dbf513af1b56048cafaa17
+'http://archive.ubuntu.com/ubuntu/pool/main/libq/libqmi/libqmi_1.22.0-1.2~ubuntu18.04.1.debian.tar.xz' libqmi_1.22.0-1.2~ubuntu18.04.1.debian.tar.xz 22080 SHA256:61ce758379ae3b78b94a031e73a57a139685c2b532bf652bbba78a9777343943
 ```
 
 ### `dpkg` source package: `libraw1394=2.1.2-1`
@@ -5194,11 +5188,11 @@ $ apt-get source -qq --print-uris librsvg=2.40.20-2
 'http://archive.ubuntu.com/ubuntu/pool/main/libr/librsvg/librsvg_2.40.20-2.debian.tar.xz' librsvg_2.40.20-2.debian.tar.xz 16544 SHA256:40f1ff3c70b3bb3d107f5d9e37c4ee023c8cffd33bd2d65cebb0ebc245adda28
 ```
 
-### `dpkg` source package: `libseccomp=2.3.1-2.1ubuntu4`
+### `dpkg` source package: `libseccomp=2.4.1-0ubuntu0.18.04.2`
 
 Binary Packages:
 
-- `libseccomp2:amd64=2.3.1-2.1ubuntu4`
+- `libseccomp2:amd64=2.4.1-0ubuntu0.18.04.2`
 
 Licenses: (parsed from: `/usr/share/doc/libseccomp2/copyright`)
 
@@ -5208,10 +5202,10 @@ Licenses: (parsed from: `/usr/share/doc/libseccomp2/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libseccomp=2.3.1-2.1ubuntu4
-'http://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.3.1-2.1ubuntu4.dsc' libseccomp_2.3.1-2.1ubuntu4.dsc 2248 SHA256:ad6ca3804ad758a00401f11d1a0a6a2e1da132bfcd47b58a60d0c83929271d96
-'http://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.3.1.orig.tar.gz' libseccomp_2.3.1.orig.tar.gz 552299 SHA256:ff5bdd2168790f1979e24eaa498f8606c2f2d96f08a8dc4006a2e88affa4562b
-'http://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.3.1-2.1ubuntu4.debian.tar.xz' libseccomp_2.3.1-2.1ubuntu4.debian.tar.xz 17516 SHA256:1acba6ca57b66015a876fbb342b1a1a22721c410fa1c597b08498369edc607f5
+$ apt-get source -qq --print-uris libseccomp=2.4.1-0ubuntu0.18.04.2
+'http://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.4.1-0ubuntu0.18.04.2.dsc' libseccomp_2.4.1-0ubuntu0.18.04.2.dsc 2296 SHA256:1b9d6af1e8c7cbc7bfdd3c538a324f4e45fdd8dc37b909ec4b5d27efbf539ede
+'http://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.4.1.orig.tar.gz' libseccomp_2.4.1.orig.tar.gz 606860 SHA256:1ca3735249af66a1b2f762fe6e710fcc294ad7185f1cc961e5bd83f9988006e8
+'http://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.4.1-0ubuntu0.18.04.2.debian.tar.xz' libseccomp_2.4.1-0ubuntu0.18.04.2.debian.tar.xz 10248 SHA256:d7e6dd6f686f54dccf2701afc3ca164468037ea0b640c2621fb9f96b4a7ebf52
 ```
 
 ### `dpkg` source package: `libselinux=2.7-2build2`
@@ -5344,12 +5338,12 @@ $ apt-get source -qq --print-uris libsodium=1.0.16-2
 'http://archive.ubuntu.com/ubuntu/pool/main/libs/libsodium/libsodium_1.0.16-2.debian.tar.xz' libsodium_1.0.16-2.debian.tar.xz 7152 SHA256:76868d50f33869161131b19efa03ea8683f7c38146243fbbf9ad1fd678ccd48a
 ```
 
-### `dpkg` source package: `libsoup2.4=2.62.1-1ubuntu0.1`
+### `dpkg` source package: `libsoup2.4=2.62.1-1ubuntu0.4`
 
 Binary Packages:
 
-- `libsoup-gnome2.4-1:amd64=2.62.1-1ubuntu0.1`
-- `libsoup2.4-1:amd64=2.62.1-1ubuntu0.1`
+- `libsoup-gnome2.4-1:amd64=2.62.1-1ubuntu0.4`
+- `libsoup2.4-1:amd64=2.62.1-1ubuntu0.4`
 
 Licenses: (parsed from: `/usr/share/doc/libsoup-gnome2.4-1/copyright`, `/usr/share/doc/libsoup2.4-1/copyright`)
 
@@ -5359,10 +5353,10 @@ Licenses: (parsed from: `/usr/share/doc/libsoup-gnome2.4-1/copyright`, `/usr/sha
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libsoup2.4=2.62.1-1ubuntu0.1
-'http://archive.ubuntu.com/ubuntu/pool/main/libs/libsoup2.4/libsoup2.4_2.62.1-1ubuntu0.1.dsc' libsoup2.4_2.62.1-1ubuntu0.1.dsc 2809 SHA256:272e437a23acdb280a444103612a50004dd797542a0f0479ff8c1041333429d7
+$ apt-get source -qq --print-uris libsoup2.4=2.62.1-1ubuntu0.4
+'http://archive.ubuntu.com/ubuntu/pool/main/libs/libsoup2.4/libsoup2.4_2.62.1-1ubuntu0.4.dsc' libsoup2.4_2.62.1-1ubuntu0.4.dsc 2825 SHA256:7988e3bd4be850de335adac80ed04e5ef33e83f19fcd199b3ae5daf53fcb5766
 'http://archive.ubuntu.com/ubuntu/pool/main/libs/libsoup2.4/libsoup2.4_2.62.1.orig.tar.xz' libsoup2.4_2.62.1.orig.tar.xz 1848776 SHA256:f037ddac2e0f9b1c842a0060fa6119bea1d3b349a2c901283c961247e45883d7
-'http://archive.ubuntu.com/ubuntu/pool/main/libs/libsoup2.4/libsoup2.4_2.62.1-1ubuntu0.1.debian.tar.xz' libsoup2.4_2.62.1-1ubuntu0.1.debian.tar.xz 17320 SHA256:685e1c492b0f3184f92d3b92fd740d98a7a7655ba87c74f58d8786118449bdb6
+'http://archive.ubuntu.com/ubuntu/pool/main/libs/libsoup2.4/libsoup2.4_2.62.1-1ubuntu0.4.debian.tar.xz' libsoup2.4_2.62.1-1ubuntu0.4.debian.tar.xz 22764 SHA256:43250ded120ca401d7d9d8a8f31f2a0a482ff2ed59875e51990c5c9596a598de
 ```
 
 ### `dpkg` source package: `libsoxr=0.1.2-3`
@@ -5389,11 +5383,11 @@ $ apt-get source -qq --print-uris libsoxr=0.1.2-3
 'http://archive.ubuntu.com/ubuntu/pool/universe/libs/libsoxr/libsoxr_0.1.2-3.debian.tar.xz' libsoxr_0.1.2-3.debian.tar.xz 4840 SHA256:8c49143d8c600ea024da765049dcddc392d033cea0c43ec4fc27e4c9d0e3d94a
 ```
 
-### `dpkg` source package: `libssh=0.8.0~20170825.94fa1e38-1ubuntu0.2`
+### `dpkg` source package: `libssh=0.8.0~20170825.94fa1e38-1ubuntu0.5`
 
 Binary Packages:
 
-- `libssh-gcrypt-4:amd64=0.8.0~20170825.94fa1e38-1ubuntu0.2`
+- `libssh-gcrypt-4:amd64=0.8.0~20170825.94fa1e38-1ubuntu0.5`
 
 Licenses: (parsed from: `/usr/share/doc/libssh-gcrypt-4/copyright`)
 
@@ -5406,10 +5400,10 @@ Licenses: (parsed from: `/usr/share/doc/libssh-gcrypt-4/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libssh=0.8.0~20170825.94fa1e38-1ubuntu0.2
-'http://archive.ubuntu.com/ubuntu/pool/main/libs/libssh/libssh_0.8.0~20170825.94fa1e38-1ubuntu0.2.dsc' libssh_0.8.0~20170825.94fa1e38-1ubuntu0.2.dsc 2518 SHA256:589e0a6a37b54688f542cc118bc816cab17bf9e2c5ba34d8c3e22b3a05f49274
+$ apt-get source -qq --print-uris libssh=0.8.0~20170825.94fa1e38-1ubuntu0.5
+'http://archive.ubuntu.com/ubuntu/pool/main/libs/libssh/libssh_0.8.0~20170825.94fa1e38-1ubuntu0.5.dsc' libssh_0.8.0~20170825.94fa1e38-1ubuntu0.5.dsc 2518 SHA256:b61b5bfc27edd54c1bc0b36f3663222981f84232ace147886308ef3728bffbc4
 'http://archive.ubuntu.com/ubuntu/pool/main/libs/libssh/libssh_0.8.0~20170825.94fa1e38.orig.tar.xz' libssh_0.8.0~20170825.94fa1e38.orig.tar.xz 381176 SHA256:48cbcc4c946380f08c024fbc1898b1efd6edff66a5ec4b536695926f0ea055a8
-'http://archive.ubuntu.com/ubuntu/pool/main/libs/libssh/libssh_0.8.0~20170825.94fa1e38-1ubuntu0.2.debian.tar.xz' libssh_0.8.0~20170825.94fa1e38-1ubuntu0.2.debian.tar.xz 27372 SHA256:4183d352ad02010dac86f1aa1ec2e0b27ca3825c471bc39b843f555bbdbb8ebf
+'http://archive.ubuntu.com/ubuntu/pool/main/libs/libssh/libssh_0.8.0~20170825.94fa1e38-1ubuntu0.5.debian.tar.xz' libssh_0.8.0~20170825.94fa1e38-1ubuntu0.5.debian.tar.xz 35700 SHA256:9da9681f8f6ba5c7d90f5ff814510c911d12b4efc19fe6635445bacc2f77e210
 ```
 
 ### `dpkg` source package: `libsys-hostname-long-perl=1.5-1`
@@ -5543,11 +5537,11 @@ $ apt-get source -qq --print-uris libtool=2.4.6-2
 'http://archive.ubuntu.com/ubuntu/pool/main/libt/libtool/libtool_2.4.6-2.debian.tar.xz' libtool_2.4.6-2.debian.tar.xz 36024 SHA256:6227fb1240a90ef06855567e71ee96e4950dd53c4399348f36c1ec39367cd8ea
 ```
 
-### `dpkg` source package: `libunistring=0.9.9-0ubuntu1`
+### `dpkg` source package: `libunistring=0.9.9-0ubuntu2`
 
 Binary Packages:
 
-- `libunistring2:amd64=0.9.9-0ubuntu1`
+- `libunistring2:amd64=0.9.9-0ubuntu2`
 
 Licenses: (parsed from: `/usr/share/doc/libunistring2/copyright`)
 
@@ -5566,10 +5560,10 @@ Licenses: (parsed from: `/usr/share/doc/libunistring2/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libunistring=0.9.9-0ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/libu/libunistring/libunistring_0.9.9-0ubuntu1.dsc' libunistring_0.9.9-0ubuntu1.dsc 1974 SHA256:ae7c9c50fd8ba84a19b4304deb7e924e3c51e5285909a373d5bccb3b6f85b6fb
+$ apt-get source -qq --print-uris libunistring=0.9.9-0ubuntu2
+'http://archive.ubuntu.com/ubuntu/pool/main/libu/libunistring/libunistring_0.9.9-0ubuntu2.dsc' libunistring_0.9.9-0ubuntu2.dsc 2006 SHA256:b2c297bb30b94a8b4435bb749f0f65564376049fbaf262e9689435217d55a38b
 'http://archive.ubuntu.com/ubuntu/pool/main/libu/libunistring/libunistring_0.9.9.orig.tar.xz' libunistring_0.9.9.orig.tar.xz 2042992 SHA256:a4d993ecfce16cf503ff7579f5da64619cee66226fb3b998dafb706190d9a833
-'http://archive.ubuntu.com/ubuntu/pool/main/libu/libunistring/libunistring_0.9.9-0ubuntu1.debian.tar.xz' libunistring_0.9.9-0ubuntu1.debian.tar.xz 40024 SHA256:86f14f6266d66b9aa613ac2263b6d73163ab3865144c1a68fc6fb401e52360dc
+'http://archive.ubuntu.com/ubuntu/pool/main/libu/libunistring/libunistring_0.9.9-0ubuntu2.debian.tar.xz' libunistring_0.9.9-0ubuntu2.debian.tar.xz 40424 SHA256:cb7a56608d98804e4dc83e1cae6035ef6b89e18f3dcbcd44afb16e32313ed4ba
 ```
 
 ### `dpkg` source package: `libusb-1.0=2:1.0.21-2`
@@ -5726,11 +5720,11 @@ $ apt-get source -qq --print-uris libvorbis=1.3.5-4.2
 'http://archive.ubuntu.com/ubuntu/pool/main/libv/libvorbis/libvorbis_1.3.5-4.2.debian.tar.xz' libvorbis_1.3.5-4.2.debian.tar.xz 12340 SHA256:22d0f18332c7f5fb06b8366e1653d18165284c07152a3af7872b70cde3a7fdfc
 ```
 
-### `dpkg` source package: `libvpx=1.7.0-3`
+### `dpkg` source package: `libvpx=1.7.0-3ubuntu0.18.04.1`
 
 Binary Packages:
 
-- `libvpx5:amd64=1.7.0-3`
+- `libvpx5:amd64=1.7.0-3ubuntu0.18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/libvpx5/copyright`)
 
@@ -5741,10 +5735,10 @@ Licenses: (parsed from: `/usr/share/doc/libvpx5/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libvpx=1.7.0-3
-'http://archive.ubuntu.com/ubuntu/pool/main/libv/libvpx/libvpx_1.7.0-3.dsc' libvpx_1.7.0-3.dsc 2261 SHA256:07433fc7aff2ce8b3627e08b89e4b63735f62f5b31fe9a17111d719421e6c0bf
+$ apt-get source -qq --print-uris libvpx=1.7.0-3ubuntu0.18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/libv/libvpx/libvpx_1.7.0-3ubuntu0.18.04.1.dsc' libvpx_1.7.0-3ubuntu0.18.04.1.dsc 2400 SHA256:d430565819d78ed3a12951fef609cf51734f80dd57dbc967a3f2b8a3d51944c7
 'http://archive.ubuntu.com/ubuntu/pool/main/libv/libvpx/libvpx_1.7.0.orig.tar.gz' libvpx_1.7.0.orig.tar.gz 2679797 SHA256:1fec931eb5c94279ad219a5b6e0202358e94a93a90cfb1603578c326abfc1238
-'http://archive.ubuntu.com/ubuntu/pool/main/libv/libvpx/libvpx_1.7.0-3.debian.tar.xz' libvpx_1.7.0-3.debian.tar.xz 11456 SHA256:8513e0c3784cceeb92ece2221aa6966a2694918e87fb11e4ab99732a2d1374a0
+'http://archive.ubuntu.com/ubuntu/pool/main/libv/libvpx/libvpx_1.7.0-3ubuntu0.18.04.1.debian.tar.xz' libvpx_1.7.0-3ubuntu0.18.04.1.debian.tar.xz 15888 SHA256:cb9d70d5e8cd2a3fbdc13c40ceaf3e7d7aaeb99818a1c17ab3ed1f8ea174e473
 ```
 
 ### `dpkg` source package: `libwacom=0.29-1`
@@ -5791,16 +5785,16 @@ $ apt-get source -qq --print-uris libwebp=0.6.1-2
 'http://archive.ubuntu.com/ubuntu/pool/main/libw/libwebp/libwebp_0.6.1-2.debian.tar.xz' libwebp_0.6.1-2.debian.tar.xz 9532 SHA256:5af543e277abb97f6b2c72ca0d7ce95de79108d88da383d511ef729683fa7a45
 ```
 
-### `dpkg` source package: `libx11=2:1.6.4-3ubuntu0.1`
+### `dpkg` source package: `libx11=2:1.6.4-3ubuntu0.2`
 
 Binary Packages:
 
-- `libx11-6:amd64=2:1.6.4-3ubuntu0.1`
-- `libx11-data=2:1.6.4-3ubuntu0.1`
-- `libx11-dev:amd64=2:1.6.4-3ubuntu0.1`
-- `libx11-doc=2:1.6.4-3ubuntu0.1`
-- `libx11-xcb-dev:amd64=2:1.6.4-3ubuntu0.1`
-- `libx11-xcb1:amd64=2:1.6.4-3ubuntu0.1`
+- `libx11-6:amd64=2:1.6.4-3ubuntu0.2`
+- `libx11-data=2:1.6.4-3ubuntu0.2`
+- `libx11-dev:amd64=2:1.6.4-3ubuntu0.2`
+- `libx11-doc=2:1.6.4-3ubuntu0.2`
+- `libx11-xcb-dev:amd64=2:1.6.4-3ubuntu0.2`
+- `libx11-xcb1:amd64=2:1.6.4-3ubuntu0.2`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -5809,10 +5803,10 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libx11=2:1.6.4-3ubuntu0.1
-'http://archive.ubuntu.com/ubuntu/pool/main/libx/libx11/libx11_1.6.4-3ubuntu0.1.dsc' libx11_1.6.4-3ubuntu0.1.dsc 2496 SHA256:522207baf69f09b8fd8a8a9d75fa7928c7378fe15db62ef2764ee70c880482e8
+$ apt-get source -qq --print-uris libx11=2:1.6.4-3ubuntu0.2
+'http://archive.ubuntu.com/ubuntu/pool/main/libx/libx11/libx11_1.6.4-3ubuntu0.2.dsc' libx11_1.6.4-3ubuntu0.2.dsc 2512 SHA256:d6ce0d49440f8fa2f96b505c3266de17f3642268233963b641d4f794fb0ab779
 'http://archive.ubuntu.com/ubuntu/pool/main/libx/libx11/libx11_1.6.4.orig.tar.gz' libx11_1.6.4.orig.tar.gz 3095115 SHA256:5d7fbb9e15c27900ea8963218a59750b674a8d7c94161b66e96fcfbdaa1c6263
-'http://archive.ubuntu.com/ubuntu/pool/main/libx/libx11/libx11_1.6.4-3ubuntu0.1.diff.gz' libx11_1.6.4-3ubuntu0.1.diff.gz 43542 SHA256:d32eb7b1164342a5571799f89fef0d53f96a59d814f848a19ed637a4b5e57835
+'http://archive.ubuntu.com/ubuntu/pool/main/libx/libx11/libx11_1.6.4-3ubuntu0.2.diff.gz' libx11_1.6.4-3ubuntu0.2.diff.gz 44954 SHA256:bd54630d6b58cbb0ffa7757d71ef5b53b35f6ba4c1fb90fa4d4a01cd00d72256
 ```
 
 ### `dpkg` source package: `libxau=1:1.0.8-1`
@@ -5854,34 +5848,34 @@ $ apt-get source -qq --print-uris libxaw=2:1.0.13-1
 'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxaw/libxaw_1.0.13-1.diff.gz' libxaw_1.0.13-1.diff.gz 12643 SHA256:241f21ba0810d9d859a98ab60f100a366bc9e98cd946c736566a8ed1353a1bcc
 ```
 
-### `dpkg` source package: `libxcb=1.13-1`
+### `dpkg` source package: `libxcb=1.13-2~ubuntu18.04`
 
 Binary Packages:
 
-- `libxcb-dri2-0:amd64=1.13-1`
-- `libxcb-dri2-0-dev:amd64=1.13-1`
-- `libxcb-dri3-0:amd64=1.13-1`
-- `libxcb-dri3-dev:amd64=1.13-1`
-- `libxcb-glx0:amd64=1.13-1`
-- `libxcb-glx0-dev:amd64=1.13-1`
-- `libxcb-present-dev:amd64=1.13-1`
-- `libxcb-present0:amd64=1.13-1`
-- `libxcb-randr0:amd64=1.13-1`
-- `libxcb-randr0-dev:amd64=1.13-1`
-- `libxcb-render0:amd64=1.13-1`
-- `libxcb-render0-dev:amd64=1.13-1`
-- `libxcb-shape0:amd64=1.13-1`
-- `libxcb-shape0-dev:amd64=1.13-1`
-- `libxcb-shm0:amd64=1.13-1`
-- `libxcb-shm0-dev:amd64=1.13-1`
-- `libxcb-sync-dev:amd64=1.13-1`
-- `libxcb-sync1:amd64=1.13-1`
-- `libxcb-xfixes0:amd64=1.13-1`
-- `libxcb-xfixes0-dev:amd64=1.13-1`
-- `libxcb-xinerama0:amd64=1.13-1`
-- `libxcb-xkb1:amd64=1.13-1`
-- `libxcb1:amd64=1.13-1`
-- `libxcb1-dev:amd64=1.13-1`
+- `libxcb-dri2-0:amd64=1.13-2~ubuntu18.04`
+- `libxcb-dri2-0-dev:amd64=1.13-2~ubuntu18.04`
+- `libxcb-dri3-0:amd64=1.13-2~ubuntu18.04`
+- `libxcb-dri3-dev:amd64=1.13-2~ubuntu18.04`
+- `libxcb-glx0:amd64=1.13-2~ubuntu18.04`
+- `libxcb-glx0-dev:amd64=1.13-2~ubuntu18.04`
+- `libxcb-present-dev:amd64=1.13-2~ubuntu18.04`
+- `libxcb-present0:amd64=1.13-2~ubuntu18.04`
+- `libxcb-randr0:amd64=1.13-2~ubuntu18.04`
+- `libxcb-randr0-dev:amd64=1.13-2~ubuntu18.04`
+- `libxcb-render0:amd64=1.13-2~ubuntu18.04`
+- `libxcb-render0-dev:amd64=1.13-2~ubuntu18.04`
+- `libxcb-shape0:amd64=1.13-2~ubuntu18.04`
+- `libxcb-shape0-dev:amd64=1.13-2~ubuntu18.04`
+- `libxcb-shm0:amd64=1.13-2~ubuntu18.04`
+- `libxcb-shm0-dev:amd64=1.13-2~ubuntu18.04`
+- `libxcb-sync-dev:amd64=1.13-2~ubuntu18.04`
+- `libxcb-sync1:amd64=1.13-2~ubuntu18.04`
+- `libxcb-xfixes0:amd64=1.13-2~ubuntu18.04`
+- `libxcb-xfixes0-dev:amd64=1.13-2~ubuntu18.04`
+- `libxcb-xinerama0:amd64=1.13-2~ubuntu18.04`
+- `libxcb-xkb1:amd64=1.13-2~ubuntu18.04`
+- `libxcb1:amd64=1.13-2~ubuntu18.04`
+- `libxcb1-dev:amd64=1.13-2~ubuntu18.04`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -5890,10 +5884,10 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libxcb=1.13-1
-'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb_1.13-1.dsc' libxcb_1.13-1.dsc 5213 SHA256:b62c8d9b9fa0299a4b4276bfdd520f43e461fc130824447e0e59a57b5b6def98
+$ apt-get source -qq --print-uris libxcb=1.13-2~ubuntu18.04
+'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb_1.13-2~ubuntu18.04.dsc' libxcb_1.13-2~ubuntu18.04.dsc 4762 SHA256:df45510fc8aaea367e93b5ddb829476982afe39adca00ede5ec07af81bcfe26b
 'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb_1.13.orig.tar.gz' libxcb_1.13.orig.tar.gz 632493 SHA256:0bb3cfd46dbd90066bf4d7de3cad73ec1024c7325a4a0cbf5f4a0d4fa91155fb
-'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb_1.13-1.diff.gz' libxcb_1.13-1.diff.gz 24982 SHA256:02855328dbea159371d90648e63cbb2dff6101f952537cf7cdfe2281e968a55a
+'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb_1.13-2~ubuntu18.04.diff.gz' libxcb_1.13-2~ubuntu18.04.diff.gz 25267 SHA256:06fe87d0c4e450a0b976503488c3cd446fd494ef53cfd78d71bb50d74512a5cd
 ```
 
 ### `dpkg` source package: `libxcomposite=1:0.4.4-2`
@@ -6056,12 +6050,12 @@ $ apt-get source -qq --print-uris libxinerama=2:1.1.3-1
 'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxinerama/libxinerama_1.1.3-1.diff.gz' libxinerama_1.1.3-1.diff.gz 15738 SHA256:2b1487e3511ddabfec666a62f6e5e8ac4f97536b0d53c51f7bf4cbe07508a130
 ```
 
-### `dpkg` source package: `libxkbcommon=0.8.0-1ubuntu0.1`
+### `dpkg` source package: `libxkbcommon=0.8.2-1~ubuntu18.04.1`
 
 Binary Packages:
 
-- `libxkbcommon-x11-0:amd64=0.8.0-1ubuntu0.1`
-- `libxkbcommon0:amd64=0.8.0-1ubuntu0.1`
+- `libxkbcommon-x11-0:amd64=0.8.2-1~ubuntu18.04.1`
+- `libxkbcommon0:amd64=0.8.2-1~ubuntu18.04.1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -6070,10 +6064,9 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libxkbcommon=0.8.0-1ubuntu0.1
-'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxkbcommon/libxkbcommon_0.8.0-1ubuntu0.1.dsc' libxkbcommon_0.8.0-1ubuntu0.1.dsc 2432 SHA256:994121c71e321fd676705b8cca9e5f3569b614578c957b32131c7127a9f13309
-'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxkbcommon/libxkbcommon_0.8.0.orig.tar.gz' libxkbcommon_0.8.0.orig.tar.gz 584451 SHA256:7a22796dbf6e0d5ef7cfde686b8a503aba60e153ba07b405a9a8eadd47f60a07
-'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxkbcommon/libxkbcommon_0.8.0-1ubuntu0.1.diff.gz' libxkbcommon_0.8.0-1ubuntu0.1.diff.gz 34014 SHA256:d7a6b0d5103bbcb59aabdb57dc7fba651635b4eec929b94a8f1d06956a4dcdf0
+$ apt-get source -qq --print-uris libxkbcommon=0.8.2-1~ubuntu18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxkbcommon/libxkbcommon_0.8.2-1~ubuntu18.04.1.dsc' libxkbcommon_0.8.2-1~ubuntu18.04.1.dsc 2178 SHA256:86b561d0df66d061cd968b532f0d8c463ab47953cc18a2a592e87ec63edcafa1
+'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxkbcommon/libxkbcommon_0.8.2-1~ubuntu18.04.1.tar.gz' libxkbcommon_0.8.2-1~ubuntu18.04.1.tar.gz 615081 SHA256:d17cd2366ca48362589fd759eb715982e48570629b6a2c1c70ffd499847de720
 ```
 
 ### `dpkg` source package: `libxml2=2.9.4+dfsg1-6.1ubuntu1.2`
@@ -6197,11 +6190,11 @@ $ apt-get source -qq --print-uris libxshmfence=1.3-1
 'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxshmfence/libxshmfence_1.3-1.diff.gz' libxshmfence_1.3-1.diff.gz 17456 SHA256:85422af90300523b8fb27e697b59418f18bd7cd5c849161fd0be64c91ce94698
 ```
 
-### `dpkg` source package: `libxslt=1.1.29-5`
+### `dpkg` source package: `libxslt=1.1.29-5ubuntu0.2`
 
 Binary Packages:
 
-- `libxslt1.1:amd64=1.1.29-5`
+- `libxslt1.1:amd64=1.1.29-5ubuntu0.2`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -6210,10 +6203,10 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libxslt=1.1.29-5
-'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxslt/libxslt_1.1.29-5.dsc' libxslt_1.1.29-5.dsc 2403 SHA256:bdf606db536cce4bb3318f12379220b6af65fb8837cea58780ce20a4163a157e
+$ apt-get source -qq --print-uris libxslt=1.1.29-5ubuntu0.2
+'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxslt/libxslt_1.1.29-5ubuntu0.2.dsc' libxslt_1.1.29-5ubuntu0.2.dsc 2502 SHA256:2b8253a9387cf6dfd96696fa39c1a228249d9463293f33536a5cf5978c96d259
 'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxslt/libxslt_1.1.29.orig.tar.gz' libxslt_1.1.29.orig.tar.gz 3428524 SHA256:b5976e3857837e7617b29f2249ebb5eeac34e249208d31f1fbf7a6ba7a4090ce
-'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxslt/libxslt_1.1.29-5.debian.tar.xz' libxslt_1.1.29-5.debian.tar.xz 34484 SHA256:1d6d404ed3b045a5f833ec824768270db1dfd1822e3ddaa6f4d69adf1abbfffa
+'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxslt/libxslt_1.1.29-5ubuntu0.2.debian.tar.xz' libxslt_1.1.29-5ubuntu0.2.debian.tar.xz 36520 SHA256:d6fcf48ac5c8a6e8af41c57dba2add6a8d608939370210c9a1d0d888f5088863
 ```
 
 ### `dpkg` source package: `libxss=1:1.2.2-1`
@@ -6353,11 +6346,11 @@ $ apt-get source -qq --print-uris libyaml=0.1.7-2ubuntu3
 'http://archive.ubuntu.com/ubuntu/pool/main/liby/libyaml/libyaml_0.1.7-2ubuntu3.debian.tar.xz' libyaml_0.1.7-2ubuntu3.debian.tar.xz 4288 SHA256:d1b9caa9e645c2c306417068bcdd85e56e6065d74771c15cc970652e52f8259b
 ```
 
-### `dpkg` source package: `libzstd=1.3.3+dfsg-2ubuntu1`
+### `dpkg` source package: `libzstd=1.3.3+dfsg-2ubuntu1.1`
 
 Binary Packages:
 
-- `libzstd1:amd64=1.3.3+dfsg-2ubuntu1`
+- `libzstd1:amd64=1.3.3+dfsg-2ubuntu1.1`
 
 Licenses: (parsed from: `/usr/share/doc/libzstd1/copyright`)
 
@@ -6370,30 +6363,25 @@ Licenses: (parsed from: `/usr/share/doc/libzstd1/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libzstd=1.3.3+dfsg-2ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/libzstd_1.3.3+dfsg-2ubuntu1.dsc' libzstd_1.3.3+dfsg-2ubuntu1.dsc 2073 SHA256:c28c88103e3b8eecd5361bf38b185d1ac4a02712e153786ea4d01d26fea6eeb0
+$ apt-get source -qq --print-uris libzstd=1.3.3+dfsg-2ubuntu1.1
+'http://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/libzstd_1.3.3+dfsg-2ubuntu1.1.dsc' libzstd_1.3.3+dfsg-2ubuntu1.1.dsc 2390 SHA256:625d37dcb1b8b26dea3e9b38c9a10db4f4dfa275d889f98dd0f62db3d0e2fa31
 'http://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/libzstd_1.3.3+dfsg.orig.tar.xz' libzstd_1.3.3+dfsg.orig.tar.xz 1333584 SHA256:e236191547a0ab53cc52c0207ead0d51305dbe9452b5f34d4ea9eb1f51031a93
-'http://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/libzstd_1.3.3+dfsg-2ubuntu1.debian.tar.xz' libzstd_1.3.3+dfsg-2ubuntu1.debian.tar.xz 11124 SHA256:34a1ce5f77815f20941f962019cef0ad6ed0da77179f05609a5c67274485b477
+'http://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/libzstd_1.3.3+dfsg-2ubuntu1.1.debian.tar.xz' libzstd_1.3.3+dfsg-2ubuntu1.1.debian.tar.xz 12808 SHA256:9c7421170f0a1e6234147a89ba7fa5933c0771177423e962e6faf3fd13dcbb64
 ```
 
-### `dpkg` source package: `linux=4.15.0-43.46`
+### `dpkg` source package: `linux=4.15.0-72.81`
 
 Binary Packages:
 
-- `linux-libc-dev:amd64=4.15.0-43.46`
+- `linux-libc-dev:amd64=4.15.0-72.81`
 
 Licenses: (parsed from: `/usr/share/doc/linux-libc-dev/copyright`)
 
 - `GPL-2`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris linux=4.15.0-43.46
-'http://archive.ubuntu.com/ubuntu/pool/main/l/linux/linux_4.15.0-43.46.dsc' linux_4.15.0-43.46.dsc 8025 SHA256:c1b66c6ed620b00848128c6d6611a0dce24abb18f93ef7f7ca4fcf7740b9b87b
-'http://archive.ubuntu.com/ubuntu/pool/main/l/linux/linux_4.15.0.orig.tar.gz' linux_4.15.0.orig.tar.gz 157656459 SHA256:c33b8ba5c45a40b689979caa2421c4d933864cd70eb93c00eb69adf43e9a24fc
-'http://archive.ubuntu.com/ubuntu/pool/main/l/linux/linux_4.15.0-43.46.diff.gz' linux_4.15.0-43.46.diff.gz 8433784 SHA256:24ecde14018c3fea77869738744f8f32931447579828bdfc6ea7a50a5e61786f
-```
 
 ### `dpkg` source package: `lksctp-tools=1.0.17+dfsg-2`
 
@@ -6419,13 +6407,13 @@ $ apt-get source -qq --print-uris lksctp-tools=1.0.17+dfsg-2
 'http://archive.ubuntu.com/ubuntu/pool/main/l/lksctp-tools/lksctp-tools_1.0.17+dfsg-2.debian.tar.xz' lksctp-tools_1.0.17+dfsg-2.debian.tar.xz 9436 SHA256:c8e05a29ffbca99428cf2c59a50dd26a4bf73f42487db8231b810882a5f5c779
 ```
 
-### `dpkg` source package: `llvm-toolchain-6.0=1:6.0-1ubuntu2`
+### `dpkg` source package: `llvm-toolchain-8=1:8-3~ubuntu18.04.1`
 
 Binary Packages:
 
-- `libllvm6.0:amd64=1:6.0-1ubuntu2`
+- `libllvm8:amd64=1:8-3~ubuntu18.04.1`
 
-Licenses: (parsed from: `/usr/share/doc/libllvm6.0/copyright`)
+Licenses: (parsed from: `/usr/share/doc/libllvm8/copyright`)
 
 - `ARM`
 - `Apple`
@@ -6441,20 +6429,9 @@ Licenses: (parsed from: `/usr/share/doc/libllvm6.0/copyright`)
 - `public-domain`
 - `solar-public-domain`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris llvm-toolchain-6.0=1:6.0-1ubuntu2
-'http://archive.ubuntu.com/ubuntu/pool/main/l/llvm-toolchain-6.0/llvm-toolchain-6.0_6.0-1ubuntu2.dsc' llvm-toolchain-6.0_6.0-1ubuntu2.dsc 6631 SHA256:b8180aa76dc3b09dd320461f7e75e1dd801bfe6a870e23f9593cd73855536c44
-'http://archive.ubuntu.com/ubuntu/pool/main/l/llvm-toolchain-6.0/llvm-toolchain-6.0_6.0.orig-clang-tools-extra.tar.bz2' llvm-toolchain-6.0_6.0.orig-clang-tools-extra.tar.bz2 808825 SHA256:f5c96f38067cf0c8d81395452d0386e4715d83bd5588e49832798f6ed4b2d8fa
-'http://archive.ubuntu.com/ubuntu/pool/main/l/llvm-toolchain-6.0/llvm-toolchain-6.0_6.0.orig-clang.tar.bz2' llvm-toolchain-6.0_6.0.orig-clang.tar.bz2 13228782 SHA256:d6d155313658edc8f901b1f01e353605de1c6a9a1efe6c87b2c111d23febad43
-'http://archive.ubuntu.com/ubuntu/pool/main/l/llvm-toolchain-6.0/llvm-toolchain-6.0_6.0.orig-compiler-rt.tar.bz2' llvm-toolchain-6.0_6.0.orig-compiler-rt.tar.bz2 2145520 SHA256:7253f34ae3faee95f32ee6b4a674b87911338f49f5e14f24afb2fa693f53b09c
-'http://archive.ubuntu.com/ubuntu/pool/main/l/llvm-toolchain-6.0/llvm-toolchain-6.0_6.0.orig-lld.tar.bz2' llvm-toolchain-6.0_6.0.orig-lld.tar.bz2 853733 SHA256:cd67e62c2bfc5cef9fad2b0b1044c072956bc0ab1692616d5dd9b4034782ab1e
-'http://archive.ubuntu.com/ubuntu/pool/main/l/llvm-toolchain-6.0/llvm-toolchain-6.0_6.0.orig-lldb.tar.bz2' llvm-toolchain-6.0_6.0.orig-lldb.tar.bz2 11238461 SHA256:4519601ff08e43e83dc42dbdd8de134e59e33f78466fd88f1fdfd79798f5bdef
-'http://archive.ubuntu.com/ubuntu/pool/main/l/llvm-toolchain-6.0/llvm-toolchain-6.0_6.0.orig-polly.tar.bz2' llvm-toolchain-6.0_6.0.orig-polly.tar.bz2 3253870 SHA256:a256c73b80c5bc311e8dc9471ded02a48c59583a3302f62f3296d223e108b6c6
-'http://archive.ubuntu.com/ubuntu/pool/main/l/llvm-toolchain-6.0/llvm-toolchain-6.0_6.0.orig.tar.bz2' llvm-toolchain-6.0_6.0.orig.tar.bz2 29853313 SHA256:6e3439558692bbfd0bcaf4c4d1290e0c97bd710dab42860e0585303bbf67797a
-'http://archive.ubuntu.com/ubuntu/pool/main/l/llvm-toolchain-6.0/llvm-toolchain-6.0_6.0-1ubuntu2.debian.tar.xz' llvm-toolchain-6.0_6.0-1ubuntu2.debian.tar.xz 70224 SHA256:593a2e81630a2f7410301c55eaee5d37a8f012dd493993666c0486ebd7520255
-```
 
 ### `dpkg` source package: `lm-sensors=1:3.4.0-4`
 
@@ -6516,12 +6493,12 @@ $ apt-get source -qq --print-uris lsb=9.20170808ubuntu1
 'http://archive.ubuntu.com/ubuntu/pool/main/l/lsb/lsb_9.20170808ubuntu1.tar.xz' lsb_9.20170808ubuntu1.tar.xz 45492 SHA256:b26bcb746e0bff05ad3e15dfbeb0ba7ea2a8d031f765a6cfa568c57d14c522c4
 ```
 
-### `dpkg` source package: `lvm2=2.02.176-4.1ubuntu3`
+### `dpkg` source package: `lvm2=2.02.176-4.1ubuntu3.18.04.2`
 
 Binary Packages:
 
-- `dmsetup=2:1.02.145-4.1ubuntu3`
-- `libdevmapper1.02.1:amd64=2:1.02.145-4.1ubuntu3`
+- `dmsetup=2:1.02.145-4.1ubuntu3.18.04.2`
+- `libdevmapper1.02.1:amd64=2:1.02.145-4.1ubuntu3.18.04.2`
 
 Licenses: (parsed from: `/usr/share/doc/dmsetup/copyright`, `/usr/share/doc/libdevmapper1.02.1/copyright`)
 
@@ -6531,11 +6508,11 @@ Licenses: (parsed from: `/usr/share/doc/dmsetup/copyright`, `/usr/share/doc/libd
 Source:
 
 ```console
-$ apt-get source -qq --print-uris lvm2=2.02.176-4.1ubuntu3
-'http://archive.ubuntu.com/ubuntu/pool/main/l/lvm2/lvm2_2.02.176-4.1ubuntu3.dsc' lvm2_2.02.176-4.1ubuntu3.dsc 3481 SHA256:def0efbd41172dc8370057c4c7cc48426b329cb461cd71165bf236852f47461a
+$ apt-get source -qq --print-uris lvm2=2.02.176-4.1ubuntu3.18.04.2
+'http://archive.ubuntu.com/ubuntu/pool/main/l/lvm2/lvm2_2.02.176-4.1ubuntu3.18.04.2.dsc' lvm2_2.02.176-4.1ubuntu3.18.04.2.dsc 3139 SHA256:007f502dd4c07d5172300eb12db0e0b94c08d52838f388b5a19e4fb1ad9b3093
 'http://archive.ubuntu.com/ubuntu/pool/main/l/lvm2/lvm2_2.02.176.orig.tar.gz' lvm2_2.02.176.orig.tar.gz 2371438 SHA256:dece83628c2c78a267a126ce6046d506582185ae5d40fb8d59b56547fccea473
 'http://archive.ubuntu.com/ubuntu/pool/main/l/lvm2/lvm2_2.02.176.orig.tar.gz.asc' lvm2_2.02.176.orig.tar.gz.asc 198 SHA256:51c66e6bdebb6ac5b9882b8082ac9816a8555c2d472d7763e0f867c5c8c10b89
-'http://archive.ubuntu.com/ubuntu/pool/main/l/lvm2/lvm2_2.02.176-4.1ubuntu3.debian.tar.xz' lvm2_2.02.176-4.1ubuntu3.debian.tar.xz 44360 SHA256:bcaee95f538aa7e3f449686e840e97318fab91a3d55948b138614ce6df8ada78
+'http://archive.ubuntu.com/ubuntu/pool/main/l/lvm2/lvm2_2.02.176-4.1ubuntu3.18.04.2.debian.tar.xz' lvm2_2.02.176-4.1ubuntu3.18.04.2.debian.tar.xz 45604 SHA256:8320557245dd11539935dbe2aaad9c6c2bc3f3a51f2c15bfe709ba69414ede5c
 ```
 
 ### `dpkg` source package: `lz4=0.0~r131-2ubuntu3`
@@ -6712,37 +6689,44 @@ $ apt-get source -qq --print-uris mercurial=4.5.3-1ubuntu2.1
 'http://archive.ubuntu.com/ubuntu/pool/universe/m/mercurial/mercurial_4.5.3-1ubuntu2.1.debian.tar.xz' mercurial_4.5.3-1ubuntu2.1.debian.tar.xz 61912 SHA256:d6026337786d4ee3e94a2f91312444e2a6668d6606c1a721f20ec177d0e1891b
 ```
 
-### `dpkg` source package: `mesa=18.0.5-0ubuntu0~18.04.1`
+### `dpkg` source package: `mesa=19.0.8-0ubuntu0~18.04.3`
 
 Binary Packages:
 
-- `libegl-mesa0:amd64=18.0.5-0ubuntu0~18.04.1`
-- `libegl1-mesa-dev:amd64=18.0.5-0ubuntu0~18.04.1`
-- `libgbm1:amd64=18.0.5-0ubuntu0~18.04.1`
-- `libgl1-mesa-dev:amd64=18.0.5-0ubuntu0~18.04.1`
-- `libgl1-mesa-dri:amd64=18.0.5-0ubuntu0~18.04.1`
-- `libgl1-mesa-glx:amd64=18.0.5-0ubuntu0~18.04.1`
-- `libglapi-mesa:amd64=18.0.5-0ubuntu0~18.04.1`
-- `libgles2-mesa-dev:amd64=18.0.5-0ubuntu0~18.04.1`
-- `libglx-mesa0:amd64=18.0.5-0ubuntu0~18.04.1`
-- `libwayland-egl1-mesa:amd64=18.0.5-0ubuntu0~18.04.1`
-- `mesa-common-dev:amd64=18.0.5-0ubuntu0~18.04.1`
-- `mesa-va-drivers:amd64=18.0.5-0ubuntu0~18.04.1`
-- `mesa-vdpau-drivers:amd64=18.0.5-0ubuntu0~18.04.1`
+- `libegl-mesa0:amd64=19.0.8-0ubuntu0~18.04.3`
+- `libegl1-mesa-dev:amd64=19.0.8-0ubuntu0~18.04.3`
+- `libgbm1:amd64=19.0.8-0ubuntu0~18.04.3`
+- `libgl1-mesa-dev:amd64=19.0.8-0ubuntu0~18.04.3`
+- `libgl1-mesa-dri:amd64=19.0.8-0ubuntu0~18.04.3`
+- `libgl1-mesa-glx:amd64=19.0.8-0ubuntu0~18.04.3`
+- `libglapi-mesa:amd64=19.0.8-0ubuntu0~18.04.3`
+- `libgles2-mesa-dev:amd64=19.0.8-0ubuntu0~18.04.3`
+- `libglx-mesa0:amd64=19.0.8-0ubuntu0~18.04.3`
+- `mesa-common-dev:amd64=19.0.8-0ubuntu0~18.04.3`
+- `mesa-va-drivers:amd64=19.0.8-0ubuntu0~18.04.3`
+- `mesa-vdpau-drivers:amd64=19.0.8-0ubuntu0~18.04.3`
 
-Licenses: (parsed from: `/usr/share/doc/libegl-mesa0/copyright`, `/usr/share/doc/libegl1-mesa-dev/copyright`, `/usr/share/doc/libgbm1/copyright`, `/usr/share/doc/libgl1-mesa-dev/copyright`, `/usr/share/doc/libgl1-mesa-dri/copyright`, `/usr/share/doc/libgl1-mesa-glx/copyright`, `/usr/share/doc/libglapi-mesa/copyright`, `/usr/share/doc/libgles2-mesa-dev/copyright`, `/usr/share/doc/libglx-mesa0/copyright`, `/usr/share/doc/libwayland-egl1-mesa/copyright`, `/usr/share/doc/mesa-common-dev/copyright`, `/usr/share/doc/mesa-va-drivers/copyright`, `/usr/share/doc/mesa-vdpau-drivers/copyright`)
+Licenses: (parsed from: `/usr/share/doc/libegl-mesa0/copyright`, `/usr/share/doc/libegl1-mesa-dev/copyright`, `/usr/share/doc/libgbm1/copyright`, `/usr/share/doc/libgl1-mesa-dev/copyright`, `/usr/share/doc/libgl1-mesa-dri/copyright`, `/usr/share/doc/libgl1-mesa-glx/copyright`, `/usr/share/doc/libglapi-mesa/copyright`, `/usr/share/doc/libgles2-mesa-dev/copyright`, `/usr/share/doc/libglx-mesa0/copyright`, `/usr/share/doc/mesa-common-dev/copyright`, `/usr/share/doc/mesa-va-drivers/copyright`, `/usr/share/doc/mesa-vdpau-drivers/copyright`)
 
+- `Apache-2.0`
+- `BSD`
+- `BSD-2-clause`
+- `BSD-3-clause`
+- `BSL`
 - `GPL`
-- `LGPL`
+- `Khronos`
+- `MIT`
+- `MLAA`
+- `SGI`
 
 Source:
 
 ```console
-$ apt-get source -qq --print-uris mesa=18.0.5-0ubuntu0~18.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/m/mesa/mesa_18.0.5-0ubuntu0~18.04.1.dsc' mesa_18.0.5-0ubuntu0~18.04.1.dsc 5245 SHA256:a580519bc542fe606111020d3318463e06441ea8ddb77d28d821411cb0383b0a
-'http://archive.ubuntu.com/ubuntu/pool/main/m/mesa/mesa_18.0.5.orig.tar.gz' mesa_18.0.5.orig.tar.gz 19123780 SHA256:ea3e00329cea899b1e32db812fd2f426832be37e4baa2e2fd9288a3480f30531
-'http://archive.ubuntu.com/ubuntu/pool/main/m/mesa/mesa_18.0.5.orig.tar.gz.asc' mesa_18.0.5.orig.tar.gz.asc 879 SHA256:a651bd04a5290244cb15c2504be35adfbc02ffa6d2fa1621cf88dccd3fa70b52
-'http://archive.ubuntu.com/ubuntu/pool/main/m/mesa/mesa_18.0.5-0ubuntu0~18.04.1.diff.gz' mesa_18.0.5-0ubuntu0~18.04.1.diff.gz 131339 SHA256:194690ec8d32131bb49f663d4dadd4c6fff27bc3365471b38d898bcb184c4851
+$ apt-get source -qq --print-uris mesa=19.0.8-0ubuntu0~18.04.3
+'http://archive.ubuntu.com/ubuntu/pool/main/m/mesa/mesa_19.0.8-0ubuntu0~18.04.3.dsc' mesa_19.0.8-0ubuntu0~18.04.3.dsc 5502 SHA256:4564e7339092a1026912ddef3699a307b4a6faeaafaee58818c432591c4a223a
+'http://archive.ubuntu.com/ubuntu/pool/main/m/mesa/mesa_19.0.8.orig.tar.gz' mesa_19.0.8.orig.tar.gz 20086282 SHA256:1a3dc3f2af853c76aadb4a1e03c9ba420361c04a742d457a702b781671a96a57
+'http://archive.ubuntu.com/ubuntu/pool/main/m/mesa/mesa_19.0.8.orig.tar.gz.asc' mesa_19.0.8.orig.tar.gz.asc 274 SHA256:4b12c42521c106a29a542316ed9079c242824c24cd13255654e9caa3c72ac738
+'http://archive.ubuntu.com/ubuntu/pool/main/m/mesa/mesa_19.0.8-0ubuntu0~18.04.3.diff.gz' mesa_19.0.8-0ubuntu0~18.04.3.diff.gz 123984 SHA256:1bfb69d3ac40347779982ca0fcd985a22e59aaf82651dba26509101aa23005c0
 ```
 
 ### `dpkg` source package: `mime-support=3.60ubuntu1`
@@ -6784,12 +6768,12 @@ $ apt-get source -qq --print-uris minizip=1.1-8build1
 'http://archive.ubuntu.com/ubuntu/pool/universe/m/minizip/minizip_1.1-8build1.debian.tar.xz' minizip_1.1-8build1.debian.tar.xz 5316 SHA256:945c953786e32dc01d680e8ba2aaad6ad51f892375f6a39b85138f8eebf4306f
 ```
 
-### `dpkg` source package: `modemmanager=1.6.8-2ubuntu1`
+### `dpkg` source package: `modemmanager=1.10.0-1~ubuntu18.04.2`
 
 Binary Packages:
 
-- `libmm-glib0:amd64=1.6.8-2ubuntu1`
-- `modemmanager=1.6.8-2ubuntu1`
+- `libmm-glib0:amd64=1.10.0-1~ubuntu18.04.2`
+- `modemmanager=1.10.0-1~ubuntu18.04.2`
 
 Licenses: (parsed from: `/usr/share/doc/libmm-glib0/copyright`, `/usr/share/doc/modemmanager/copyright`)
 
@@ -6804,10 +6788,10 @@ Licenses: (parsed from: `/usr/share/doc/libmm-glib0/copyright`, `/usr/share/doc/
 Source:
 
 ```console
-$ apt-get source -qq --print-uris modemmanager=1.6.8-2ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/m/modemmanager/modemmanager_1.6.8-2ubuntu1.dsc' modemmanager_1.6.8-2ubuntu1.dsc 2703 SHA256:72ce01396f80e641e6a71d21913db033873c4c8bac3e77041154218bb6f02d2a
-'http://archive.ubuntu.com/ubuntu/pool/main/m/modemmanager/modemmanager_1.6.8.orig.tar.xz' modemmanager_1.6.8.orig.tar.xz 1471788 SHA256:ffc035c4bfeb07780c4580bb4488ade0ab1d197c3cdf89cb8ab36386cfb34376
-'http://archive.ubuntu.com/ubuntu/pool/main/m/modemmanager/modemmanager_1.6.8-2ubuntu1.debian.tar.xz' modemmanager_1.6.8-2ubuntu1.debian.tar.xz 21744 SHA256:a39c99ff09e19a1a20c8d3d911854a8804329556dfe70eb600b7e0350026f3d3
+$ apt-get source -qq --print-uris modemmanager=1.10.0-1~ubuntu18.04.2
+'http://archive.ubuntu.com/ubuntu/pool/main/m/modemmanager/modemmanager_1.10.0-1~ubuntu18.04.2.dsc' modemmanager_1.10.0-1~ubuntu18.04.2.dsc 2086 SHA256:764a83476129ef92fcd99fdccd8cb59ef86a992237e6796b3172bbeb9e365bbb
+'http://archive.ubuntu.com/ubuntu/pool/main/m/modemmanager/modemmanager_1.10.0.orig.tar.xz' modemmanager_1.10.0.orig.tar.xz 2201468 SHA256:fd0f39996025dac96995daea8a58ec7dd571582f7563a8ae0d5f65b571b76ee2
+'http://archive.ubuntu.com/ubuntu/pool/main/m/modemmanager/modemmanager_1.10.0-1~ubuntu18.04.2.debian.tar.xz' modemmanager_1.10.0-1~ubuntu18.04.2.debian.tar.xz 23064 SHA256:73735e13b7e81cbdee10c6aedfeeaac552092862069d1eaff30ea70edda79193
 ```
 
 ### `dpkg` source package: `mpclib3=1.1.0-1`
@@ -6950,12 +6934,12 @@ $ apt-get source -qq --print-uris mtdev=1.1.5-1ubuntu3
 'http://archive.ubuntu.com/ubuntu/pool/main/m/mtdev/mtdev_1.1.5-1ubuntu3.debian.tar.xz' mtdev_1.1.5-1ubuntu3.debian.tar.xz 6268 SHA256:60d8d42d71828abc8ef728c1a52f8c5e407be1d0c24871580a744e2b12a7a8a6
 ```
 
-### `dpkg` source package: `mysql-5.7=5.7.24-0ubuntu0.18.04.1`
+### `dpkg` source package: `mysql-5.7=5.7.28-0ubuntu0.18.04.4`
 
 Binary Packages:
 
-- `libmysqlclient-dev=5.7.24-0ubuntu0.18.04.1`
-- `libmysqlclient20:amd64=5.7.24-0ubuntu0.18.04.1`
+- `libmysqlclient-dev=5.7.28-0ubuntu0.18.04.4`
+- `libmysqlclient20:amd64=5.7.28-0ubuntu0.18.04.4`
 
 Licenses: (parsed from: `/usr/share/doc/libmysqlclient-dev/copyright`, `/usr/share/doc/libmysqlclient20/copyright`)
 
@@ -6973,9 +6957,14 @@ Licenses: (parsed from: `/usr/share/doc/libmysqlclient-dev/copyright`, `/usr/sha
 - `public-domain`
 - `zlib/libpng`
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris mysql-5.7=5.7.28-0ubuntu0.18.04.4
+'http://archive.ubuntu.com/ubuntu/pool/main/m/mysql-5.7/mysql-5.7_5.7.28-0ubuntu0.18.04.4.dsc' mysql-5.7_5.7.28-0ubuntu0.18.04.4.dsc 3446 SHA256:051504630ad6237cd39fffa4ee9d664f2a27680f66ee904e5e76868ae037fb34
+'http://archive.ubuntu.com/ubuntu/pool/main/m/mysql-5.7/mysql-5.7_5.7.28.orig.tar.gz' mysql-5.7_5.7.28.orig.tar.gz 51409668 SHA256:f16399315212117c08f9bdf8a0d682728b2ce82d691bcfbf25a770f413b6f2da
+'http://archive.ubuntu.com/ubuntu/pool/main/m/mysql-5.7/mysql-5.7_5.7.28-0ubuntu0.18.04.4.debian.tar.xz' mysql-5.7_5.7.28-0ubuntu0.18.04.4.debian.tar.xz 156144 SHA256:b93f24d495ac92745dc1c3882b62d2b3d03801e2d06ca952c1980319a2f5447b
+```
 
 ### `dpkg` source package: `mysql-defaults=1.0.4`
 
@@ -7272,31 +7261,26 @@ $ apt-get source -qq --print-uris nss-mdns=0.10-8ubuntu1
 'http://archive.ubuntu.com/ubuntu/pool/main/n/nss-mdns/nss-mdns_0.10-8ubuntu1.debian.tar.xz' nss-mdns_0.10-8ubuntu1.debian.tar.xz 12304 SHA256:fe914266969313943a6a311096c9bcaaf672fd38310cb86a0a1c4f6b8ed17a66
 ```
 
-### `dpkg` source package: `nss=2:3.35-2ubuntu2.1`
+### `dpkg` source package: `nss=2:3.35-2ubuntu2.6`
 
 Binary Packages:
 
-- `libnss3:amd64=2:3.35-2ubuntu2.1`
+- `libnss3:amd64=2:3.35-2ubuntu2.6`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
 
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris nss=2:3.35-2ubuntu2.1
-'http://archive.ubuntu.com/ubuntu/pool/main/n/nss/nss_3.35-2ubuntu2.1.dsc' nss_3.35-2ubuntu2.1.dsc 2347 SHA256:56a49b9507e5ac27d50b6b4a9e42d41e8450f210fa130740a0c630f60cfcea37
-'http://archive.ubuntu.com/ubuntu/pool/main/n/nss/nss_3.35.orig.tar.gz' nss_3.35.orig.tar.gz 9620041 SHA256:f4127de09bede39f5fd0f789d33c3504c5d261e69ea03022d46b319b3e32f6fa
-'http://archive.ubuntu.com/ubuntu/pool/main/n/nss/nss_3.35-2ubuntu2.1.debian.tar.xz' nss_3.35-2ubuntu2.1.debian.tar.xz 36428 SHA256:f6b7d564c452920d204dd0cb1bae111ec12a814eae6ebe0f3573ec17b5d56c86
-```
 
-### `dpkg` source package: `numactl=2.0.11-2.1`
+### `dpkg` source package: `numactl=2.0.11-2.1ubuntu0.1`
 
 Binary Packages:
 
-- `libnuma-dev:amd64=2.0.11-2.1`
-- `libnuma1:amd64=2.0.11-2.1`
+- `libnuma-dev:amd64=2.0.11-2.1ubuntu0.1`
+- `libnuma1:amd64=2.0.11-2.1ubuntu0.1`
 
 Licenses: (parsed from: `/usr/share/doc/libnuma-dev/copyright`, `/usr/share/doc/libnuma1/copyright`)
 
@@ -7306,10 +7290,10 @@ Licenses: (parsed from: `/usr/share/doc/libnuma-dev/copyright`, `/usr/share/doc/
 Source:
 
 ```console
-$ apt-get source -qq --print-uris numactl=2.0.11-2.1
-'http://archive.ubuntu.com/ubuntu/pool/main/n/numactl/numactl_2.0.11-2.1.dsc' numactl_2.0.11-2.1.dsc 1613 SHA256:3462c9e9a53e1cdbec095092859fdd2448e629a687b6dac511f83708cecbbfe3
+$ apt-get source -qq --print-uris numactl=2.0.11-2.1ubuntu0.1
+'http://archive.ubuntu.com/ubuntu/pool/main/n/numactl/numactl_2.0.11-2.1ubuntu0.1.dsc' numactl_2.0.11-2.1ubuntu0.1.dsc 1970 SHA256:57656dc476766ef49640d83ea3a8e7566d1e467f9d90e7f284e57df0cffd442a
 'http://archive.ubuntu.com/ubuntu/pool/main/n/numactl/numactl_2.0.11.orig.tar.gz' numactl_2.0.11.orig.tar.gz 408175 SHA256:450c091235f891ee874a8651b179c30f57a1391ca5c4673354740ba65e527861
-'http://archive.ubuntu.com/ubuntu/pool/main/n/numactl/numactl_2.0.11-2.1.debian.tar.xz' numactl_2.0.11-2.1.debian.tar.xz 6760 SHA256:1dc86f99e7b2d8d652a2af34b14d66b7a3637316403789a3c10f09b490cf89d8
+'http://archive.ubuntu.com/ubuntu/pool/main/n/numactl/numactl_2.0.11-2.1ubuntu0.1.debian.tar.xz' numactl_2.0.11-2.1ubuntu0.1.debian.tar.xz 9504 SHA256:f212b9699986291b474d1ae99eaa96f48e9845d0dde5aa2430a1b8e50e201b11
 ```
 
 ### `dpkg` source package: `ocl-icd=2.2.11-1ubuntu1`
@@ -7441,12 +7425,12 @@ $ apt-get source -qq --print-uris opencv=3.2.0+dfsg-4ubuntu0.1
 'http://archive.ubuntu.com/ubuntu/pool/universe/o/opencv/opencv_3.2.0+dfsg-4ubuntu0.1.debian.tar.xz' opencv_3.2.0+dfsg-4ubuntu0.1.debian.tar.xz 37464 SHA256:577d9b2b803baa6faae55e7a2456acb7e829c01bfe4333ce161cfd1103bd74b9
 ```
 
-### `dpkg` source package: `openexr=2.2.0-11.1ubuntu1`
+### `dpkg` source package: `openexr=2.2.0-11.1ubuntu1.1`
 
 Binary Packages:
 
-- `libopenexr-dev=2.2.0-11.1ubuntu1`
-- `libopenexr22:amd64=2.2.0-11.1ubuntu1`
+- `libopenexr-dev=2.2.0-11.1ubuntu1.1`
+- `libopenexr22:amd64=2.2.0-11.1ubuntu1.1`
 
 Licenses: (parsed from: `/usr/share/doc/libopenexr-dev/copyright`, `/usr/share/doc/libopenexr22/copyright`)
 
@@ -7455,18 +7439,18 @@ Licenses: (parsed from: `/usr/share/doc/libopenexr-dev/copyright`, `/usr/share/d
 Source:
 
 ```console
-$ apt-get source -qq --print-uris openexr=2.2.0-11.1ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openexr/openexr_2.2.0-11.1ubuntu1.dsc' openexr_2.2.0-11.1ubuntu1.dsc 2058 SHA256:e91eb8260980f260ccde4792784e334587b1b7a2551df29963cd42e05cf2f6c5
+$ apt-get source -qq --print-uris openexr=2.2.0-11.1ubuntu1.1
+'http://archive.ubuntu.com/ubuntu/pool/main/o/openexr/openexr_2.2.0-11.1ubuntu1.1.dsc' openexr_2.2.0-11.1ubuntu1.1.dsc 2403 SHA256:23039826ef42788b518e7a1e9cab5e87b74b15f80f4c6988b86f2297805dd8e9
 'http://archive.ubuntu.com/ubuntu/pool/main/o/openexr/openexr_2.2.0.orig.tar.gz' openexr_2.2.0.orig.tar.gz 14489661 SHA256:36a012f6c43213f840ce29a8b182700f6cf6b214bea0d5735594136b44914231
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openexr/openexr_2.2.0-11.1ubuntu1.debian.tar.xz' openexr_2.2.0-11.1ubuntu1.debian.tar.xz 17728 SHA256:1ae670d5984a415a09e7355683c3e19ee48c642bcc106650e56581172acf6f94
+'http://archive.ubuntu.com/ubuntu/pool/main/o/openexr/openexr_2.2.0-11.1ubuntu1.1.debian.tar.xz' openexr_2.2.0-11.1ubuntu1.1.debian.tar.xz 22244 SHA256:e9e41f0f62ae9c0b2cb5d4b1f793735d64bbe29ca18782bfaa0e2e368944e9ac
 ```
 
-### `dpkg` source package: `openjpeg2=2.3.0-1`
+### `dpkg` source package: `openjpeg2=2.3.0-2build0.18.04.1`
 
 Binary Packages:
 
-- `libopenjp2-7:amd64=2.3.0-1`
-- `libopenjp2-7-dev=2.3.0-1`
+- `libopenjp2-7:amd64=2.3.0-2build0.18.04.1`
+- `libopenjp2-7-dev=2.3.0-2build0.18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/libopenjp2-7/copyright`, `/usr/share/doc/libopenjp2-7-dev/copyright`)
 
@@ -7483,19 +7467,19 @@ Licenses: (parsed from: `/usr/share/doc/libopenjp2-7/copyright`, `/usr/share/doc
 Source:
 
 ```console
-$ apt-get source -qq --print-uris openjpeg2=2.3.0-1
-'http://archive.ubuntu.com/ubuntu/pool/universe/o/openjpeg2/openjpeg2_2.3.0-1.dsc' openjpeg2_2.3.0-1.dsc 2725 SHA256:bd59d04084ca51ac063d1920b2615879c7eba172d7eecea61765a0cc2c2fe7cb
+$ apt-get source -qq --print-uris openjpeg2=2.3.0-2build0.18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/universe/o/openjpeg2/openjpeg2_2.3.0-2build0.18.04.1.dsc' openjpeg2_2.3.0-2build0.18.04.1.dsc 2788 SHA256:c5956c5c510fab83f351bf5b33097a61cad7fcb2e8a6c40576da72078c82ddad
 'http://archive.ubuntu.com/ubuntu/pool/universe/o/openjpeg2/openjpeg2_2.3.0.orig.tar.gz' openjpeg2_2.3.0.orig.tar.gz 2074456 SHA256:fd5ca8cf3f195b0a54c56193c5897bb423c00db577afda4033318006769a5833
-'http://archive.ubuntu.com/ubuntu/pool/universe/o/openjpeg2/openjpeg2_2.3.0-1.debian.tar.xz' openjpeg2_2.3.0-1.debian.tar.xz 17744 SHA256:a7036deea45045b7bf46acbe50ba0dc648d56058534f673bc6d4add1f052184a
+'http://archive.ubuntu.com/ubuntu/pool/universe/o/openjpeg2/openjpeg2_2.3.0-2build0.18.04.1.debian.tar.xz' openjpeg2_2.3.0-2build0.18.04.1.debian.tar.xz 21152 SHA256:c3b944fb7e1a00f290f73ed0396276d50c7dd624619f2f6f2de6d02921fd077a
 ```
 
-### `dpkg` source package: `openldap=2.4.45+dfsg-1ubuntu1.1`
+### `dpkg` source package: `openldap=2.4.45+dfsg-1ubuntu1.4`
 
 Binary Packages:
 
-- `libldap-2.4-2:amd64=2.4.45+dfsg-1ubuntu1.1`
-- `libldap-common=2.4.45+dfsg-1ubuntu1.1`
-- `libldap2-dev:amd64=2.4.45+dfsg-1ubuntu1.1`
+- `libldap-2.4-2:amd64=2.4.45+dfsg-1ubuntu1.4`
+- `libldap-common=2.4.45+dfsg-1ubuntu1.4`
+- `libldap2-dev:amd64=2.4.45+dfsg-1ubuntu1.4`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -7504,10 +7488,10 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris openldap=2.4.45+dfsg-1ubuntu1.1
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openldap/openldap_2.4.45+dfsg-1ubuntu1.1.dsc' openldap_2.4.45+dfsg-1ubuntu1.1.dsc 2805 SHA256:9f673c1afea3e40d7c0c0510b772c7fb897e33e253ae6703ea6197401bd13086
+$ apt-get source -qq --print-uris openldap=2.4.45+dfsg-1ubuntu1.4
+'http://archive.ubuntu.com/ubuntu/pool/main/o/openldap/openldap_2.4.45+dfsg-1ubuntu1.4.dsc' openldap_2.4.45+dfsg-1ubuntu1.4.dsc 2884 SHA256:be157db46093f2d29357ec2176f96d831f64970bc6c578345c64ca609a797321
 'http://archive.ubuntu.com/ubuntu/pool/main/o/openldap/openldap_2.4.45+dfsg.orig.tar.gz' openldap_2.4.45+dfsg.orig.tar.gz 4846458 SHA256:d51c70423aa0554d454fd3d43e7f2e940523b4ef07979305b48c233ae44b2b32
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openldap/openldap_2.4.45+dfsg-1ubuntu1.1.debian.tar.xz' openldap_2.4.45+dfsg-1ubuntu1.1.debian.tar.xz 175268 SHA256:9440833280fe408c38bdcd9a58f3644d10c2ab3ef40871875fd644c559a8085a
+'http://archive.ubuntu.com/ubuntu/pool/main/o/openldap/openldap_2.4.45+dfsg-1ubuntu1.4.debian.tar.xz' openldap_2.4.45+dfsg-1ubuntu1.4.debian.tar.xz 177956 SHA256:8b70367ad26d644ca3d832a69683a6b748757593128bf6ab72cd3256ae5aca62
 ```
 
 ### `dpkg` source package: `openmpi=2.1.1-8`
@@ -7608,14 +7592,13 @@ $ apt-get source -qq --print-uris openni=1.5.4.0-14build1
 'http://archive.ubuntu.com/ubuntu/pool/universe/o/openni/openni_1.5.4.0-14build1.debian.tar.xz' openni_1.5.4.0-14build1.debian.tar.xz 648120 SHA256:cb1e81083b8638fce3459a6aacda324be4d77cbf2bf47dc2a61440dfa8d0559c
 ```
 
-### `dpkg` source package: `openssl=1.1.0g-2ubuntu4.3`
+### `dpkg` source package: `openssl=1.1.1-1ubuntu2.1~18.04.5`
 
 Binary Packages:
 
-- `libssl-dev:amd64=1.1.0g-2ubuntu4.3`
-- `libssl-doc=1.1.0g-2ubuntu4.3`
-- `libssl1.1:amd64=1.1.0g-2ubuntu4.3`
-- `openssl=1.1.0g-2ubuntu4.3`
+- `libssl-dev:amd64=1.1.1-1ubuntu2.1~18.04.5`
+- `libssl1.1:amd64=1.1.1-1ubuntu2.1~18.04.5`
+- `openssl=1.1.1-1ubuntu2.1~18.04.5`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -7624,11 +7607,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris openssl=1.1.0g-2ubuntu4.3
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_1.1.0g-2ubuntu4.3.dsc' openssl_1.1.0g-2ubuntu4.3.dsc 2698 SHA256:80ac13c31b09a3412a4db6086961ee3a44ed924c5e08d9176daa4f873ad5af64
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_1.1.0g.orig.tar.gz' openssl_1.1.0g.orig.tar.gz 5404748 SHA256:de4d501267da39310905cb6dc8c6121f7a2cad45a7707f76df828fe1b85073af
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_1.1.0g.orig.tar.gz.asc' openssl_1.1.0g.orig.tar.gz.asc 455 SHA256:2a7532e6722aab8989644049ba5c1d3a5fce417aa4b18235eec901224098bbed
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_1.1.0g-2ubuntu4.3.debian.tar.xz' openssl_1.1.0g-2ubuntu4.3.debian.tar.xz 86600 SHA256:debb83bc324b415fdcc521600dafa527897213492bca8dfcdd46133d8d9ed9da
+$ apt-get source -qq --print-uris openssl=1.1.1-1ubuntu2.1~18.04.5
+'http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_1.1.1-1ubuntu2.1~18.04.5.dsc' openssl_1.1.1-1ubuntu2.1~18.04.5.dsc 2751 SHA256:9ee1d4dc064a27657581df4a6f3fc2d27c8e76379df816688c8e0182453b08e7
+'http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_1.1.1.orig.tar.gz' openssl_1.1.1.orig.tar.gz 8337920 SHA256:2836875a0f89c03d0fdf483941512613a50cfb421d6fd94b9f41d7279d586a3d
+'http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_1.1.1.orig.tar.gz.asc' openssl_1.1.1.orig.tar.gz.asc 488 SHA256:f3296150114069ea73a72eafbfdcbb295b770e7cbf3266f9590f3d0932498b3e
+'http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/openssl_1.1.1-1ubuntu2.1~18.04.5.debian.tar.xz' openssl_1.1.1-1ubuntu2.1~18.04.5.debian.tar.xz 96024 SHA256:0f7f2ebf8410c5c62465bf981a1d70e007294eac3aebac33c80793bc111cb3fd
 ```
 
 ### `dpkg` source package: `opus=1.1.2-1ubuntu1`
@@ -7693,14 +7676,14 @@ $ apt-get source -qq --print-uris p11-kit=0.23.9-2
 'http://archive.ubuntu.com/ubuntu/pool/main/p/p11-kit/p11-kit_0.23.9-2.debian.tar.xz' p11-kit_0.23.9-2.debian.tar.xz 21704 SHA256:fa6af69f96f6ccdce95d61e39662a38768b05f8872b2b2008d56cc4fff0ed3fd
 ```
 
-### `dpkg` source package: `pam=1.1.8-3.6ubuntu2`
+### `dpkg` source package: `pam=1.1.8-3.6ubuntu2.18.04.1`
 
 Binary Packages:
 
-- `libpam-modules:amd64=1.1.8-3.6ubuntu2`
-- `libpam-modules-bin=1.1.8-3.6ubuntu2`
-- `libpam-runtime=1.1.8-3.6ubuntu2`
-- `libpam0g:amd64=1.1.8-3.6ubuntu2`
+- `libpam-modules:amd64=1.1.8-3.6ubuntu2.18.04.1`
+- `libpam-modules-bin=1.1.8-3.6ubuntu2.18.04.1`
+- `libpam-runtime=1.1.8-3.6ubuntu2.18.04.1`
+- `libpam0g:amd64=1.1.8-3.6ubuntu2.18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/libpam-modules/copyright`, `/usr/share/doc/libpam-modules-bin/copyright`, `/usr/share/doc/libpam-runtime/copyright`, `/usr/share/doc/libpam0g/copyright`)
 
@@ -7709,9 +7692,9 @@ Licenses: (parsed from: `/usr/share/doc/libpam-modules/copyright`, `/usr/share/d
 Source:
 
 ```console
-$ apt-get source -qq --print-uris pam=1.1.8-3.6ubuntu2
-'http://archive.ubuntu.com/ubuntu/pool/main/p/pam/pam_1.1.8-3.6ubuntu2.dsc' pam_1.1.8-3.6ubuntu2.dsc 2221 SHA256:dd47a8f0d53ccf5cf4e80819cca127c28f7e2bda9312a34c311b0bb90565fc0c
-'http://archive.ubuntu.com/ubuntu/pool/main/p/pam/pam_1.1.8-3.6ubuntu2.tar.gz' pam_1.1.8-3.6ubuntu2.tar.gz 1989104 SHA256:3244f99b6bd0a3501c692102d897c013a6736ab8f9656fe2411cacffcaaba20e
+$ apt-get source -qq --print-uris pam=1.1.8-3.6ubuntu2.18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/p/pam/pam_1.1.8-3.6ubuntu2.18.04.1.dsc' pam_1.1.8-3.6ubuntu2.18.04.1.dsc 2212 SHA256:eb895fd520265f4db4eb5c00f06e0f5e903900265093011a61b431a3b6221eff
+'http://archive.ubuntu.com/ubuntu/pool/main/p/pam/pam_1.1.8-3.6ubuntu2.18.04.1.tar.gz' pam_1.1.8-3.6ubuntu2.18.04.1.tar.gz 1990490 SHA256:a400f8d82fb41afd008a9f8a6f2221cad0cc0f7cc60a41d50f27fc518217f68f
 ```
 
 ### `dpkg` source package: `pango1.0=1.40.14-1ubuntu0.1`
@@ -7758,11 +7741,11 @@ $ apt-get source -qq --print-uris paramiko=2.0.0-1ubuntu1.2
 'http://archive.ubuntu.com/ubuntu/pool/main/p/paramiko/paramiko_2.0.0-1ubuntu1.2.debian.tar.xz' paramiko_2.0.0-1ubuntu1.2.debian.tar.xz 12624 SHA256:b9f85f391a3499a860e7e19bc666750327494a1c929514f8b7e15fbed415b543
 ```
 
-### `dpkg` source package: `patch=2.7.6-2ubuntu1`
+### `dpkg` source package: `patch=2.7.6-2ubuntu1.1`
 
 Binary Packages:
 
-- `patch=2.7.6-2ubuntu1`
+- `patch=2.7.6-2ubuntu1.1`
 
 Licenses: (parsed from: `/usr/share/doc/patch/copyright`)
 
@@ -7771,10 +7754,10 @@ Licenses: (parsed from: `/usr/share/doc/patch/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris patch=2.7.6-2ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/p/patch/patch_2.7.6-2ubuntu1.dsc' patch_2.7.6-2ubuntu1.dsc 1774 SHA256:8f0dc0c31ffeac22ec21ea69756e1aa56ac5b77a4c12e05023f2751ba868e785
+$ apt-get source -qq --print-uris patch=2.7.6-2ubuntu1.1
+'http://archive.ubuntu.com/ubuntu/pool/main/p/patch/patch_2.7.6-2ubuntu1.1.dsc' patch_2.7.6-2ubuntu1.1.dsc 1798 SHA256:4c7196107cc0c9a6ec1f8d1da109b8b459e97ad73afd4431eef5cd5f155820b5
 'http://archive.ubuntu.com/ubuntu/pool/main/p/patch/patch_2.7.6.orig.tar.xz' patch_2.7.6.orig.tar.xz 783756 SHA256:ac610bda97abe0d9f6b7c963255a11dcb196c25e337c61f94e4778d632f1d8fd
-'http://archive.ubuntu.com/ubuntu/pool/main/p/patch/patch_2.7.6-2ubuntu1.debian.tar.xz' patch_2.7.6-2ubuntu1.debian.tar.xz 10968 SHA256:9b62482c9506567398b3234a1f1f67e04ff6c813c524911b22df16adbe8ccc13
+'http://archive.ubuntu.com/ubuntu/pool/main/p/patch/patch_2.7.6-2ubuntu1.1.debian.tar.xz' patch_2.7.6-2ubuntu1.1.debian.tar.xz 12356 SHA256:23ce948efcf40acc3b25fd97e79a299044d66602db01e5f80c6fd5881cc77b54
 ```
 
 ### `dpkg` source package: `pcl=1.8.1+dfsg1-2ubuntu2.18.04.1`
@@ -8059,11 +8042,11 @@ $ apt-get source -qq --print-uris poco=1.8.0.1-1ubuntu4
 'http://archive.ubuntu.com/ubuntu/pool/universe/p/poco/poco_1.8.0.1-1ubuntu4.debian.tar.xz' poco_1.8.0.1-1ubuntu4.debian.tar.xz 12716 SHA256:f45010c5cf15a5fe434f007bb4ada1088b3e3cecbe0788fe116649f12ac0efd2
 ```
 
-### `dpkg` source package: `policykit-1=0.105-20ubuntu0.18.04.4`
+### `dpkg` source package: `policykit-1=0.105-20ubuntu0.18.04.5`
 
 Binary Packages:
 
-- `libpolkit-gobject-1-0:amd64=0.105-20ubuntu0.18.04.4`
+- `libpolkit-gobject-1-0:amd64=0.105-20ubuntu0.18.04.5`
 
 Licenses: (parsed from: `/usr/share/doc/libpolkit-gobject-1-0/copyright`)
 
@@ -8074,10 +8057,10 @@ Licenses: (parsed from: `/usr/share/doc/libpolkit-gobject-1-0/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris policykit-1=0.105-20ubuntu0.18.04.4
-'http://archive.ubuntu.com/ubuntu/pool/main/p/policykit-1/policykit-1_0.105-20ubuntu0.18.04.4.dsc' policykit-1_0.105-20ubuntu0.18.04.4.dsc 3028 SHA256:ee574688c9ac78553e32492f01a2f8ea8b97693803ae6b8b2120fc53a67f4da7
+$ apt-get source -qq --print-uris policykit-1=0.105-20ubuntu0.18.04.5
+'http://archive.ubuntu.com/ubuntu/pool/main/p/policykit-1/policykit-1_0.105-20ubuntu0.18.04.5.dsc' policykit-1_0.105-20ubuntu0.18.04.5.dsc 3028 SHA256:682f63198843821b8d95d1e0017ac1c19cbaef5273851cfd4f7d32cde23eab96
 'http://archive.ubuntu.com/ubuntu/pool/main/p/policykit-1/policykit-1_0.105.orig.tar.gz' policykit-1_0.105.orig.tar.gz 1431080 SHA256:8fdc7cc8ba4750fcce1a4db9daa759c12afebc7901237e1c993c38f08985e1df
-'http://archive.ubuntu.com/ubuntu/pool/main/p/policykit-1/policykit-1_0.105-20ubuntu0.18.04.4.debian.tar.xz' policykit-1_0.105-20ubuntu0.18.04.4.debian.tar.xz 50828 SHA256:83e27ac097bd77888fc0390d5527b36d0e4fe1b5626412f5777cc819e233608b
+'http://archive.ubuntu.com/ubuntu/pool/main/p/policykit-1/policykit-1_0.105-20ubuntu0.18.04.5.debian.tar.xz' policykit-1_0.105-20ubuntu0.18.04.5.debian.tar.xz 53020 SHA256:cd3afa8a441a0077f4aaf543996957d6a124032ddd32db58e3a15e4b60780490
 ```
 
 ### `dpkg` source package: `poppler-data=0.4.8-2`
@@ -8104,13 +8087,13 @@ $ apt-get source -qq --print-uris poppler-data=0.4.8-2
 'http://archive.ubuntu.com/ubuntu/pool/main/p/poppler-data/poppler-data_0.4.8-2.debian.tar.xz' poppler-data_0.4.8-2.debian.tar.xz 19524 SHA256:471ce26ff9082a1562a360b3ba636ce7d0f19b9fb1b353a3d46c9a4f34d6f8ea
 ```
 
-### `dpkg` source package: `poppler=0.62.0-2ubuntu2.6`
+### `dpkg` source package: `poppler=0.62.0-2ubuntu2.10`
 
 Binary Packages:
 
-- `libpoppler-dev:amd64=0.62.0-2ubuntu2.6`
-- `libpoppler-private-dev:amd64=0.62.0-2ubuntu2.6`
-- `libpoppler73:amd64=0.62.0-2ubuntu2.6`
+- `libpoppler-dev:amd64=0.62.0-2ubuntu2.10`
+- `libpoppler-private-dev:amd64=0.62.0-2ubuntu2.10`
+- `libpoppler73:amd64=0.62.0-2ubuntu2.10`
 
 Licenses: (parsed from: `/usr/share/doc/libpoppler-dev/copyright`, `/usr/share/doc/libpoppler-private-dev/copyright`, `/usr/share/doc/libpoppler73/copyright`)
 
@@ -8119,18 +8102,18 @@ Licenses: (parsed from: `/usr/share/doc/libpoppler-dev/copyright`, `/usr/share/d
 Source:
 
 ```console
-$ apt-get source -qq --print-uris poppler=0.62.0-2ubuntu2.6
-'http://archive.ubuntu.com/ubuntu/pool/main/p/poppler/poppler_0.62.0-2ubuntu2.6.dsc' poppler_0.62.0-2ubuntu2.6.dsc 3354 SHA256:fff0e2e90435cc074212d13d2d378512830b7b9b39cfbf01b428759af07742ab
+$ apt-get source -qq --print-uris poppler=0.62.0-2ubuntu2.10
+'http://archive.ubuntu.com/ubuntu/pool/main/p/poppler/poppler_0.62.0-2ubuntu2.10.dsc' poppler_0.62.0-2ubuntu2.10.dsc 3358 SHA256:0f3e245b972711150f760ddc946c89c2093b52be4d5f52b57c553abe076f585a
 'http://archive.ubuntu.com/ubuntu/pool/main/p/poppler/poppler_0.62.0.orig.tar.xz' poppler_0.62.0.orig.tar.xz 1423372 SHA256:5b9a73dfd4d6f61d165ada1e4f0abd2d420494bf9d0b1c15d0db3f7b83a729c6
-'http://archive.ubuntu.com/ubuntu/pool/main/p/poppler/poppler_0.62.0-2ubuntu2.6.debian.tar.xz' poppler_0.62.0-2ubuntu2.6.debian.tar.xz 38812 SHA256:6d31a99644a8021fd91bb87fef3606997820d3109fa1d3e302a752734169ea6b
+'http://archive.ubuntu.com/ubuntu/pool/main/p/poppler/poppler_0.62.0-2ubuntu2.10.debian.tar.xz' poppler_0.62.0-2ubuntu2.10.debian.tar.xz 43808 SHA256:923c2bb540a923c1351561276c59cf8fb50e5821b52eec8942f9c4573541df92
 ```
 
-### `dpkg` source package: `postgresql-10=10.6-0ubuntu0.18.04.1`
+### `dpkg` source package: `postgresql-10=10.10-0ubuntu0.18.04.1`
 
 Binary Packages:
 
-- `libpq-dev=10.6-0ubuntu0.18.04.1`
-- `libpq5:amd64=10.6-0ubuntu0.18.04.1`
+- `libpq-dev=10.10-0ubuntu0.18.04.1`
+- `libpq5:amd64=10.10-0ubuntu0.18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/libpq-dev/copyright`, `/usr/share/doc/libpq5/copyright`)
 
@@ -8152,18 +8135,18 @@ Licenses: (parsed from: `/usr/share/doc/libpq-dev/copyright`, `/usr/share/doc/li
 Source:
 
 ```console
-$ apt-get source -qq --print-uris postgresql-10=10.6-0ubuntu0.18.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/p/postgresql-10/postgresql-10_10.6-0ubuntu0.18.04.1.dsc' postgresql-10_10.6-0ubuntu0.18.04.1.dsc 3613 SHA256:f414c2502b2a7d6668d8d9b782d768deab3faa275e332436f4fd1dcaa395e765
-'http://archive.ubuntu.com/ubuntu/pool/main/p/postgresql-10/postgresql-10_10.6.orig.tar.bz2' postgresql-10_10.6.orig.tar.bz2 20350612 SHA256:68a8276f08bda8fbefe562faaf8831cb20664a7a1d3ffdbbcc5b83e08637624b
-'http://archive.ubuntu.com/ubuntu/pool/main/p/postgresql-10/postgresql-10_10.6-0ubuntu0.18.04.1.debian.tar.xz' postgresql-10_10.6-0ubuntu0.18.04.1.debian.tar.xz 23744 SHA256:94488bd8214fafe176bb28ef602af270f6cd4f6764b387fcc96a0da681646e65
+$ apt-get source -qq --print-uris postgresql-10=10.10-0ubuntu0.18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/p/postgresql-10/postgresql-10_10.10-0ubuntu0.18.04.1.dsc' postgresql-10_10.10-0ubuntu0.18.04.1.dsc 3620 SHA256:ff12c7299778f997f1d373c77cb568c89dc7c3c6d9e07a07d2351d5f9babbeaa
+'http://archive.ubuntu.com/ubuntu/pool/main/p/postgresql-10/postgresql-10_10.10.orig.tar.bz2' postgresql-10_10.10.orig.tar.bz2 19012049 SHA256:ad4f9b8575f98ed6091bf9bb2cb16f0e52795a5f66546c1f499ca5c69b21f253
+'http://archive.ubuntu.com/ubuntu/pool/main/p/postgresql-10/postgresql-10_10.10-0ubuntu0.18.04.1.debian.tar.xz' postgresql-10_10.10-0ubuntu0.18.04.1.debian.tar.xz 33604 SHA256:19edbc1dbdeddde805b865f8779595d21b69898bb62f6eddf2f14013b18ea131
 ```
 
-### `dpkg` source package: `procps=2:3.3.12-3ubuntu1.1`
+### `dpkg` source package: `procps=2:3.3.12-3ubuntu1.2`
 
 Binary Packages:
 
-- `libprocps6:amd64=2:3.3.12-3ubuntu1.1`
-- `procps=2:3.3.12-3ubuntu1.1`
+- `libprocps6:amd64=2:3.3.12-3ubuntu1.2`
+- `procps=2:3.3.12-3ubuntu1.2`
 
 Licenses: (parsed from: `/usr/share/doc/libprocps6/copyright`, `/usr/share/doc/procps/copyright`)
 
@@ -8177,10 +8160,10 @@ Licenses: (parsed from: `/usr/share/doc/libprocps6/copyright`, `/usr/share/doc/p
 Source:
 
 ```console
-$ apt-get source -qq --print-uris procps=2:3.3.12-3ubuntu1.1
-'http://archive.ubuntu.com/ubuntu/pool/main/p/procps/procps_3.3.12-3ubuntu1.1.dsc' procps_3.3.12-3ubuntu1.1.dsc 2265 SHA256:7a6d2a3970943c7fd5019ced8e36f36983bc159c4807b13900b575fa8a1ba5af
+$ apt-get source -qq --print-uris procps=2:3.3.12-3ubuntu1.2
+'http://archive.ubuntu.com/ubuntu/pool/main/p/procps/procps_3.3.12-3ubuntu1.2.dsc' procps_3.3.12-3ubuntu1.2.dsc 1920 SHA256:90aeb0430ae305b135a648772fe57255c64cbd6bd8dc900f86d92fd7448ac84c
 'http://archive.ubuntu.com/ubuntu/pool/main/p/procps/procps_3.3.12.orig.tar.xz' procps_3.3.12.orig.tar.xz 840540 SHA256:042fcc93e1850aee4c193c51c03f369293fb64fe47e37b38852be6693d12a3af
-'http://archive.ubuntu.com/ubuntu/pool/main/p/procps/procps_3.3.12-3ubuntu1.1.debian.tar.xz' procps_3.3.12-3ubuntu1.1.debian.tar.xz 37388 SHA256:58f388522d4def486730a00107a64b7f0948ee9a6fa6b058c555718d5f339151
+'http://archive.ubuntu.com/ubuntu/pool/main/p/procps/procps_3.3.12-3ubuntu1.2.debian.tar.xz' procps_3.3.12-3ubuntu1.2.debian.tar.xz 37736 SHA256:8773c939de7b2cb2b26709452ede19a6e315a83f5fb318e9968f4f4fca16ada4
 ```
 
 ### `dpkg` source package: `proj=4.9.3-2`
@@ -8250,11 +8233,11 @@ $ apt-get source -qq --print-uris pyasn1=0.4.2-3
 'http://archive.ubuntu.com/ubuntu/pool/main/p/pyasn1/pyasn1_0.4.2-3.debian.tar.xz' pyasn1_0.4.2-3.debian.tar.xz 5404 SHA256:c4769523a4353d9aabda5728f456c22882c242ff49aa3457595f0685c5d065a2
 ```
 
-### `dpkg` source package: `pygobject=3.26.1-2`
+### `dpkg` source package: `pygobject=3.26.1-2ubuntu1`
 
 Binary Packages:
 
-- `python3-gi=3.26.1-2`
+- `python3-gi=3.26.1-2ubuntu1`
 
 Licenses: (parsed from: `/usr/share/doc/python3-gi/copyright`)
 
@@ -8265,10 +8248,10 @@ Licenses: (parsed from: `/usr/share/doc/python3-gi/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris pygobject=3.26.1-2
-'http://archive.ubuntu.com/ubuntu/pool/main/p/pygobject/pygobject_3.26.1-2.dsc' pygobject_3.26.1-2.dsc 3146 SHA256:da8696e51e8910082ce99ed538a954e47ee6fae8f4b7d3670ca533a080d81f97
+$ apt-get source -qq --print-uris pygobject=3.26.1-2ubuntu1
+'http://archive.ubuntu.com/ubuntu/pool/main/p/pygobject/pygobject_3.26.1-2ubuntu1.dsc' pygobject_3.26.1-2ubuntu1.dsc 3507 SHA256:b77f84885d9b6d2c03422ecb3bf69d50dd0607d3456154943671e5a1f87946aa
 'http://archive.ubuntu.com/ubuntu/pool/main/p/pygobject/pygobject_3.26.1.orig.tar.xz' pygobject_3.26.1.orig.tar.xz 775628 SHA256:f5577b9b9c70cabb9a60d81b855d488b767c66f867432e7fb64aa7269b04d1a9
-'http://archive.ubuntu.com/ubuntu/pool/main/p/pygobject/pygobject_3.26.1-2.debian.tar.xz' pygobject_3.26.1-2.debian.tar.xz 19340 SHA256:d00ce5e5d06392c4ac268cdcf6f6399e87585285cee4ec826dfad6dde9eb5e01
+'http://archive.ubuntu.com/ubuntu/pool/main/p/pygobject/pygobject_3.26.1-2ubuntu1.debian.tar.xz' pygobject_3.26.1-2ubuntu1.debian.tar.xz 20304 SHA256:a530a433703384837e89332144226c23c9afcfc7d1b6d993ade4ff0a399c79ee
 ```
 
 ### `dpkg` source package: `pyopenssl=17.5.0-1ubuntu1`
@@ -8374,11 +8357,11 @@ $ apt-get source -qq --print-uris python-autobahn=17.10.1+dfsg1-2
 'http://archive.ubuntu.com/ubuntu/pool/universe/p/python-autobahn/python-autobahn_17.10.1+dfsg1-2.debian.tar.xz' python-autobahn_17.10.1+dfsg1-2.debian.tar.xz 3612 SHA256:5ed59b08042ad73a2b0f6298c03431cd23accbd4892888b8aabd77129860249b
 ```
 
-### `dpkg` source package: `python-catkin-pkg-modules=0.4.10-1`
+### `dpkg` source package: `python-catkin-pkg-modules=0.4.15-1`
 
 Binary Packages:
 
-- `python-catkin-pkg-modules=0.4.10-1`
+- `python-catkin-pkg-modules=0.4.15-1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -8387,17 +8370,17 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris python-catkin-pkg-modules=0.4.10-1
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-catkin-pkg-modules/python-catkin-pkg-modules_0.4.10-1.debian.tar.xz' python-catkin-pkg-modules_0.4.10-1.debian.tar.xz 1944 SHA512:4c76a2a1d99b6590c42186593a76a2e04bddfab22d5db5a95dff7fc4bdc1aaae04c8bb6575a3ce7b9790bb6165d82d4ff705e60210c7be8145cbf85d66ea60e8
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-catkin-pkg-modules/python-catkin-pkg-modules_0.4.10-1.dsc' python-catkin-pkg-modules_0.4.10-1.dsc 1050 SHA512:893146573a4523538af43a9de3631fa45720e792ecee9a1bfa42103229b8a5f47f4f150dc0f80a29baf508798a001aa5bf42e04a8dba1f7085a895c33d52d6e9
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-catkin-pkg-modules/python-catkin-pkg-modules_0.4.10.orig.tar.gz' python-catkin-pkg-modules_0.4.10.orig.tar.gz 58599 SHA512:e1d5f3aaea8aad2a74733bb7478c8099f93fcbb6ac0ac5c7ddb52b8534dd0483dff7c53c4c05b011f98c312fd1bd25a098d348430671ed1f8e7787d5bd0ab2f9
+$ apt-get source -qq --print-uris python-catkin-pkg-modules=0.4.15-1
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-catkin-pkg-modules/python-catkin-pkg-modules_0.4.15-1.debian.tar.xz' python-catkin-pkg-modules_0.4.15-1.debian.tar.xz 1948 SHA512:803bd349d0d1da907fb091e4d0fc3169769d5c06a43a7be60f458b15d4a91f991e61381ec522833106ee8d0b2c9a24be307bce2eb757c24450cfd0dfe67856bd
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-catkin-pkg-modules/python-catkin-pkg-modules_0.4.15-1.dsc' python-catkin-pkg-modules_0.4.15-1.dsc 998 SHA512:201460972b0593bc554ea11b05a789955716265d5b1b077384712f23b732342f694ef8f199e693b9a2decf7f77b88dea760bc0f8eb5e9c3101de9ec05635857b
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-catkin-pkg-modules/python-catkin-pkg-modules_0.4.15.orig.tar.gz' python-catkin-pkg-modules_0.4.15.orig.tar.gz 60785 SHA512:e2ac249135d95c944828f5436a55ee56c82fb334581afcc1e3922b2fe0ee160da20dea598cbedfea2d56bc07766724cc616af3c441fe0732033c66fb9f0b7fd9
 ```
 
-### `dpkg` source package: `python-catkin-pkg=0.4.10-100`
+### `dpkg` source package: `python-catkin-pkg=0.4.15-100`
 
 Binary Packages:
 
-- `python-catkin-pkg=0.4.10-100`
+- `python-catkin-pkg=0.4.15-100`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -8406,10 +8389,10 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris python-catkin-pkg=0.4.10-100
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-catkin-pkg/python-catkin-pkg_0.4.10-100.debian.tar.xz' python-catkin-pkg_0.4.10-100.debian.tar.xz 1916 SHA512:3ddfe0464dfe5ef275335c15144fe02d6aae20848abc4abf24dbd9b6e92a22a05689407486dc1580c75eda736b7243ffe08b4e7c95c53d02edf74050279a3f36
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-catkin-pkg/python-catkin-pkg_0.4.10-100.dsc' python-catkin-pkg_0.4.10-100.dsc 986 SHA512:2fa447117806fcf594ebe8d4b59e59184def08fe4cc11933d3ccfc15842623bf25b1841a73a5638de22085aa8b4b989891065b6def99826ce8b5a026685b8c2b
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-catkin-pkg/python-catkin-pkg_0.4.10.orig.tar.gz' python-catkin-pkg_0.4.10.orig.tar.gz 13169 SHA512:463f25e6bc2c8c7709144fc585113fc65f56b01939c87b56504edcd53e7d3f3288ff1f2b644af6a12cea624ad52f1d2a3c267dd181dcea6ac3be247f3850a951
+$ apt-get source -qq --print-uris python-catkin-pkg=0.4.15-100
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-catkin-pkg/python-catkin-pkg_0.4.15-100.debian.tar.xz' python-catkin-pkg_0.4.15-100.debian.tar.xz 1936 SHA512:da7fe6bb4be1dbe38c96ec4fce41ae875bd57197f9f1f2516f34e5ddf0d277d434b94acfea602210136bcdd8840fc1cb69c0db6ab11196d03bf032763666cce4
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-catkin-pkg/python-catkin-pkg_0.4.15-100.dsc' python-catkin-pkg_0.4.15-100.dsc 938 SHA512:9b605c98c3b2b6b87f7d58ca694fb527f625930c421d9b6e77f5f79f97589c15a8e2b0d16cc1ed0c8a6808fa1f691b7d87f77669b391ee69a71a303bb0693994
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-catkin-pkg/python-catkin-pkg_0.4.15.orig.tar.gz' python-catkin-pkg_0.4.15.orig.tar.gz 13677 SHA512:2586a739971b7f10bb4b8b71023b6eb88f1a6c34cba38937a4224d8cc3373c0170568d9da4130443608ce8195b3e8ceb2631730dd216cc32cd16f6d3fc6d5706
 ```
 
 ### `dpkg` source package: `python-cbor=1.0.0-1`
@@ -8532,11 +8515,11 @@ $ apt-get source -qq --print-uris python-crypto=2.6.1-8ubuntu2
 'http://archive.ubuntu.com/ubuntu/pool/main/p/python-crypto/python-crypto_2.6.1-8ubuntu2.debian.tar.xz' python-crypto_2.6.1-8ubuntu2.debian.tar.xz 23396 SHA256:b947640445028a42f2727f09857fc942e5f855f21ac5958ad49ca7eb1e06ce88
 ```
 
-### `dpkg` source package: `python-cryptography=2.1.4-1ubuntu1.2`
+### `dpkg` source package: `python-cryptography=2.1.4-1ubuntu1.3`
 
 Binary Packages:
 
-- `python-cryptography=2.1.4-1ubuntu1.2`
+- `python-cryptography=2.1.4-1ubuntu1.3`
 
 Licenses: (parsed from: `/usr/share/doc/python-cryptography/copyright`)
 
@@ -8547,10 +8530,10 @@ Licenses: (parsed from: `/usr/share/doc/python-cryptography/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris python-cryptography=2.1.4-1ubuntu1.2
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python-cryptography/python-cryptography_2.1.4-1ubuntu1.2.dsc' python-cryptography_2.1.4-1ubuntu1.2.dsc 3629 SHA256:3dedfe1b432ae6be254bb44e8d479a377c50de3294975543b2e8b9a2dfc24f02
+$ apt-get source -qq --print-uris python-cryptography=2.1.4-1ubuntu1.3
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python-cryptography/python-cryptography_2.1.4-1ubuntu1.3.dsc' python-cryptography_2.1.4-1ubuntu1.3.dsc 3320 SHA256:f737d3ad9ed01268700c4eeaed159eaee65d8f925500b0acb498399b4d01d369
 'http://archive.ubuntu.com/ubuntu/pool/main/p/python-cryptography/python-cryptography_2.1.4.orig.tar.gz' python-cryptography_2.1.4.orig.tar.gz 441557 SHA256:e4d967371c5b6b2e67855066471d844c5d52d210c36c28d49a8507b96e2c5291
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python-cryptography/python-cryptography_2.1.4-1ubuntu1.2.debian.tar.xz' python-cryptography_2.1.4-1ubuntu1.2.debian.tar.xz 26792 SHA256:2c3076b00604e360b766b3df6c66ddb354a3f02225488d90fd2a26d16f96c569
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python-cryptography/python-cryptography_2.1.4-1ubuntu1.3.debian.tar.xz' python-cryptography_2.1.4-1ubuntu1.3.debian.tar.xz 28008 SHA256:5a6facc3be61feda9640674a6ef179cdf7210460b931386aa5c7e600dccfe106
 ```
 
 ### `dpkg` source package: `python-dateutil=2.6.1-1`
@@ -8621,11 +8604,11 @@ $ apt-get source -qq --print-uris python-docutils=0.14+dfsg-3
 'http://archive.ubuntu.com/ubuntu/pool/main/p/python-docutils/python-docutils_0.14+dfsg-3.debian.tar.xz' python-docutils_0.14+dfsg-3.debian.tar.xz 31188 SHA256:3e73e6211785b227dc0c9258e1a69b0adbbd129a401b5b09886981789569e024
 ```
 
-### `dpkg` source package: `python-gnupg=0.4.1-1ubuntu1`
+### `dpkg` source package: `python-gnupg=0.4.1-1ubuntu1.18.04.1`
 
 Binary Packages:
 
-- `python-gnupg=0.4.1-1ubuntu1`
+- `python-gnupg=0.4.1-1ubuntu1.18.04.1`
 
 Licenses: (parsed from: `/usr/share/doc/python-gnupg/copyright`)
 
@@ -8635,10 +8618,10 @@ Licenses: (parsed from: `/usr/share/doc/python-gnupg/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris python-gnupg=0.4.1-1ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/universe/p/python-gnupg/python-gnupg_0.4.1-1ubuntu1.dsc' python-gnupg_0.4.1-1ubuntu1.dsc 2199 SHA256:a8f9586e2bfce96fb13f08e66fee5cd49c98e9d977f53528fcabc19dcadb7a5c
+$ apt-get source -qq --print-uris python-gnupg=0.4.1-1ubuntu1.18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/universe/p/python-gnupg/python-gnupg_0.4.1-1ubuntu1.18.04.1.dsc' python-gnupg_0.4.1-1ubuntu1.18.04.1.dsc 2285 SHA256:dbea9c9edd833ba916878f269ec78432bcc0d8b5bf30722127b8c92fff27b1df
 'http://archive.ubuntu.com/ubuntu/pool/universe/p/python-gnupg/python-gnupg_0.4.1.orig.tar.gz' python-gnupg_0.4.1.orig.tar.gz 44534 SHA256:ef47b02eaf41dee3cf4b02ddf83130827318de9fe3eae89d01a3f05859e20e1a
-'http://archive.ubuntu.com/ubuntu/pool/universe/p/python-gnupg/python-gnupg_0.4.1-1ubuntu1.debian.tar.xz' python-gnupg_0.4.1-1ubuntu1.debian.tar.xz 7964 SHA256:820a6391d27acb68ab7e8c8208762b21bc4f80a2dcd9746a0378eee49828f869
+'http://archive.ubuntu.com/ubuntu/pool/universe/p/python-gnupg/python-gnupg_0.4.1-1ubuntu1.18.04.1.debian.tar.xz' python-gnupg_0.4.1-1ubuntu1.18.04.1.debian.tar.xz 9992 SHA256:fe6d8bc444465238e391024f4da116f46e2470bfeb3529c45fad34a19499878c
 ```
 
 ### `dpkg` source package: `python-idna=2.6-1`
@@ -8822,11 +8805,11 @@ $ apt-get source -qq --print-uris python-roman=2.0.0-3
 'http://archive.ubuntu.com/ubuntu/pool/main/p/python-roman/python-roman_2.0.0-3.debian.tar.xz' python-roman_2.0.0-3.debian.tar.xz 8596 SHA256:fa6c16b3e4d328a8cfe16fbed994add1a2c9cb5a5955bff374244794a6cddf31
 ```
 
-### `dpkg` source package: `python-rosdep=0.14.0-1`
+### `dpkg` source package: `python-rosdep-modules=0.18.0-1`
 
 Binary Packages:
 
-- `python-rosdep=0.14.0-1`
+- `python-rosdep-modules=0.18.0-1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -8835,39 +8818,68 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris python-rosdep=0.14.0-1
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdep/python-rosdep_0.14.0-1.debian.tar.xz' python-rosdep_0.14.0-1.debian.tar.xz 1944 SHA512:75aa704cc1b56ab8653339171df8a16712ade5031180b22f1af25b4bfd48a60b60b3d4c892fed9780618d69def6b2298aab904b2cd566bf3d0524f08363b37b1
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdep/python-rosdep_0.14.0-1.dsc' python-rosdep_0.14.0-1.dsc 905 SHA512:e18c73b6efc8a307e726180f418d0a3e38847669957aff568b1d070f257a6f92f068f139119d1ff1a8041445eddf9ad3072adb56e964faaa40e2cba93ece9a06
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdep/python-rosdep_0.14.0.orig.tar.gz' python-rosdep_0.14.0.orig.tar.gz 80031 SHA512:9efe48135b0310c57ceaa4fc29b4375afd32f5795291eda8cf729c24a89744e2b5e5e7b668123e37762d0ce1fb37d6789051de930b08ebb0cb0fdeb1dddc5936
+$ apt-get source -qq --print-uris python-rosdep-modules=0.18.0-1
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdep-modules/python-rosdep-modules_0.18.0-1.debian.tar.xz' python-rosdep-modules_0.18.0-1.debian.tar.xz 1996 SHA512:a3d8326a73eda7df5caeacf818b8636a26ff60b3e57b4f96d58fcfd6b857fc0ba2b19345d9d65592bf1fb10d704d7aa96ae3e538dd02479f3c82d5f4d0f843a9
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdep-modules/python-rosdep-modules_0.18.0-1.dsc' python-rosdep-modules_0.18.0-1.dsc 973 SHA512:df0d2b96f7370d7a6b93a5afa3a5172e51c92ad0b4d50cb83171cfcc4f8f216896281c03a65b70c13605ff66e24721f0a03277636e382694df1466cb2eb166b3
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdep-modules/python-rosdep-modules_0.18.0.orig.tar.gz' python-rosdep-modules_0.18.0.orig.tar.gz 86836 SHA512:76383336265e59878d5b3b4a4dcde99795add9d850ce88d2243bf852c9496a2713240661ea9de0f7c58a28f51a929a084bfb39d8583313156e578bf2e421e22c
 ```
 
-### `dpkg` source package: `python-rosdistro-modules=0.7.1-1`
+### `dpkg` source package: `python-rosdep=0.18.0-1`
 
 Binary Packages:
 
-- `python-rosdistro-modules=0.7.1-1`
+- `python-rosdep=0.18.0-1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
 
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris python-rosdep=0.18.0-1
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdep/python-rosdep_0.18.0-1.debian.tar.xz' python-rosdep_0.18.0-1.debian.tar.xz 1952 SHA512:2d13933a410b58a4b6d67d525af4cd86e655e02390f14f6ae211e51b8272180c287c7450cfd359a2a2d21735017c92ba505c3b381a55b6e93af61046e7a58c8b
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdep/python-rosdep_0.18.0-1.dsc' python-rosdep_0.18.0-1.dsc 905 SHA512:3b508104d143795e950ecdbc4fdf79356e140a74dc725ae05eef04fbb6decd8fc3cf0100bbf0f27027c675f70b1608a82861e7c9220619756f06ae14c15becda
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdep/python-rosdep_0.18.0.orig.tar.gz' python-rosdep_0.18.0.orig.tar.gz 31914 SHA512:5ea12c0abbf7add7d5cff953ed7bd3ec0c529678cc918331caed6591eb6770940c5d8ab14e681be5237d26bcad77f8e25ce33cb6fe1f5caffe83406f6bc8fa2a
+```
 
-### `dpkg` source package: `python-rosdistro=0.7.1-100`
+### `dpkg` source package: `python-rosdistro-modules=0.8.0-1`
 
 Binary Packages:
 
-- `python-rosdistro=0.7.1-100`
+- `python-rosdistro-modules=0.8.0-1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
 
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris python-rosdistro-modules=0.8.0-1
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdistro-modules/python-rosdistro-modules_0.8.0-1.debian.tar.xz' python-rosdistro-modules_0.8.0-1.debian.tar.xz 1928 SHA512:41692f4a6ff1bac0bc223b90318188e76daa0731d61e563ee70c00f1dcb044319abf7c7b1051cb14226723f46d03dea9342f2468b222dd44b20496cf74dbc9c1
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdistro-modules/python-rosdistro-modules_0.8.0-1.dsc' python-rosdistro-modules_0.8.0-1.dsc 982 SHA512:59a5694e8c173669686e8106de7e169737e8fced4a7116e6dafc107738933a6782533dbfadbfb17c51a757bc19378fbd885b01d8de18af954dc249deb85e622f
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdistro-modules/python-rosdistro-modules_0.8.0.orig.tar.gz' python-rosdistro-modules_0.8.0.orig.tar.gz 41948 SHA512:2262f4e1807e3dafbfaa4ad3e8851299741ba128b9d6fb56e805992543ba4290de5198c0e310c7efc4528700ea00eb6ab83bae5bc64a22856ba30a9f9d1aaa60
+```
+
+### `dpkg` source package: `python-rosdistro=0.8.0-100`
+
+Binary Packages:
+
+- `python-rosdistro=0.8.0-100`
+
+**WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
+If source is available (seen below), check the contents of `debian/copyright` within it.
+
+
+Source:
+
+```console
+$ apt-get source -qq --print-uris python-rosdistro=0.8.0-100
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdistro/python-rosdistro_0.8.0-100.debian.tar.xz' python-rosdistro_0.8.0-100.debian.tar.xz 1912 SHA512:2d6ab6c8dcf41e8bae3ec9032550fe170c10b064870a14070815b56fffea523cddd73b23a5b9b697c807c07c0ee5ec59038a623f97079953becdf5a6f4dcfeb7
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdistro/python-rosdistro_0.8.0-100.dsc' python-rosdistro_0.8.0-100.dsc 922 SHA512:979772eb953a7b70e3efea06e2f52002fd682764989a10903ef0fc80aea892c430f98841082303d58516815d37e343ab7cb536b3d1f65aac6134fcded98447c0
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosdistro/python-rosdistro_0.8.0.orig.tar.gz' python-rosdistro_0.8.0.orig.tar.gz 10107 SHA512:2f5e4144a0e5b90ba78f97544e68751d9f16792b5f20847e785aeb844fa86bf0de531cd1bcf032612decd1daca3808b15fef17f70d64163fd1e3cb0b4b8fa954
+```
 
 ### `dpkg` source package: `python-rosinstall=0.7.8-1`
 
@@ -8883,48 +8895,38 @@ Source:
 
 ```console
 $ apt-get source -qq --print-uris python-rosinstall=0.7.8-1
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosinstall/python-rosinstall_0.7.8-1.dsc' python-rosinstall_0.7.8-1.dsc 917 SHA256:19d6b7db1cb3a2a6a34d6a2b86562982e2934f2f5bd0adcd73813f9b2644c906
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosinstall/python-rosinstall_0.7.8.orig.tar.gz' python-rosinstall_0.7.8.orig.tar.gz 26425 SHA256:bc278e72a6c8aef5df8b04c565d54c6e452caad4fc7ead5d8cea1b4db2926ec4
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosinstall/python-rosinstall_0.7.8-1.debian.tar.gz' python-rosinstall_0.7.8-1.debian.tar.gz 1008 SHA256:218375984f09c4fcfd9febfa9d08af30706a37c83e0c88925e682d84b6d44c7d
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosinstall/python-rosinstall_0.7.8-1.debian.tar.gz' python-rosinstall_0.7.8-1.debian.tar.gz 1008 SHA512:44bebf6ed0d14fa358e766096319cc304e70cd370c2f4ae13befdb5db0cbda1a4bda03d96b5ce57c0b0b4a7a82e96aa0ba280a9714c35460de6b59548a6a098d
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosinstall/python-rosinstall_0.7.8-1.dsc' python-rosinstall_0.7.8-1.dsc 917 SHA512:cadb27334167a8b5bbee35303642f09dbbb5d6cf827852400146d14f400d1a2dc5ce8e880889141cadfd072518541e9004af8458114a713eee63866b15288ebd
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rosinstall/python-rosinstall_0.7.8.orig.tar.gz' python-rosinstall_0.7.8.orig.tar.gz 26425 SHA512:013b313b9e442e9b68f7aad0a372d2c1dfb9efeb66b9f20d01943bf58808e0e0bc69db848ba1c2460f0ecfaba89d385e987ccb574a7139b6500d5f958eda4d1b
 ```
 
-### `dpkg` source package: `python-rospkg-modules=1.1.7-1`
+### `dpkg` source package: `python-rospkg-modules=1.2.2-1`
 
 Binary Packages:
 
-- `python-rospkg-modules=1.1.7-1`
+- `python-rospkg-modules=1.2.2-1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
 
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris python-rospkg-modules=1.1.7-1
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rospkg-modules/python-rospkg-modules_1.1.7-1.dsc' python-rospkg-modules_1.1.7-1.dsc 953 SHA256:33b4aa87fe81014a4e75af693eaf774ad50a130db6606398b09d3493d9fa1ade
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rospkg-modules/python-rospkg-modules_1.1.7.orig.tar.gz' python-rospkg-modules_1.1.7.orig.tar.gz 39986 SHA256:9317ac27b68e807884781a07339123ea7b2c3911bbf8a0a2f321e7c7de1f904e
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rospkg-modules/python-rospkg-modules_1.1.7-1.debian.tar.xz' python-rospkg-modules_1.1.7-1.debian.tar.xz 1144 SHA256:2cc798fb32dc340f1b640e8be0ef9e1ad6f0d8a10099c5ddb4b98e7a45b360ee
-```
 
-### `dpkg` source package: `python-rospkg=1.1.7-100`
+### `dpkg` source package: `python-rospkg=1.2.2-100`
 
 Binary Packages:
 
-- `python-rospkg=1.1.7-100`
+- `python-rospkg=1.2.2-100`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
 
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris python-rospkg=1.1.7-100
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rospkg/python-rospkg_1.1.7-100.dsc' python-rospkg_1.1.7-100.dsc 889 SHA256:91196293547af117a86a3a6530841fe2ccf85332d5ba1574f96546f65bc822fb
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rospkg/python-rospkg_1.1.7.orig.tar.gz' python-rospkg_1.1.7.orig.tar.gz 16920 SHA256:caf4f2615c9bdff92d92f3a0fb6a2e42f5085099d90a635ec7134c869ea23a1c
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-rospkg/python-rospkg_1.1.7-100.debian.tar.xz' python-rospkg_1.1.7-100.debian.tar.xz 1140 SHA256:722cf76cbd9c81734874ccdb101fc10cbd94b6e7edb2e304718688e182195731
-```
 
 ### `dpkg` source package: `python-service-identity=16.0.0-2`
 
@@ -9042,11 +9044,11 @@ $ apt-get source -qq --print-uris python-txaio=2.8.1-1
 'http://archive.ubuntu.com/ubuntu/pool/universe/p/python-txaio/python-txaio_2.8.1-1.debian.tar.xz' python-txaio_2.8.1-1.debian.tar.xz 4120 SHA256:f28a057f1df5ac383cbb8dff5ee54c5980f24c78f2ac05a5fc53634046ce7a63
 ```
 
-### `dpkg` source package: `python-vcstools=0.1.40-1`
+### `dpkg` source package: `python-vcstools=0.1.42-1`
 
 Binary Packages:
 
-- `python-vcstools=0.1.40-1`
+- `python-vcstools=0.1.42-1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9055,10 +9057,10 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris python-vcstools=0.1.40-1
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-vcstools/python-vcstools_0.1.40-1.dsc' python-vcstools_0.1.40-1.dsc 930 SHA256:c5031c0eb7a4f413c2903c1f7289f511293b5d18ecac2e58fa6b1cc6b962765e
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-vcstools/python-vcstools_0.1.40.orig.tar.gz' python-vcstools_0.1.40.orig.tar.gz 51298 SHA256:57f41f0f360d581a90f1511ef9aab62aa324e7cd251d9fd40f2275d13a8fd488
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-vcstools/python-vcstools_0.1.40-1.debian.tar.gz' python-vcstools_0.1.40-1.debian.tar.gz 1076 SHA256:5c27c1b6d815faa645f6557d40b6d5d406d1dd82b8fa1d7b6481852b40b8f325
+$ apt-get source -qq --print-uris python-vcstools=0.1.42-1
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-vcstools/python-vcstools_0.1.42-1.debian.tar.xz' python-vcstools_0.1.42-1.debian.tar.xz 1212 SHA512:0a1122589d1e95fb4448af5d7d6551abe52533ea7e065bf09e00e042dac1ecac0eb691ac580b818130ca214f970dee0c4cd07f49966dbe122d95023ad01d7c9a
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-vcstools/python-vcstools_0.1.42-1.dsc' python-vcstools_0.1.42-1.dsc 935 SHA512:398ed97732ecd681cdfa6ea6d6f90709dada18d2c4287eb732de42d5dcb997d69e5f135927a949fc7734b375113ca3a74c9fa4ae7dae8c1b6bc90bdf3edc8232
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-vcstools/python-vcstools_0.1.42.orig.tar.gz' python-vcstools_0.1.42.orig.tar.gz 54462 SHA512:92f1eb9edb1c39c6179b8ca05169e0ad053a141f71309c91647c67a380abaa504953ff87d742dce846fa8d7116616e8f4656cc232cf73bb81f6920f6bd795f80
 ```
 
 ### `dpkg` source package: `python-wsaccel=0.6.2-1`
@@ -9095,22 +9097,22 @@ Source:
 
 ```console
 $ apt-get source -qq --print-uris python-wstool=0.1.17-1
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-wstool/python-wstool_0.1.17-1.dsc' python-wstool_0.1.17-1.dsc 888 SHA256:3c443f7f043ee81732917ed67496035cb4dc4e529231ccd05fc3421c7d900821
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-wstool/python-wstool_0.1.17.orig.tar.gz' python-wstool_0.1.17.orig.tar.gz 53327 SHA256:c7e2b5933e6a17063c5c6f12ba8419a1d8289fbdba3d12b8319f4202ce3c2562
-'http://packages.ros.org/ros/ubuntu/pool/main/p/python-wstool/python-wstool_0.1.17-1.debian.tar.gz' python-wstool_0.1.17-1.debian.tar.gz 1045 SHA256:bc632485fb7b1694cfc8e894f1d4c5dc779e23e4034b484e866546cc8d750dfe
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-wstool/python-wstool_0.1.17-1.debian.tar.gz' python-wstool_0.1.17-1.debian.tar.gz 1045 SHA512:aba9c213555c16dbcc326422f14fcf76ab2ddf943d5fe38f4fe75f30cb885b14b4008a0e21029091be6030fa2eb1a0e6a35403aed84a6dfb0ef862025bdaacd8
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-wstool/python-wstool_0.1.17-1.dsc' python-wstool_0.1.17-1.dsc 888 SHA512:41d47d5a14b274454c2f8e01d3e429b8ae8e61da66c3bb6442ceba232645cec4a7efb13848de16c21ca5f8fee7a312ac0628a812800aaf9b41fa54b5b3b75547
+'http://packages.ros.org/ros/ubuntu/pool/main/p/python-wstool/python-wstool_0.1.17.orig.tar.gz' python-wstool_0.1.17.orig.tar.gz 53327 SHA512:e2512ac47376c409e49c3b2ad88f696335509f2b7d8b934d6e730208bf6a47f821f5ce65e153dea50b8fe3554af228e356df5ee54e90a708f8eda5f5b5fee9c1
 ```
 
-### `dpkg` source package: `python2.7=2.7.15~rc1-1ubuntu0.1`
+### `dpkg` source package: `python2.7=2.7.17-1~18.04`
 
 Binary Packages:
 
-- `libpython2.7:amd64=2.7.15~rc1-1ubuntu0.1`
-- `libpython2.7-dev:amd64=2.7.15~rc1-1ubuntu0.1`
-- `libpython2.7-minimal:amd64=2.7.15~rc1-1ubuntu0.1`
-- `libpython2.7-stdlib:amd64=2.7.15~rc1-1ubuntu0.1`
-- `python2.7=2.7.15~rc1-1ubuntu0.1`
-- `python2.7-dev=2.7.15~rc1-1ubuntu0.1`
-- `python2.7-minimal=2.7.15~rc1-1ubuntu0.1`
+- `libpython2.7:amd64=2.7.17-1~18.04`
+- `libpython2.7-dev:amd64=2.7.17-1~18.04`
+- `libpython2.7-minimal:amd64=2.7.17-1~18.04`
+- `libpython2.7-stdlib:amd64=2.7.17-1~18.04`
+- `python2.7=2.7.17-1~18.04`
+- `python2.7-dev=2.7.17-1~18.04`
+- `python2.7-minimal=2.7.17-1~18.04`
 
 Licenses: (parsed from: `/usr/share/doc/libpython2.7/copyright`, `/usr/share/doc/libpython2.7-dev/copyright`, `/usr/share/doc/libpython2.7-minimal/copyright`, `/usr/share/doc/libpython2.7-stdlib/copyright`, `/usr/share/doc/python2.7/copyright`, `/usr/share/doc/python2.7-dev/copyright`, `/usr/share/doc/python2.7-minimal/copyright`)
 
@@ -9134,10 +9136,10 @@ Licenses: (parsed from: `/usr/share/doc/libpython2.7/copyright`, `/usr/share/doc
 Source:
 
 ```console
-$ apt-get source -qq --print-uris python2.7=2.7.15~rc1-1ubuntu0.1
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python2.7/python2.7_2.7.15~rc1-1ubuntu0.1.dsc' python2.7_2.7.15~rc1-1ubuntu0.1.dsc 3480 SHA256:98f51fba2a970d76de4e52aacd682a7643b4b19082f860bb1af4f7aaf96effcc
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python2.7/python2.7_2.7.15~rc1.orig.tar.gz' python2.7_2.7.15~rc1.orig.tar.gz 17496421 SHA256:8a0c4ce73d351d73dc105cb8dadd2b5b0aa91956353a558dff10962f543f5d8b
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python2.7/python2.7_2.7.15~rc1-1ubuntu0.1.diff.gz' python2.7_2.7.15~rc1-1ubuntu0.1.diff.gz 286551 SHA256:5759321345df298f17dbb5405a22929ac6d33eb3646fe6516027bf43893e6973
+$ apt-get source -qq --print-uris python2.7=2.7.17-1~18.04
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python2.7/python2.7_2.7.17-1~18.04.dsc' python2.7_2.7.17-1~18.04.dsc 3388 SHA256:6d68c4706e44e567668345435b521190cc8b8e8ee78a38078d16223c19ddb15d
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python2.7/python2.7_2.7.17.orig.tar.gz' python2.7_2.7.17.orig.tar.gz 17535962 SHA256:f22059d09cdf9625e0a7284d24a13062044f5bf59d93a7f3382190dfa94cecde
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python2.7/python2.7_2.7.17-1~18.04.diff.gz' python2.7_2.7.17-1~18.04.diff.gz 287074 SHA256:d2088da2c791fbdf4e209593f82cc05f08711efa2b9050abc62f204db966e16e
 ```
 
 ### `dpkg` source package: `python3-defaults=3.6.7-1~18.04`
@@ -9162,12 +9164,12 @@ $ apt-get source -qq --print-uris python3-defaults=3.6.7-1~18.04
 'http://archive.ubuntu.com/ubuntu/pool/main/p/python3-defaults/python3-defaults_3.6.7-1~18.04.tar.gz' python3-defaults_3.6.7-1~18.04.tar.gz 137600 SHA256:df14f4993ac87537415f1abaa69d80790fb01e51033416bc123038f731286ed4
 ```
 
-### `dpkg` source package: `python3-stdlib-extensions=3.6.7-1~18.04`
+### `dpkg` source package: `python3-stdlib-extensions=3.6.9-1~18.04`
 
 Binary Packages:
 
-- `python3-distutils=3.6.7-1~18.04`
-- `python3-lib2to3=3.6.7-1~18.04`
+- `python3-distutils=3.6.9-1~18.04`
+- `python3-lib2to3=3.6.9-1~18.04`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9176,23 +9178,23 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris python3-stdlib-extensions=3.6.7-1~18.04
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3-stdlib-extensions/python3-stdlib-extensions_3.6.7-1~18.04.dsc' python3-stdlib-extensions_3.6.7-1~18.04.dsc 2547 SHA256:64daa6d5f363816f81cf432a0d742febb20c106ab71add15848028bb8e1ce201
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3-stdlib-extensions/python3-stdlib-extensions_3.6.7.orig.tar.xz' python3-stdlib-extensions_3.6.7.orig.tar.xz 1037436 SHA256:e89e3bd96044b0c1463fef487c47c72268176ed9efd1901e60b1571f2d315aa0
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3-stdlib-extensions/python3-stdlib-extensions_3.6.7-1~18.04.debian.tar.xz' python3-stdlib-extensions_3.6.7-1~18.04.debian.tar.xz 15924 SHA256:ba6c0cd9a5f92042032b30ce10a887f08a15db0029909bfc430ab21cd56f5646
+$ apt-get source -qq --print-uris python3-stdlib-extensions=3.6.9-1~18.04
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python3-stdlib-extensions/python3-stdlib-extensions_3.6.9-1~18.04.dsc' python3-stdlib-extensions_3.6.9-1~18.04.dsc 2624 SHA256:9e5055cbfdf3e0e904ff12788090e1df88182f6eb178aca0551cbd0fef9f059c
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python3-stdlib-extensions/python3-stdlib-extensions_3.6.9.orig.tar.bz2' python3-stdlib-extensions_3.6.9.orig.tar.bz2 4237908 SHA256:124756562de67dda09de9d992d69f7f8bcdbcc04f155f71ebf81a22dcfb77984
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python3-stdlib-extensions/python3-stdlib-extensions_3.6.9-1~18.04.debian.tar.xz' python3-stdlib-extensions_3.6.9-1~18.04.debian.tar.xz 16908 SHA256:befdd346165a9baa7fc42b54c24db9b975870651c9578b03d0511e0b77578f84
 ```
 
-### `dpkg` source package: `python3.6=3.6.7-1~18.04`
+### `dpkg` source package: `python3.6=3.6.9-1~18.04`
 
 Binary Packages:
 
-- `libpython3.6:amd64=3.6.7-1~18.04`
-- `libpython3.6-dev:amd64=3.6.7-1~18.04`
-- `libpython3.6-minimal:amd64=3.6.7-1~18.04`
-- `libpython3.6-stdlib:amd64=3.6.7-1~18.04`
-- `python3.6=3.6.7-1~18.04`
-- `python3.6-dev=3.6.7-1~18.04`
-- `python3.6-minimal=3.6.7-1~18.04`
+- `libpython3.6:amd64=3.6.9-1~18.04`
+- `libpython3.6-dev:amd64=3.6.9-1~18.04`
+- `libpython3.6-minimal:amd64=3.6.9-1~18.04`
+- `libpython3.6-stdlib:amd64=3.6.9-1~18.04`
+- `python3.6=3.6.9-1~18.04`
+- `python3.6-dev=3.6.9-1~18.04`
+- `python3.6-minimal=3.6.9-1~18.04`
 
 Licenses: (parsed from: `/usr/share/doc/libpython3.6/copyright`, `/usr/share/doc/libpython3.6-dev/copyright`, `/usr/share/doc/libpython3.6-minimal/copyright`, `/usr/share/doc/libpython3.6-stdlib/copyright`, `/usr/share/doc/python3.6/copyright`, `/usr/share/doc/python3.6-dev/copyright`, `/usr/share/doc/python3.6-minimal/copyright`)
 
@@ -9217,10 +9219,10 @@ Licenses: (parsed from: `/usr/share/doc/libpython3.6/copyright`, `/usr/share/doc
 Source:
 
 ```console
-$ apt-get source -qq --print-uris python3.6=3.6.7-1~18.04
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.6/python3.6_3.6.7-1~18.04.dsc' python3.6_3.6.7-1~18.04.dsc 3444 SHA256:8bc3934884824d0c9c2b8b97e231390c193702f8b079ffa87164da789ca7ebb2
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.6/python3.6_3.6.7.orig.tar.xz' python3.6_3.6.7.orig.tar.xz 17178476 SHA256:81fd1401a9d66533b0a3e9e3f4ea1c7c6702d57d5b90d659f971e6f1b745f77d
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.6/python3.6_3.6.7-1~18.04.debian.tar.xz' python3.6_3.6.7-1~18.04.debian.tar.xz 207092 SHA256:973992c49be74f3212957cb3a38e8c88b7c2ab6a3582839c60bbd694d778d322
+$ apt-get source -qq --print-uris python3.6=3.6.9-1~18.04
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.6/python3.6_3.6.9-1~18.04.dsc' python3.6_3.6.9-1~18.04.dsc 3459 SHA256:bce2658efe1049ac11b6abf4f48e6891ec2ea633377b081a18db9280478ab425
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.6/python3.6_3.6.9.orig.tar.xz' python3.6_3.6.9.orig.tar.xz 17212164 SHA256:5e2f5f554e3f8f7f0296f7e73d8600c4e9acbaee6b2555b83206edf5153870da
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.6/python3.6_3.6.9-1~18.04.debian.tar.xz' python3.6_3.6.9-1~18.04.debian.tar.xz 214508 SHA256:5096a758dae76f406c05cd208b912e9562e7f88e84b6adc8ceeb3aa118707a42
 ```
 
 ### `dpkg` source package: `pyyaml=3.12-1build2`
@@ -9263,28 +9265,28 @@ $ apt-get source -qq --print-uris qhull=2015.2-4
 'http://archive.ubuntu.com/ubuntu/pool/universe/q/qhull/qhull_2015.2-4.debian.tar.xz' qhull_2015.2-4.debian.tar.xz 10816 SHA256:b1135fff216f4cf256690a8a2ecec6a775bec656d38ec12cbfda936360e4e0bb
 ```
 
-### `dpkg` source package: `qtbase-opensource-src=5.9.5+dfsg-0ubuntu1`
+### `dpkg` source package: `qtbase-opensource-src=5.9.5+dfsg-0ubuntu2.4`
 
 Binary Packages:
 
-- `libqt5concurrent5:amd64=5.9.5+dfsg-0ubuntu1`
-- `libqt5core5a:amd64=5.9.5+dfsg-0ubuntu1`
-- `libqt5dbus5:amd64=5.9.5+dfsg-0ubuntu1`
-- `libqt5gui5:amd64=5.9.5+dfsg-0ubuntu1`
-- `libqt5network5:amd64=5.9.5+dfsg-0ubuntu1`
-- `libqt5opengl5:amd64=5.9.5+dfsg-0ubuntu1`
-- `libqt5opengl5-dev:amd64=5.9.5+dfsg-0ubuntu1`
-- `libqt5printsupport5:amd64=5.9.5+dfsg-0ubuntu1`
-- `libqt5sql5:amd64=5.9.5+dfsg-0ubuntu1`
-- `libqt5sql5-sqlite:amd64=5.9.5+dfsg-0ubuntu1`
-- `libqt5test5:amd64=5.9.5+dfsg-0ubuntu1`
-- `libqt5widgets5:amd64=5.9.5+dfsg-0ubuntu1`
-- `libqt5xml5:amd64=5.9.5+dfsg-0ubuntu1`
-- `qt5-gtk-platformtheme:amd64=5.9.5+dfsg-0ubuntu1`
-- `qt5-qmake:amd64=5.9.5+dfsg-0ubuntu1`
-- `qt5-qmake-bin=5.9.5+dfsg-0ubuntu1`
-- `qtbase5-dev:amd64=5.9.5+dfsg-0ubuntu1`
-- `qtbase5-dev-tools=5.9.5+dfsg-0ubuntu1`
+- `libqt5concurrent5:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `libqt5core5a:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `libqt5dbus5:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `libqt5gui5:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `libqt5network5:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `libqt5opengl5:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `libqt5opengl5-dev:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `libqt5printsupport5:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `libqt5sql5:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `libqt5sql5-sqlite:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `libqt5test5:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `libqt5widgets5:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `libqt5xml5:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `qt5-gtk-platformtheme:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `qt5-qmake:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `qt5-qmake-bin=5.9.5+dfsg-0ubuntu2.4`
+- `qtbase5-dev:amd64=5.9.5+dfsg-0ubuntu2.4`
+- `qtbase5-dev-tools=5.9.5+dfsg-0ubuntu2.4`
 
 Licenses: (parsed from: `/usr/share/doc/libqt5concurrent5/copyright`, `/usr/share/doc/libqt5core5a/copyright`, `/usr/share/doc/libqt5dbus5/copyright`, `/usr/share/doc/libqt5gui5/copyright`, `/usr/share/doc/libqt5network5/copyright`, `/usr/share/doc/libqt5opengl5/copyright`, `/usr/share/doc/libqt5opengl5-dev/copyright`, `/usr/share/doc/libqt5printsupport5/copyright`, `/usr/share/doc/libqt5sql5/copyright`, `/usr/share/doc/libqt5sql5-sqlite/copyright`, `/usr/share/doc/libqt5test5/copyright`, `/usr/share/doc/libqt5widgets5/copyright`, `/usr/share/doc/libqt5xml5/copyright`, `/usr/share/doc/qt5-gtk-platformtheme/copyright`, `/usr/share/doc/qt5-qmake/copyright`, `/usr/share/doc/qt5-qmake-bin/copyright`, `/usr/share/doc/qtbase5-dev/copyright`, `/usr/share/doc/qtbase5-dev-tools/copyright`)
 
@@ -9316,10 +9318,10 @@ Licenses: (parsed from: `/usr/share/doc/libqt5concurrent5/copyright`, `/usr/shar
 Source:
 
 ```console
-$ apt-get source -qq --print-uris qtbase-opensource-src=5.9.5+dfsg-0ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/qtbase-opensource-src_5.9.5+dfsg-0ubuntu1.dsc' qtbase-opensource-src_5.9.5+dfsg-0ubuntu1.dsc 5080 SHA256:029121a41cbb1f11152a7830d21f1aa300285d7cc73c31511537d3684468b3cf
+$ apt-get source -qq --print-uris qtbase-opensource-src=5.9.5+dfsg-0ubuntu2.4
+'http://archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/qtbase-opensource-src_5.9.5+dfsg-0ubuntu2.4.dsc' qtbase-opensource-src_5.9.5+dfsg-0ubuntu2.4.dsc 5117 SHA256:d6915282ae6b9a3d6de2c1bda52229c31fce623ef1ccb917e57fc744c929b858
 'http://archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/qtbase-opensource-src_5.9.5+dfsg.orig.tar.xz' qtbase-opensource-src_5.9.5+dfsg.orig.tar.xz 44935364 SHA256:09dd1f0b484b6b521181774de0fd13e179dce4614fb5e308f1c9435082750e59
-'http://archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/qtbase-opensource-src_5.9.5+dfsg-0ubuntu1.debian.tar.xz' qtbase-opensource-src_5.9.5+dfsg-0ubuntu1.debian.tar.xz 254312 SHA256:e0d1a31751a357f8c913e3fb9ce11d2f795a64de991b8dd563900b4de3a1e52c
+'http://archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/qtbase-opensource-src_5.9.5+dfsg-0ubuntu2.4.debian.tar.xz' qtbase-opensource-src_5.9.5+dfsg-0ubuntu2.4.debian.tar.xz 263620 SHA256:42bd49f39fe3a75d5ea6c6b16977855dfceeda3991acbc90d3016e2dc1bf8bb1
 ```
 
 ### `dpkg` source package: `qtchooser=64-ga1b6736-5`
@@ -9581,14 +9583,14 @@ $ apt-get source -qq --print-uris qtwebkit-opensource-src=5.212.0~alpha2-7ubuntu
 'http://archive.ubuntu.com/ubuntu/pool/universe/q/qtwebkit-opensource-src/qtwebkit-opensource-src_5.212.0~alpha2-7ubuntu1.debian.tar.xz' qtwebkit-opensource-src_5.212.0~alpha2-7ubuntu1.debian.tar.xz 67740 SHA256:21b0810d3605a3e07bf89223d4dbbe9d0702ccc7e58bf2691cd5355e2395797e
 ```
 
-### `dpkg` source package: `rdma-core=17.1-1ubuntu0.1`
+### `dpkg` source package: `rdma-core=17.1-1ubuntu0.2`
 
 Binary Packages:
 
-- `ibverbs-providers:amd64=17.1-1ubuntu0.1`
-- `libibverbs-dev:amd64=17.1-1ubuntu0.1`
-- `libibverbs1:amd64=17.1-1ubuntu0.1`
-- `librdmacm1:amd64=17.1-1ubuntu0.1`
+- `ibverbs-providers:amd64=17.1-1ubuntu0.2`
+- `libibverbs-dev:amd64=17.1-1ubuntu0.2`
+- `libibverbs1:amd64=17.1-1ubuntu0.2`
+- `librdmacm1:amd64=17.1-1ubuntu0.2`
 
 Licenses: (parsed from: `/usr/share/doc/ibverbs-providers/copyright`, `/usr/share/doc/libibverbs-dev/copyright`, `/usr/share/doc/libibverbs1/copyright`, `/usr/share/doc/librdmacm1/copyright`)
 
@@ -9604,10 +9606,10 @@ Licenses: (parsed from: `/usr/share/doc/ibverbs-providers/copyright`, `/usr/shar
 Source:
 
 ```console
-$ apt-get source -qq --print-uris rdma-core=17.1-1ubuntu0.1
-'http://archive.ubuntu.com/ubuntu/pool/main/r/rdma-core/rdma-core_17.1-1ubuntu0.1.dsc' rdma-core_17.1-1ubuntu0.1.dsc 2762 SHA256:21d0f5db001da07b8723b3b9260abf142c364421e0d2b93ea11ba941859b4d94
+$ apt-get source -qq --print-uris rdma-core=17.1-1ubuntu0.2
+'http://archive.ubuntu.com/ubuntu/pool/main/r/rdma-core/rdma-core_17.1-1ubuntu0.2.dsc' rdma-core_17.1-1ubuntu0.2.dsc 2762 SHA256:e0662733332aa3953a389dd9631f3a3480b93f992cb378bb76d008743de89c2f
 'http://archive.ubuntu.com/ubuntu/pool/main/r/rdma-core/rdma-core_17.1.orig.tar.gz' rdma-core_17.1.orig.tar.gz 1027903 SHA256:b47444b7c05d3906deb8771eec3e634984dd83f5e620d5e37d3a83f74f0cc1ba
-'http://archive.ubuntu.com/ubuntu/pool/main/r/rdma-core/rdma-core_17.1-1ubuntu0.1.debian.tar.xz' rdma-core_17.1-1ubuntu0.1.debian.tar.xz 17900 SHA256:afb27c3d287cca78b2dda348bae500ee16de68fb6e0b1ab965eb6bf6fa006833
+'http://archive.ubuntu.com/ubuntu/pool/main/r/rdma-core/rdma-core_17.1-1ubuntu0.2.debian.tar.xz' rdma-core_17.1-1ubuntu0.2.debian.tar.xz 18696 SHA256:d9e7d151be854278f61db12e7348cbd58cffcc2bb25674693b50b7c726b11b72
 ```
 
 ### `dpkg` source package: `readline=7.0-3`
@@ -9650,11 +9652,11 @@ $ apt-get source -qq --print-uris rhash=1.3.6-2
 'http://archive.ubuntu.com/ubuntu/pool/main/r/rhash/rhash_1.3.6-2.debian.tar.xz' rhash_1.3.6-2.debian.tar.xz 9672 SHA256:fcccfa3d3a5a7ac16395ec54fcfb4217a5ccf5718e762f3670276366061e5638
 ```
 
-### `dpkg` source package: `ros-melodic-actionlib-msgs=1.12.7-0bionic.20181109.223847`
+### `dpkg` source package: `ros-melodic-actionlib-msgs=1.12.7-0bionic.20191008.155809`
 
 Binary Packages:
 
-- `ros-melodic-actionlib-msgs=1.12.7-0bionic.20181109.223847`
+- `ros-melodic-actionlib-msgs=1.12.7-0bionic.20191008.155809`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9664,11 +9666,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-actionlib=1.11.13-0bionic.20181112.191129`
+### `dpkg` source package: `ros-melodic-actionlib=1.12.0-1bionic.20191008.194837`
 
 Binary Packages:
 
-- `ros-melodic-actionlib=1.11.13-0bionic.20181112.191129`
+- `ros-melodic-actionlib=1.12.0-1bionic.20191008.194837`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9678,11 +9680,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-angles=1.9.11-0bionic.20180906.222224`
+### `dpkg` source package: `ros-melodic-angles=1.9.11-0bionic.20191008.155946`
 
 Binary Packages:
 
-- `ros-melodic-angles=1.9.11-0bionic.20180906.222224`
+- `ros-melodic-angles=1.9.11-0bionic.20191008.155946`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9692,11 +9694,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-bond-core=1.8.3-0bionic.20181112.181003`
+### `dpkg` source package: `ros-melodic-bond-core=1.8.3-0bionic.20191008.171238`
 
 Binary Packages:
 
-- `ros-melodic-bond-core=1.8.3-0bionic.20181112.181003`
+- `ros-melodic-bond-core=1.8.3-0bionic.20191008.171238`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9706,11 +9708,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-bond=1.8.3-0bionic.20181005.132550`
+### `dpkg` source package: `ros-melodic-bond=1.8.3-0bionic.20191008.160423`
 
 Binary Packages:
 
-- `ros-melodic-bond=1.8.3-0bionic.20181005.132550`
+- `ros-melodic-bond=1.8.3-0bionic.20191008.160423`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9720,11 +9722,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-bondcpp=1.8.3-0bionic.20181112.174134`
+### `dpkg` source package: `ros-melodic-bondcpp=1.8.3-0bionic.20191008.164702`
 
 Binary Packages:
 
-- `ros-melodic-bondcpp=1.8.3-0bionic.20181112.174134`
+- `ros-melodic-bondcpp=1.8.3-0bionic.20191008.164702`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9734,11 +9736,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-bondpy=1.8.3-0bionic.20181112.175408`
+### `dpkg` source package: `ros-melodic-bondpy=1.8.3-0bionic.20191008.170610`
 
 Binary Packages:
 
-- `ros-melodic-bondpy=1.8.3-0bionic.20181112.175408`
+- `ros-melodic-bondpy=1.8.3-0bionic.20191008.170610`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9748,11 +9750,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-camera-calibration-parsers=1.11.13-0bionic.20181112.200232`
+### `dpkg` source package: `ros-melodic-camera-calibration-parsers=1.11.13-0bionic.20191008.194338`
 
 Binary Packages:
 
-- `ros-melodic-camera-calibration-parsers=1.11.13-0bionic.20181112.200232`
+- `ros-melodic-camera-calibration-parsers=1.11.13-0bionic.20191008.194338`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9762,11 +9764,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-camera-calibration=1.12.23-0bionic.20181112.210218`
+### `dpkg` source package: `ros-melodic-camera-calibration=1.13.0-1bionic.20191008.202334`
 
 Binary Packages:
 
-- `ros-melodic-camera-calibration=1.12.23-0bionic.20181112.210218`
+- `ros-melodic-camera-calibration=1.13.0-1bionic.20191008.202334`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9776,11 +9778,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-camera-info-manager=1.11.13-0bionic.20181112.201004`
+### `dpkg` source package: `ros-melodic-camera-info-manager=1.11.13-0bionic.20191008.195341`
 
 Binary Packages:
 
-- `ros-melodic-camera-info-manager=1.11.13-0bionic.20181112.201004`
+- `ros-melodic-camera-info-manager=1.11.13-0bionic.20191008.195341`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9790,11 +9792,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-catkin=0.7.14-0bionic.20180606.171811`
+### `dpkg` source package: `ros-melodic-catkin=0.7.19-1bionic.20191008.145018`
 
 Binary Packages:
 
-- `ros-melodic-catkin=0.7.14-0bionic.20180606.171811`
+- `ros-melodic-catkin=0.7.19-1bionic.20191008.145018`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9804,11 +9806,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-class-loader=0.4.1-0bionic.20180606.175726`
+### `dpkg` source package: `ros-melodic-class-loader=0.4.1-0bionic.20191008.153335`
 
 Binary Packages:
 
-- `ros-melodic-class-loader=0.4.1-0bionic.20180606.175726`
+- `ros-melodic-class-loader=0.4.1-0bionic.20191008.153335`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9818,11 +9820,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-cmake-modules=0.4.1-0bionic.20180606.173831`
+### `dpkg` source package: `ros-melodic-cmake-modules=0.4.2-0bionic.20191008.152810`
 
 Binary Packages:
 
-- `ros-melodic-cmake-modules=0.4.1-0bionic.20180606.173831`
+- `ros-melodic-cmake-modules=0.4.2-0bionic.20191008.152810`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9832,11 +9834,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-common-msgs=1.12.7-0bionic.20181112.205822`
+### `dpkg` source package: `ros-melodic-common-msgs=1.12.7-0bionic.20191008.213015`
 
 Binary Packages:
 
-- `ros-melodic-common-msgs=1.12.7-0bionic.20181112.205822`
+- `ros-melodic-common-msgs=1.12.7-0bionic.20191008.213015`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9846,11 +9848,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-compressed-depth-image-transport=1.9.5-0bionic.20181112.205659`
+### `dpkg` source package: `ros-melodic-compressed-depth-image-transport=1.9.5-0bionic.20191008.200947`
 
 Binary Packages:
 
-- `ros-melodic-compressed-depth-image-transport=1.9.5-0bionic.20181112.205659`
+- `ros-melodic-compressed-depth-image-transport=1.9.5-0bionic.20191008.200947`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9860,11 +9862,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-compressed-image-transport=1.9.5-0bionic.20181112.205703`
+### `dpkg` source package: `ros-melodic-compressed-image-transport=1.9.5-0bionic.20191008.200956`
 
 Binary Packages:
 
-- `ros-melodic-compressed-image-transport=1.9.5-0bionic.20181112.205703`
+- `ros-melodic-compressed-image-transport=1.9.5-0bionic.20191008.200956`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9874,11 +9876,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-cpp-common=0.6.11-0bionic.20180606.172032`
+### `dpkg` source package: `ros-melodic-cpp-common=0.6.13-1bionic.20191008.152908`
 
 Binary Packages:
 
-- `ros-melodic-cpp-common=0.6.11-0bionic.20180606.172032`
+- `ros-melodic-cpp-common=0.6.13-1bionic.20191008.152908`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9888,11 +9890,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-cv-bridge=1.13.0-0bionic.20181112.200243`
+### `dpkg` source package: `ros-melodic-cv-bridge=1.13.0-0bionic.20191008.195111`
 
 Binary Packages:
 
-- `ros-melodic-cv-bridge=1.13.0-0bionic.20181112.200243`
+- `ros-melodic-cv-bridge=1.13.0-0bionic.20191008.195111`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9902,11 +9904,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-depth-image-proc=1.12.23-0bionic.20181117.184409`
+### `dpkg` source package: `ros-melodic-depth-image-proc=1.13.0-1bionic.20191008.212934`
 
 Binary Packages:
 
-- `ros-melodic-depth-image-proc=1.12.23-0bionic.20181117.184409`
+- `ros-melodic-depth-image-proc=1.13.0-1bionic.20191008.212934`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9916,11 +9918,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-diagnostic-msgs=1.12.7-0bionic.20181109.223847`
+### `dpkg` source package: `ros-melodic-diagnostic-msgs=1.12.7-0bionic.20191008.162350`
 
 Binary Packages:
 
-- `ros-melodic-diagnostic-msgs=1.12.7-0bionic.20181109.223847`
+- `ros-melodic-diagnostic-msgs=1.12.7-0bionic.20191008.162350`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9930,11 +9932,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-dynamic-reconfigure=1.6.0-0bionic.20181112.202435`
+### `dpkg` source package: `ros-melodic-dynamic-reconfigure=1.6.0-0bionic.20191008.194626`
 
 Binary Packages:
 
-- `ros-melodic-dynamic-reconfigure=1.6.0-0bionic.20181112.202435`
+- `ros-melodic-dynamic-reconfigure=1.6.0-0bionic.20191008.194626`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9944,11 +9946,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-eigen-conversions=1.12.0-0bionic.20181110.011416`
+### `dpkg` source package: `ros-melodic-eigen-conversions=1.12.0-0bionic.20191008.163138`
 
 Binary Packages:
 
-- `ros-melodic-eigen-conversions=1.12.0-0bionic.20181110.011416`
+- `ros-melodic-eigen-conversions=1.12.0-0bionic.20191008.163138`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9958,11 +9960,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-filters=1.8.1-0bionic.20181112.182549`
+### `dpkg` source package: `ros-melodic-filters=1.8.1-0bionic.20191008.172217`
 
 Binary Packages:
 
-- `ros-melodic-filters=1.8.1-0bionic.20181112.182549`
+- `ros-melodic-filters=1.8.1-0bionic.20191008.172217`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9972,11 +9974,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-gencpp=0.6.0-0bionic.20180606.180745`
+### `dpkg` source package: `ros-melodic-gencpp=0.6.2-0bionic.20191008.153550`
 
 Binary Packages:
 
-- `ros-melodic-gencpp=0.6.0-0bionic.20180606.180745`
+- `ros-melodic-gencpp=0.6.2-0bionic.20191008.153550`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -9986,11 +9988,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-geneus=2.2.6-0bionic.20180606.180755`
+### `dpkg` source package: `ros-melodic-geneus=2.2.6-0bionic.20191008.153648`
 
 Binary Packages:
 
-- `ros-melodic-geneus=2.2.6-0bionic.20180606.180755`
+- `ros-melodic-geneus=2.2.6-0bionic.20191008.153648`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10000,11 +10002,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-genlisp=0.4.16-0bionic.20180606.180800`
+### `dpkg` source package: `ros-melodic-genlisp=0.4.16-0bionic.20191008.153645`
 
 Binary Packages:
 
-- `ros-melodic-genlisp=0.4.16-0bionic.20180606.180800`
+- `ros-melodic-genlisp=0.4.16-0bionic.20191008.153645`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10014,11 +10016,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-genmsg=0.5.11-0bionic.20180606.175935`
+### `dpkg` source package: `ros-melodic-genmsg=0.5.12-0bionic.20191008.153004`
 
 Binary Packages:
 
-- `ros-melodic-genmsg=0.5.11-0bionic.20180606.175935`
+- `ros-melodic-genmsg=0.5.12-0bionic.20191008.153004`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10028,11 +10030,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-gennodejs=2.0.1-0bionic.20180606.180812`
+### `dpkg` source package: `ros-melodic-gennodejs=2.0.1-0bionic.20191008.153658`
 
 Binary Packages:
 
-- `ros-melodic-gennodejs=2.0.1-0bionic.20180606.180812`
+- `ros-melodic-gennodejs=2.0.1-0bionic.20191008.153658`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10042,11 +10044,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-genpy=0.6.7-0bionic.20180606.180827`
+### `dpkg` source package: `ros-melodic-genpy=0.6.9-1bionic.20191008.153522`
 
 Binary Packages:
 
-- `ros-melodic-genpy=0.6.7-0bionic.20180606.180827`
+- `ros-melodic-genpy=0.6.9-1bionic.20191008.153522`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10056,11 +10058,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-geometry-msgs=1.12.7-0bionic.20181109.223847`
+### `dpkg` source package: `ros-melodic-geometry-msgs=1.12.7-0bionic.20191008.162519`
 
 Binary Packages:
 
-- `ros-melodic-geometry-msgs=1.12.7-0bionic.20181109.223847`
+- `ros-melodic-geometry-msgs=1.12.7-0bionic.20191008.162519`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10070,11 +10072,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-image-common=1.11.13-0bionic.20181112.205658`
+### `dpkg` source package: `ros-melodic-image-common=1.11.13-0bionic.20191008.211341`
 
 Binary Packages:
 
-- `ros-melodic-image-common=1.11.13-0bionic.20181112.205658`
+- `ros-melodic-image-common=1.11.13-0bionic.20191008.211341`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10084,11 +10086,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-image-geometry=1.13.0-0bionic.20181112.205326`
+### `dpkg` source package: `ros-melodic-image-geometry=1.13.0-0bionic.20191008.195143`
 
 Binary Packages:
 
-- `ros-melodic-image-geometry=1.13.0-0bionic.20181112.205326`
+- `ros-melodic-image-geometry=1.13.0-0bionic.20191008.195143`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10098,11 +10100,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-image-pipeline=1.12.23-0bionic.20181117.185637`
+### `dpkg` source package: `ros-melodic-image-pipeline=1.13.0-1bionic.20191008.214004`
 
 Binary Packages:
 
-- `ros-melodic-image-pipeline=1.12.23-0bionic.20181117.185637`
+- `ros-melodic-image-pipeline=1.13.0-1bionic.20191008.214004`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10112,11 +10114,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-image-proc=1.12.23-0bionic.20181112.210207`
+### `dpkg` source package: `ros-melodic-image-proc=1.13.0-1bionic.20191008.200446`
 
 Binary Packages:
 
-- `ros-melodic-image-proc=1.12.23-0bionic.20181112.210207`
+- `ros-melodic-image-proc=1.13.0-1bionic.20191008.200446`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10126,11 +10128,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-image-publisher=1.12.23-0bionic.20181112.202946`
+### `dpkg` source package: `ros-melodic-image-publisher=1.13.0-1bionic.20191008.200452`
 
 Binary Packages:
 
-- `ros-melodic-image-publisher=1.12.23-0bionic.20181112.202946`
+- `ros-melodic-image-publisher=1.13.0-1bionic.20191008.200452`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10140,11 +10142,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-image-rotate=1.12.23-0bionic.20181117.185011`
+### `dpkg` source package: `ros-melodic-image-rotate=1.13.0-1bionic.20191008.202451`
 
 Binary Packages:
 
-- `ros-melodic-image-rotate=1.12.23-0bionic.20181117.185011`
+- `ros-melodic-image-rotate=1.13.0-1bionic.20191008.202451`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10154,11 +10156,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-image-transport-plugins=1.9.5-0bionic.20181112.210634`
+### `dpkg` source package: `ros-melodic-image-transport-plugins=1.9.5-0bionic.20191008.211554`
 
 Binary Packages:
 
-- `ros-melodic-image-transport-plugins=1.9.5-0bionic.20181112.210634`
+- `ros-melodic-image-transport-plugins=1.9.5-0bionic.20191008.211554`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10168,11 +10170,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-image-transport=1.11.13-0bionic.20181112.200247`
+### `dpkg` source package: `ros-melodic-image-transport=1.11.13-0bionic.20191008.194522`
 
 Binary Packages:
 
-- `ros-melodic-image-transport=1.11.13-0bionic.20181112.200247`
+- `ros-melodic-image-transport=1.11.13-0bionic.20191008.194522`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10182,11 +10184,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-image-view=1.12.23-0bionic.20181112.205805`
+### `dpkg` source package: `ros-melodic-image-view=1.13.0-1bionic.20191008.213040`
 
 Binary Packages:
 
-- `ros-melodic-image-view=1.12.23-0bionic.20181112.205805`
+- `ros-melodic-image-view=1.13.0-1bionic.20191008.213040`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10196,11 +10198,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-laser-assembler=1.7.6-0bionic.20181127.152325`
+### `dpkg` source package: `ros-melodic-laser-assembler=1.7.7-2bionic.20191008.205152`
 
 Binary Packages:
 
-- `ros-melodic-laser-assembler=1.7.6-0bionic.20181127.152325`
+- `ros-melodic-laser-assembler=1.7.7-2bionic.20191008.205152`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10210,11 +10212,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-laser-filters=1.8.6-0bionic.20181117.191058`
+### `dpkg` source package: `ros-melodic-laser-filters=1.8.8-1bionic.20191109.012704`
 
 Binary Packages:
 
-- `ros-melodic-laser-filters=1.8.6-0bionic.20181117.191058`
+- `ros-melodic-laser-filters=1.8.8-1bionic.20191109.012704`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10224,11 +10226,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-laser-geometry=1.6.4-0bionic.20181117.190201`
+### `dpkg` source package: `ros-melodic-laser-geometry=1.6.4-0bionic.20191008.204428`
 
 Binary Packages:
 
-- `ros-melodic-laser-geometry=1.6.4-0bionic.20181117.190201`
+- `ros-melodic-laser-geometry=1.6.4-0bionic.20191008.204428`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10238,11 +10240,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-laser-pipeline=1.6.3-0bionic.20181127.153419`
+### `dpkg` source package: `ros-melodic-laser-pipeline=1.6.3-0bionic.20191109.014852`
 
 Binary Packages:
 
-- `ros-melodic-laser-pipeline=1.6.3-0bionic.20181127.153419`
+- `ros-melodic-laser-pipeline=1.6.3-0bionic.20191109.014852`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10252,11 +10254,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-message-filters=1.14.3-0bionic.20181112.182550`
+### `dpkg` source package: `ros-melodic-message-filters=1.14.3-0bionic.20191008.172319`
 
 Binary Packages:
 
-- `ros-melodic-message-filters=1.14.3-0bionic.20181112.182550`
+- `ros-melodic-message-filters=1.14.3-0bionic.20191008.172319`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10266,11 +10268,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-message-generation=0.4.0-0bionic.20180606.181147`
+### `dpkg` source package: `ros-melodic-message-generation=0.4.0-0bionic.20191008.154140`
 
 Binary Packages:
 
-- `ros-melodic-message-generation=0.4.0-0bionic.20180606.181147`
+- `ros-melodic-message-generation=0.4.0-0bionic.20191008.154140`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10280,11 +10282,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-message-runtime=0.4.12-0bionic.20180606.182347`
+### `dpkg` source package: `ros-melodic-message-runtime=0.4.12-0bionic.20191008.154906`
 
 Binary Packages:
 
-- `ros-melodic-message-runtime=0.4.12-0bionic.20180606.182347`
+- `ros-melodic-message-runtime=0.4.12-0bionic.20191008.154906`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10294,11 +10296,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-mk=1.14.4-0bionic.20180606.183206`
+### `dpkg` source package: `ros-melodic-mk=1.14.7-1bionic.20191008.155648`
 
 Binary Packages:
 
-- `ros-melodic-mk=1.14.4-0bionic.20180606.183206`
+- `ros-melodic-mk=1.14.7-1bionic.20191008.155648`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10308,11 +10310,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-nav-msgs=1.12.7-0bionic.20181109.225243`
+### `dpkg` source package: `ros-melodic-nav-msgs=1.12.7-0bionic.20191008.163238`
 
 Binary Packages:
 
-- `ros-melodic-nav-msgs=1.12.7-0bionic.20181109.225243`
+- `ros-melodic-nav-msgs=1.12.7-0bionic.20191008.163238`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10322,11 +10324,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-nodelet-core=1.9.16-0bionic.20181112.204904`
+### `dpkg` source package: `ros-melodic-nodelet-core=1.9.16-0bionic.20191008.200501`
 
 Binary Packages:
 
-- `ros-melodic-nodelet-core=1.9.16-0bionic.20181112.204904`
+- `ros-melodic-nodelet-core=1.9.16-0bionic.20191008.200501`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10336,11 +10338,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-nodelet-topic-tools=1.9.16-0bionic.20181112.203037`
+### `dpkg` source package: `ros-melodic-nodelet-topic-tools=1.9.16-0bionic.20191008.195452`
 
 Binary Packages:
 
-- `ros-melodic-nodelet-topic-tools=1.9.16-0bionic.20181112.203037`
+- `ros-melodic-nodelet-topic-tools=1.9.16-0bionic.20191008.195452`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10350,11 +10352,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-nodelet=1.9.16-0bionic.20181112.175030`
+### `dpkg` source package: `ros-melodic-nodelet=1.9.16-0bionic.20191008.170557`
 
 Binary Packages:
 
-- `ros-melodic-nodelet=1.9.16-0bionic.20181112.175030`
+- `ros-melodic-nodelet=1.9.16-0bionic.20191008.170557`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10364,11 +10366,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-orocos-kdl=1.4.0-0bionic.20180606.180101`
+### `dpkg` source package: `ros-melodic-orocos-kdl=1.4.0-0bionic.20191008.153908`
 
 Binary Packages:
 
-- `ros-melodic-orocos-kdl=1.4.0-0bionic.20180606.180101`
+- `ros-melodic-orocos-kdl=1.4.0-0bionic.20191008.153908`
 
 Licenses: (parsed from: `/usr/share/doc/ros-melodic-orocos-kdl/copyright`)
 
@@ -10378,11 +10380,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-melodic-orocos-kdl/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-pcl-conversions=1.6.2-0bionic.20181112.205905`
+### `dpkg` source package: `ros-melodic-pcl-conversions=1.7.0-2bionic.20191022.155301`
 
 Binary Packages:
 
-- `ros-melodic-pcl-conversions=1.6.2-0bionic.20181112.205905`
+- `ros-melodic-pcl-conversions=1.7.0-2bionic.20191022.155301`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10392,11 +10394,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-pcl-msgs=0.2.0-0bionic.20181112.205358`
+### `dpkg` source package: `ros-melodic-pcl-msgs=0.2.0-0bionic.20191008.211814`
 
 Binary Packages:
 
-- `ros-melodic-pcl-msgs=0.2.0-0bionic.20181112.205358`
+- `ros-melodic-pcl-msgs=0.2.0-0bionic.20191008.211814`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10406,11 +10408,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-pcl-ros=1.6.2-0bionic.20181117.185438`
+### `dpkg` source package: `ros-melodic-pcl-ros=1.7.0-2bionic.20191022.160153`
 
 Binary Packages:
 
-- `ros-melodic-pcl-ros=1.6.2-0bionic.20181117.185438`
+- `ros-melodic-pcl-ros=1.7.0-2bionic.20191022.160153`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10420,11 +10422,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-perception-pcl=1.6.2-0bionic.20181117.195013`
+### `dpkg` source package: `ros-melodic-perception-pcl=1.7.0-2bionic.20191022.162812`
 
 Binary Packages:
 
-- `ros-melodic-perception-pcl=1.6.2-0bionic.20181117.195013`
+- `ros-melodic-perception-pcl=1.7.0-2bionic.20191022.162812`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10434,11 +10436,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-perception=1.4.1-0bionic.20181127.153507`
+### `dpkg` source package: `ros-melodic-perception=1.4.1-0bionic.20191109.015353`
 
 Binary Packages:
 
-- `ros-melodic-perception=1.4.1-0bionic.20181127.153507`
+- `ros-melodic-perception=1.4.1-0bionic.20191109.015353`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10448,11 +10450,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-pluginlib=1.12.1-0bionic.20181112.172345`
+### `dpkg` source package: `ros-melodic-pluginlib=1.12.1-0bionic.20191008.160253`
 
 Binary Packages:
 
-- `ros-melodic-pluginlib=1.12.1-0bionic.20181112.172345`
+- `ros-melodic-pluginlib=1.12.1-0bionic.20191008.160253`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10462,11 +10464,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-polled-camera=1.11.13-0bionic.20181112.201134`
+### `dpkg` source package: `ros-melodic-polled-camera=1.11.13-0bionic.20191008.202150`
 
 Binary Packages:
 
-- `ros-melodic-polled-camera=1.11.13-0bionic.20181112.201134`
+- `ros-melodic-polled-camera=1.11.13-0bionic.20191008.202150`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10476,11 +10478,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-python-orocos-kdl=1.4.0-0bionic.20180606.180900`
+### `dpkg` source package: `ros-melodic-python-orocos-kdl=1.4.0-0bionic.20191008.154511`
 
 Binary Packages:
 
-- `ros-melodic-python-orocos-kdl=1.4.0-0bionic.20180606.180900`
+- `ros-melodic-python-orocos-kdl=1.4.0-0bionic.20191008.154511`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10490,11 +10492,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-ros-base=1.4.1-0bionic.20181112.205939`
+### `dpkg` source package: `ros-melodic-ros-base=1.4.1-0bionic.20191008.221036`
 
 Binary Packages:
 
-- `ros-melodic-ros-base=1.4.1-0bionic.20181112.205939`
+- `ros-melodic-ros-base=1.4.1-0bionic.20191008.221036`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10504,11 +10506,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-ros-comm=1.14.3-0bionic.20181112.202811`
+### `dpkg` source package: `ros-melodic-ros-comm=1.14.3-0bionic.20191008.215948`
 
 Binary Packages:
 
-- `ros-melodic-ros-comm=1.14.3-0bionic.20181112.202811`
+- `ros-melodic-ros-comm=1.14.3-0bionic.20191008.215948`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10518,11 +10520,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-ros-core=1.4.1-0bionic.20181112.205903`
+### `dpkg` source package: `ros-melodic-ros-core=1.4.1-0bionic.20191008.220545`
 
 Binary Packages:
 
-- `ros-melodic-ros-core=1.4.1-0bionic.20181112.205903`
+- `ros-melodic-ros-core=1.4.1-0bionic.20191008.220545`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10532,11 +10534,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-ros-environment=1.2.1-0bionic.20180606.180930`
+### `dpkg` source package: `ros-melodic-ros-environment=1.2.2-1bionic.20191008.154247`
 
 Binary Packages:
 
-- `ros-melodic-ros-environment=1.2.1-0bionic.20180606.180930`
+- `ros-melodic-ros-environment=1.2.2-1bionic.20191008.154247`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10546,11 +10548,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-ros=1.14.4-0bionic.20180906.222138`
+### `dpkg` source package: `ros-melodic-ros=1.14.7-1bionic.20191008.155840`
 
 Binary Packages:
 
-- `ros-melodic-ros=1.14.4-0bionic.20180906.222138`
+- `ros-melodic-ros=1.14.7-1bionic.20191008.155840`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10560,11 +10562,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosbag-migration-rule=1.0.0-0bionic.20180606.180949`
+### `dpkg` source package: `ros-melodic-rosbag-migration-rule=1.0.0-0bionic.20191008.154308`
 
 Binary Packages:
 
-- `ros-melodic-rosbag-migration-rule=1.0.0-0bionic.20180606.180949`
+- `ros-melodic-rosbag-migration-rule=1.0.0-0bionic.20191008.154308`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10574,11 +10576,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosbag-storage=1.14.3-0bionic.20181112.185327`
+### `dpkg` source package: `ros-melodic-rosbag-storage=1.14.3-0bionic.20191008.172227`
 
 Binary Packages:
 
-- `ros-melodic-rosbag-storage=1.14.3-0bionic.20181112.185327`
+- `ros-melodic-rosbag-storage=1.14.3-0bionic.20191008.172227`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10588,11 +10590,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosbag=1.14.3-0bionic.20181112.185825`
+### `dpkg` source package: `ros-melodic-rosbag=1.14.3-0bionic.20191008.192145`
 
 Binary Packages:
 
-- `ros-melodic-rosbag=1.14.3-0bionic.20181112.185825`
+- `ros-melodic-rosbag=1.14.3-0bionic.20191008.192145`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10602,11 +10604,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosbash=1.14.4-0bionic.20180606.181008`
+### `dpkg` source package: `ros-melodic-rosbash=1.14.7-1bionic.20191008.155217`
 
 Binary Packages:
 
-- `ros-melodic-rosbash=1.14.4-0bionic.20180606.181008`
+- `ros-melodic-rosbash=1.14.7-1bionic.20191008.155217`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10616,11 +10618,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosboost-cfg=1.14.4-0bionic.20180606.181028`
+### `dpkg` source package: `ros-melodic-rosboost-cfg=1.14.7-1bionic.20191008.154310`
 
 Binary Packages:
 
-- `ros-melodic-rosboost-cfg=1.14.4-0bionic.20180606.181028`
+- `ros-melodic-rosboost-cfg=1.14.7-1bionic.20191008.154310`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10630,11 +10632,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosbuild=1.14.4-0bionic.20180606.182837`
+### `dpkg` source package: `ros-melodic-rosbuild=1.14.7-1bionic.20191008.155347`
 
 Binary Packages:
 
-- `ros-melodic-rosbuild=1.14.4-0bionic.20180606.182837`
+- `ros-melodic-rosbuild=1.14.7-1bionic.20191008.155347`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10644,11 +10646,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosclean=1.14.4-0bionic.20180606.181032`
+### `dpkg` source package: `ros-melodic-rosclean=1.14.7-1bionic.20191008.152257`
 
 Binary Packages:
 
-- `ros-melodic-rosclean=1.14.4-0bionic.20180606.181032`
+- `ros-melodic-rosclean=1.14.7-1bionic.20191008.152257`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10658,11 +10660,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosconsole-bridge=0.5.2-0bionic.20181112.172001`
+### `dpkg` source package: `ros-melodic-rosconsole-bridge=0.5.3-0bionic.20191008.160243`
 
 Binary Packages:
 
-- `ros-melodic-rosconsole-bridge=0.5.2-0bionic.20181112.172001`
+- `ros-melodic-rosconsole-bridge=0.5.3-0bionic.20191008.160243`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10672,11 +10674,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosconsole=1.13.9-0bionic.20181112.171419`
+### `dpkg` source package: `ros-melodic-rosconsole=1.13.11-1bionic.20191008.155824`
 
 Binary Packages:
 
-- `ros-melodic-rosconsole=1.13.9-0bionic.20181112.171419`
+- `ros-melodic-rosconsole=1.13.11-1bionic.20191008.155824`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10686,11 +10688,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-roscpp-core=0.6.11-0bionic.20180606.173011`
+### `dpkg` source package: `ros-melodic-roscpp-core=0.6.13-1bionic.20191008.154912`
 
 Binary Packages:
 
-- `ros-melodic-roscpp-core=0.6.11-0bionic.20180606.173011`
+- `ros-melodic-roscpp-core=0.6.13-1bionic.20191008.154912`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10700,11 +10702,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-roscpp-serialization=0.6.11-0bionic.20180606.172746`
+### `dpkg` source package: `ros-melodic-roscpp-serialization=0.6.13-1bionic.20191008.154417`
 
 Binary Packages:
 
-- `ros-melodic-roscpp-serialization=0.6.11-0bionic.20180606.172746`
+- `ros-melodic-roscpp-serialization=0.6.13-1bionic.20191008.154417`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10714,11 +10716,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-roscpp-traits=0.6.11-0bionic.20180606.172543`
+### `dpkg` source package: `ros-melodic-roscpp-traits=0.6.13-1bionic.20191008.154101`
 
 Binary Packages:
 
-- `ros-melodic-roscpp-traits=0.6.11-0bionic.20180606.172543`
+- `ros-melodic-roscpp-traits=0.6.13-1bionic.20191008.154101`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10728,11 +10730,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-roscpp=1.14.3-0bionic.20181112.172149`
+### `dpkg` source package: `ros-melodic-roscpp=1.14.3-0bionic.20191008.163433`
 
 Binary Packages:
 
-- `ros-melodic-roscpp=1.14.3-0bionic.20181112.172149`
+- `ros-melodic-roscpp=1.14.3-0bionic.20191008.163433`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10742,11 +10744,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-roscreate=1.14.4-0bionic.20180606.181043`
+### `dpkg` source package: `ros-melodic-roscreate=1.14.7-1bionic.20191008.155613`
 
 Binary Packages:
 
-- `ros-melodic-roscreate=1.14.4-0bionic.20180606.181043`
+- `ros-melodic-roscreate=1.14.7-1bionic.20191008.155613`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10756,11 +10758,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosgraph-msgs=1.11.2-0bionic.20180606.191800`
+### `dpkg` source package: `ros-melodic-rosgraph-msgs=1.11.2-0bionic.20191008.162953`
 
 Binary Packages:
 
-- `ros-melodic-rosgraph-msgs=1.11.2-0bionic.20180606.191800`
+- `ros-melodic-rosgraph-msgs=1.11.2-0bionic.20191008.162953`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10770,11 +10772,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosgraph=1.14.3-0bionic.20180806.185059`
+### `dpkg` source package: `ros-melodic-rosgraph=1.14.3-0bionic.20191008.154320`
 
 Binary Packages:
 
-- `ros-melodic-rosgraph=1.14.3-0bionic.20180806.185059`
+- `ros-melodic-rosgraph=1.14.3-0bionic.20191008.154320`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10784,11 +10786,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-roslang=1.14.4-0bionic.20180606.180834`
+### `dpkg` source package: `ros-melodic-roslang=1.14.7-1bionic.20191008.153511`
 
 Binary Packages:
 
-- `ros-melodic-roslang=1.14.4-0bionic.20180606.180834`
+- `ros-melodic-roslang=1.14.7-1bionic.20191008.153511`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10798,11 +10800,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-roslaunch=1.14.3-0bionic.20181112.181542`
+### `dpkg` source package: `ros-melodic-roslaunch=1.14.3-0bionic.20191008.170313`
 
 Binary Packages:
 
-- `ros-melodic-roslaunch=1.14.3-0bionic.20181112.181542`
+- `ros-melodic-roslaunch=1.14.3-0bionic.20191008.170313`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10812,11 +10814,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-roslib=1.14.4-0bionic.20180906.221638`
+### `dpkg` source package: `ros-melodic-roslib=1.14.7-1bionic.20191008.155210`
 
 Binary Packages:
 
-- `ros-melodic-roslib=1.14.4-0bionic.20180906.221638`
+- `ros-melodic-roslib=1.14.7-1bionic.20191008.155210`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10826,11 +10828,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-roslisp=1.9.22-0bionic.20181015.225651`
+### `dpkg` source package: `ros-melodic-roslisp=1.9.22-0bionic.20191008.215428`
 
 Binary Packages:
 
-- `ros-melodic-roslisp=1.9.22-0bionic.20181015.225651`
+- `ros-melodic-roslisp=1.9.22-0bionic.20191008.215428`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10840,11 +10842,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-roslz4=1.14.3-0bionic.20180906.222251`
+### `dpkg` source package: `ros-melodic-roslz4=1.14.3-0bionic.20191008.160145`
 
 Binary Packages:
 
-- `ros-melodic-roslz4=1.14.3-0bionic.20180906.222251`
+- `ros-melodic-roslz4=1.14.3-0bionic.20191008.160145`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10854,11 +10856,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosmake=1.14.4-0bionic.20180606.182734`
+### `dpkg` source package: `ros-melodic-rosmake=1.14.7-1bionic.20191008.154338`
 
 Binary Packages:
 
-- `ros-melodic-rosmake=1.14.4-0bionic.20180606.182734`
+- `ros-melodic-rosmake=1.14.7-1bionic.20191008.154338`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10868,11 +10870,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosmaster=1.14.3-0bionic.20180806.185301`
+### `dpkg` source package: `ros-melodic-rosmaster=1.14.3-0bionic.20191008.154826`
 
 Binary Packages:
 
-- `ros-melodic-rosmaster=1.14.3-0bionic.20180806.185301`
+- `ros-melodic-rosmaster=1.14.3-0bionic.20191008.154826`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10882,11 +10884,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosmsg=1.14.3-0bionic.20181112.195831`
+### `dpkg` source package: `ros-melodic-rosmsg=1.14.3-0bionic.20191008.193300`
 
 Binary Packages:
 
-- `ros-melodic-rosmsg=1.14.3-0bionic.20181112.195831`
+- `ros-melodic-rosmsg=1.14.3-0bionic.20191008.193300`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10896,11 +10898,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosnode=1.14.3-0bionic.20181112.190825`
+### `dpkg` source package: `ros-melodic-rosnode=1.14.3-0bionic.20191008.194045`
 
 Binary Packages:
 
-- `ros-melodic-rosnode=1.14.3-0bionic.20181112.190825`
+- `ros-melodic-rosnode=1.14.3-0bionic.20191008.194045`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10910,11 +10912,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosout=1.14.3-0bionic.20181112.174738`
+### `dpkg` source package: `ros-melodic-rosout=1.14.3-0bionic.20191008.165248`
 
 Binary Packages:
 
-- `ros-melodic-rosout=1.14.3-0bionic.20181112.174738`
+- `ros-melodic-rosout=1.14.3-0bionic.20191008.165248`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10924,11 +10926,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rospack=2.5.2-0bionic.20180906.220829`
+### `dpkg` source package: `ros-melodic-rospack=2.5.4-1bionic.20191008.154640`
 
 Binary Packages:
 
-- `ros-melodic-rospack=2.5.2-0bionic.20180906.220829`
+- `ros-melodic-rospack=2.5.4-1bionic.20191008.154640`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10938,11 +10940,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosparam=1.14.3-0bionic.20180806.185423`
+### `dpkg` source package: `ros-melodic-rosparam=1.14.3-0bionic.20191008.154830`
 
 Binary Packages:
 
-- `ros-melodic-rosparam=1.14.3-0bionic.20180806.185423`
+- `ros-melodic-rosparam=1.14.3-0bionic.20191008.154830`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10952,11 +10954,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rospy=1.14.3-0bionic.20181112.174741`
+### `dpkg` source package: `ros-melodic-rospy=1.14.3-0bionic.20191008.165249`
 
 Binary Packages:
 
-- `ros-melodic-rospy=1.14.3-0bionic.20181112.174741`
+- `ros-melodic-rospy=1.14.3-0bionic.20191008.165249`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10966,11 +10968,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosservice=1.14.3-0bionic.20181112.202329`
+### `dpkg` source package: `ros-melodic-rosservice=1.14.3-0bionic.20191008.193955`
 
 Binary Packages:
 
-- `ros-melodic-rosservice=1.14.3-0bionic.20181112.202329`
+- `ros-melodic-rosservice=1.14.3-0bionic.20191008.193955`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10980,11 +10982,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rostest=1.14.3-0bionic.20181112.182207`
+### `dpkg` source package: `ros-melodic-rostest=1.14.3-0bionic.20191008.171331`
 
 Binary Packages:
 
-- `ros-melodic-rostest=1.14.3-0bionic.20181112.182207`
+- `ros-melodic-rostest=1.14.3-0bionic.20191008.171331`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -10994,11 +10996,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rostime=0.6.11-0bionic.20180606.172255`
+### `dpkg` source package: `ros-melodic-rostime=0.6.13-1bionic.20191008.153530`
 
 Binary Packages:
 
-- `ros-melodic-rostime=0.6.11-0bionic.20180606.172255`
+- `ros-melodic-rostime=0.6.13-1bionic.20191008.153530`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11008,11 +11010,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rostopic=1.14.3-0bionic.20181112.190405`
+### `dpkg` source package: `ros-melodic-rostopic=1.14.3-0bionic.20191008.193308`
 
 Binary Packages:
 
-- `ros-melodic-rostopic=1.14.3-0bionic.20181112.190405`
+- `ros-melodic-rostopic=1.14.3-0bionic.20191008.193308`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11022,11 +11024,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-rosunit=1.14.4-0bionic.20180906.222048`
+### `dpkg` source package: `ros-melodic-rosunit=1.14.7-1bionic.20191008.155621`
 
 Binary Packages:
 
-- `ros-melodic-rosunit=1.14.4-0bionic.20180906.222048`
+- `ros-melodic-rosunit=1.14.7-1bionic.20191008.155621`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11036,11 +11038,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-roswtf=1.14.3-0bionic.20181112.202445`
+### `dpkg` source package: `ros-melodic-roswtf=1.14.3-0bionic.20191008.194903`
 
 Binary Packages:
 
-- `ros-melodic-roswtf=1.14.3-0bionic.20181112.202445`
+- `ros-melodic-roswtf=1.14.3-0bionic.20191008.194903`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11050,11 +11052,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-sensor-msgs=1.12.7-0bionic.20181112.195813`
+### `dpkg` source package: `ros-melodic-sensor-msgs=1.12.7-0bionic.20191008.193318`
 
 Binary Packages:
 
-- `ros-melodic-sensor-msgs=1.12.7-0bionic.20181112.195813`
+- `ros-melodic-sensor-msgs=1.12.7-0bionic.20191008.193318`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11064,11 +11066,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-shape-msgs=1.12.7-0bionic.20181109.225211`
+### `dpkg` source package: `ros-melodic-shape-msgs=1.12.7-0bionic.20191008.165409`
 
 Binary Packages:
 
-- `ros-melodic-shape-msgs=1.12.7-0bionic.20181109.225211`
+- `ros-melodic-shape-msgs=1.12.7-0bionic.20191008.165409`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11078,11 +11080,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-smclib=1.8.3-0bionic.20181005.140134`
+### `dpkg` source package: `ros-melodic-smclib=1.8.3-0bionic.20191008.150934`
 
 Binary Packages:
 
-- `ros-melodic-smclib=1.8.3-0bionic.20181005.140134`
+- `ros-melodic-smclib=1.8.3-0bionic.20191008.150934`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11092,11 +11094,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-std-msgs=0.5.11-0bionic.20180606.182832`
+### `dpkg` source package: `ros-melodic-std-msgs=0.5.12-0bionic.20191008.155401`
 
 Binary Packages:
 
-- `ros-melodic-std-msgs=0.5.11-0bionic.20180606.182832`
+- `ros-melodic-std-msgs=0.5.12-0bionic.20191008.155401`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11106,11 +11108,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-std-srvs=1.11.2-0bionic.20180606.182427`
+### `dpkg` source package: `ros-melodic-std-srvs=1.11.2-0bionic.20191008.155407`
 
 Binary Packages:
 
-- `ros-melodic-std-srvs=1.11.2-0bionic.20180606.182427`
+- `ros-melodic-std-srvs=1.11.2-0bionic.20191008.155407`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11120,11 +11122,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-stereo-image-proc=1.12.23-0bionic.20181112.211311`
+### `dpkg` source package: `ros-melodic-stereo-image-proc=1.13.0-1bionic.20191008.213031`
 
 Binary Packages:
 
-- `ros-melodic-stereo-image-proc=1.12.23-0bionic.20181112.211311`
+- `ros-melodic-stereo-image-proc=1.13.0-1bionic.20191008.213031`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11134,11 +11136,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-stereo-msgs=1.12.7-0bionic.20181112.205410`
+### `dpkg` source package: `ros-melodic-stereo-msgs=1.12.7-0bionic.20191008.212211`
 
 Binary Packages:
 
-- `ros-melodic-stereo-msgs=1.12.7-0bionic.20181112.205410`
+- `ros-melodic-stereo-msgs=1.12.7-0bionic.20191008.212211`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11148,11 +11150,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-tf2-eigen=0.6.5-0bionic.20181117.183021`
+### `dpkg` source package: `ros-melodic-tf2-eigen=0.6.5-0bionic.20191008.214928`
 
 Binary Packages:
 
-- `ros-melodic-tf2-eigen=0.6.5-0bionic.20181117.183021`
+- `ros-melodic-tf2-eigen=0.6.5-0bionic.20191008.214928`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11162,11 +11164,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-tf2-geometry-msgs=0.6.5-0bionic.20181117.184336`
+### `dpkg` source package: `ros-melodic-tf2-geometry-msgs=0.6.5-0bionic.20191008.201710`
 
 Binary Packages:
 
-- `ros-melodic-tf2-geometry-msgs=0.6.5-0bionic.20181117.184336`
+- `ros-melodic-tf2-geometry-msgs=0.6.5-0bionic.20191008.201710`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11176,11 +11178,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-tf2-msgs=0.6.5-0bionic.20181117.182146`
+### `dpkg` source package: `ros-melodic-tf2-msgs=0.6.5-0bionic.20191008.163243`
 
 Binary Packages:
 
-- `ros-melodic-tf2-msgs=0.6.5-0bionic.20181117.182146`
+- `ros-melodic-tf2-msgs=0.6.5-0bionic.20191008.163243`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11190,11 +11192,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-tf2-py=0.6.5-0bionic.20181117.183301`
+### `dpkg` source package: `ros-melodic-tf2-py=0.6.5-0bionic.20191008.171825`
 
 Binary Packages:
 
-- `ros-melodic-tf2-py=0.6.5-0bionic.20181117.183301`
+- `ros-melodic-tf2-py=0.6.5-0bionic.20191008.171825`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11204,11 +11206,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-tf2-ros=0.6.5-0bionic.20181117.183710`
+### `dpkg` source package: `ros-melodic-tf2-ros=0.6.5-0bionic.20191008.200652`
 
 Binary Packages:
 
-- `ros-melodic-tf2-ros=0.6.5-0bionic.20181117.183710`
+- `ros-melodic-tf2-ros=0.6.5-0bionic.20191008.200652`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11218,11 +11220,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-tf2=0.6.5-0bionic.20181117.182549`
+### `dpkg` source package: `ros-melodic-tf2=0.6.5-0bionic.20191008.165348`
 
 Binary Packages:
 
-- `ros-melodic-tf2=0.6.5-0bionic.20181117.182549`
+- `ros-melodic-tf2=0.6.5-0bionic.20191008.165348`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11232,11 +11234,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-tf=1.12.0-0bionic.20181117.184615`
+### `dpkg` source package: `ros-melodic-tf=1.12.0-0bionic.20191008.201759`
 
 Binary Packages:
 
-- `ros-melodic-tf=1.12.0-0bionic.20181117.184615`
+- `ros-melodic-tf=1.12.0-0bionic.20191008.201759`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11246,11 +11248,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-theora-image-transport=1.9.5-0bionic.20181112.203300`
+### `dpkg` source package: `ros-melodic-theora-image-transport=1.9.5-0bionic.20191008.202021`
 
 Binary Packages:
 
-- `ros-melodic-theora-image-transport=1.9.5-0bionic.20181112.203300`
+- `ros-melodic-theora-image-transport=1.9.5-0bionic.20191008.202021`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11260,11 +11262,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-topic-tools=1.14.3-0bionic.20181112.182554`
+### `dpkg` source package: `ros-melodic-topic-tools=1.14.3-0bionic.20191008.172241`
 
 Binary Packages:
 
-- `ros-melodic-topic-tools=1.14.3-0bionic.20181112.182554`
+- `ros-melodic-topic-tools=1.14.3-0bionic.20191008.172241`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11274,11 +11276,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-trajectory-msgs=1.12.7-0bionic.20181109.225228`
+### `dpkg` source package: `ros-melodic-trajectory-msgs=1.12.7-0bionic.20191008.165428`
 
 Binary Packages:
 
-- `ros-melodic-trajectory-msgs=1.12.7-0bionic.20181109.225228`
+- `ros-melodic-trajectory-msgs=1.12.7-0bionic.20191008.165428`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11288,11 +11290,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-vision-opencv=1.13.0-0bionic.20181112.210240`
+### `dpkg` source package: `ros-melodic-vision-opencv=1.13.0-0bionic.20191008.211701`
 
 Binary Packages:
 
-- `ros-melodic-vision-opencv=1.13.0-0bionic.20181112.210240`
+- `ros-melodic-vision-opencv=1.13.0-0bionic.20191008.211701`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11302,11 +11304,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-visualization-msgs=1.12.7-0bionic.20181109.225021`
+### `dpkg` source package: `ros-melodic-visualization-msgs=1.12.7-0bionic.20191008.163151`
 
 Binary Packages:
 
-- `ros-melodic-visualization-msgs=1.12.7-0bionic.20181109.225021`
+- `ros-melodic-visualization-msgs=1.12.7-0bionic.20191008.163151`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11316,11 +11318,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-melodic-xmlrpcpp=1.14.3-0bionic.20180806.185143`
+### `dpkg` source package: `ros-melodic-xmlrpcpp=1.14.3-0bionic.20191008.154114`
 
 Binary Packages:
 
-- `ros-melodic-xmlrpcpp=1.14.3-0bionic.20180806.185143`
+- `ros-melodic-xmlrpcpp=1.14.3-0bionic.20191008.154114`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -11455,12 +11457,12 @@ $ apt-get source -qq --print-uris sgml-base=1.29
 'http://archive.ubuntu.com/ubuntu/pool/main/s/sgml-base/sgml-base_1.29.tar.xz' sgml-base_1.29.tar.xz 12224 SHA256:33808f1d51407ae105d471bf53cab526fe8903b003b78bc7ac4fd1429b7986b4
 ```
 
-### `dpkg` source package: `shadow=1:4.5-1ubuntu1`
+### `dpkg` source package: `shadow=1:4.5-1ubuntu2`
 
 Binary Packages:
 
-- `login=1:4.5-1ubuntu1`
-- `passwd=1:4.5-1ubuntu1`
+- `login=1:4.5-1ubuntu2`
+- `passwd=1:4.5-1ubuntu2`
 
 Licenses: (parsed from: `/usr/share/doc/login/copyright`, `/usr/share/doc/passwd/copyright`)
 
@@ -11469,10 +11471,10 @@ Licenses: (parsed from: `/usr/share/doc/login/copyright`, `/usr/share/doc/passwd
 Source:
 
 ```console
-$ apt-get source -qq --print-uris shadow=1:4.5-1ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.5-1ubuntu1.dsc' shadow_4.5-1ubuntu1.dsc 2389 SHA256:0b49e04e8e85866adec2196c299b393883f5cf40358bb92f5168cfa941de4dd0
+$ apt-get source -qq --print-uris shadow=1:4.5-1ubuntu2
+'http://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.5-1ubuntu2.dsc' shadow_4.5-1ubuntu2.dsc 2426 SHA256:34cc68fd24c6376c16311720f20dcb345e5da19adbe39edae249a49e45cee9e1
 'http://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.5.orig.tar.xz' shadow_4.5.orig.tar.xz 1344524 SHA256:22b0952dc944b163e2370bb911b11ca275fc80ad024267cf21e496b28c23d500
-'http://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.5-1ubuntu1.debian.tar.xz' shadow_4.5-1ubuntu1.debian.tar.xz 470524 SHA256:51e534983f0500229b51b3f3ccbee3b041e48d3ea6e5f64c914351a0e996dc05
+'http://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.5-1ubuntu2.debian.tar.xz' shadow_4.5-1ubuntu2.debian.tar.xz 471472 SHA256:0025e344b478aae6e2d9ad7657b5e1fd0ebd1fda7a55e7fc144840f75b92d358
 ```
 
 ### `dpkg` source package: `shared-mime-info=1.9-2`
@@ -11673,12 +11675,12 @@ $ apt-get source -qq --print-uris sphinx=1.6.7-1ubuntu1
 'http://archive.ubuntu.com/ubuntu/pool/main/s/sphinx/sphinx_1.6.7-1ubuntu1.debian.tar.xz' sphinx_1.6.7-1ubuntu1.debian.tar.xz 38092 SHA256:7af9813cdfba42d912442ea1a58530268e8e11b1337e0e4359e9cbb4b98274e6
 ```
 
-### `dpkg` source package: `sqlite3=3.22.0-1`
+### `dpkg` source package: `sqlite3=3.22.0-1ubuntu0.2`
 
 Binary Packages:
 
-- `libsqlite3-0:amd64=3.22.0-1`
-- `libsqlite3-dev:amd64=3.22.0-1`
+- `libsqlite3-0:amd64=3.22.0-1ubuntu0.2`
+- `libsqlite3-dev:amd64=3.22.0-1ubuntu0.2`
 
 Licenses: (parsed from: `/usr/share/doc/libsqlite3-0/copyright`, `/usr/share/doc/libsqlite3-dev/copyright`)
 
@@ -11689,11 +11691,11 @@ Licenses: (parsed from: `/usr/share/doc/libsqlite3-0/copyright`, `/usr/share/doc
 Source:
 
 ```console
-$ apt-get source -qq --print-uris sqlite3=3.22.0-1
-'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.22.0-1.dsc' sqlite3_3.22.0-1.dsc 2397 SHA256:6a5c95a5062c19abcfb0492b32b4e4f20634a59fb077da2415ab16e1afdc4ff6
+$ apt-get source -qq --print-uris sqlite3=3.22.0-1ubuntu0.2
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.22.0-1ubuntu0.2.dsc' sqlite3_3.22.0-1ubuntu0.2.dsc 2496 SHA256:9c6d8f8a019956a7cdba24564a9bb34a9afd681efc1ba377e6676a4320160a37
 'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.22.0.orig-www.tar.xz' sqlite3_3.22.0.orig-www.tar.xz 3564688 SHA256:a61a14d6f457bb31ca32f4844398140050597fe4403dc0ee19576111f407e231
 'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.22.0.orig.tar.xz' sqlite3_3.22.0.orig.tar.xz 6019648 SHA256:f973ba63b5a1ea1d72e80c585bfb945e71d3f8b74fbecccdf345a84f8c91e5d1
-'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.22.0-1.debian.tar.xz' sqlite3_3.22.0-1.debian.tar.xz 17312 SHA256:7fcce88ce9c8fe517fb9fc5b9d67daf14e48da678496fede4b27cbd3ddcbd453
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.22.0-1ubuntu0.2.debian.tar.xz' sqlite3_3.22.0-1ubuntu0.2.debian.tar.xz 38128 SHA256:1695ce72e9415445e3f6399b8a89a0f0df59982527dd9b7d54a892a47582fe14
 ```
 
 ### `dpkg` source package: `strip-nondeterminism=0.040-1.1~build1`
@@ -11740,6 +11742,25 @@ $ apt-get source -qq --print-uris subversion=1.9.7-4ubuntu1
 'http://archive.ubuntu.com/ubuntu/pool/universe/s/subversion/subversion_1.9.7-4ubuntu1.debian.tar.xz' subversion_1.9.7-4ubuntu1.debian.tar.xz 2270568 SHA256:67ea7ddc37e697340eaa9f8fea08980ba01b529f3ab6487eeb8726bc9ae77f29
 ```
 
+### `dpkg` source package: `sudo=1.8.21p2-3ubuntu1.1`
+
+Binary Packages:
+
+- `sudo=1.8.21p2-3ubuntu1.1`
+
+**WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
+If source is available (seen below), check the contents of `debian/copyright` within it.
+
+
+Source:
+
+```console
+$ apt-get source -qq --print-uris sudo=1.8.21p2-3ubuntu1.1
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sudo/sudo_1.8.21p2-3ubuntu1.1.dsc' sudo_1.8.21p2-3ubuntu1.1.dsc 2129 SHA256:cb67615ee80f33f881be05aebb8b24f4f6bced7a200753de5fb2d16e32c8e05c
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sudo/sudo_1.8.21p2.orig.tar.gz' sudo_1.8.21p2.orig.tar.gz 3008808 SHA256:0d17b4b1c720de4150f5e1d35627cf8b3a6495041cb0d842f3172eeeb459359d
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sudo/sudo_1.8.21p2-3ubuntu1.1.debian.tar.xz' sudo_1.8.21p2-3ubuntu1.1.debian.tar.xz 33208 SHA256:edc90553872e231e776cb681c077b28924a2191b7e36bb59c062847dab090588
+```
+
 ### `dpkg` source package: `superlu=5.2.1+dfsg1-3`
 
 Binary Packages:
@@ -11764,17 +11785,17 @@ $ apt-get source -qq --print-uris superlu=5.2.1+dfsg1-3
 'http://archive.ubuntu.com/ubuntu/pool/universe/s/superlu/superlu_5.2.1+dfsg1-3.debian.tar.xz' superlu_5.2.1+dfsg1-3.debian.tar.xz 6100 SHA256:143d97303271ad64e69a3166452bc3a79bf76a2bff19a8f91df44579b8ead65c
 ```
 
-### `dpkg` source package: `systemd=237-3ubuntu10.11`
+### `dpkg` source package: `systemd=237-3ubuntu10.33`
 
 Binary Packages:
 
-- `libnss-systemd:amd64=237-3ubuntu10.11`
-- `libpam-systemd:amd64=237-3ubuntu10.11`
-- `libsystemd0:amd64=237-3ubuntu10.11`
-- `libudev1:amd64=237-3ubuntu10.11`
-- `systemd=237-3ubuntu10.11`
-- `systemd-sysv=237-3ubuntu10.11`
-- `udev=237-3ubuntu10.11`
+- `libnss-systemd:amd64=237-3ubuntu10.33`
+- `libpam-systemd:amd64=237-3ubuntu10.33`
+- `libsystemd0:amd64=237-3ubuntu10.33`
+- `libudev1:amd64=237-3ubuntu10.33`
+- `systemd=237-3ubuntu10.33`
+- `systemd-sysv=237-3ubuntu10.33`
+- `udev=237-3ubuntu10.33`
 
 Licenses: (parsed from: `/usr/share/doc/libnss-systemd/copyright`, `/usr/share/doc/libpam-systemd/copyright`, `/usr/share/doc/libsystemd0/copyright`, `/usr/share/doc/libudev1/copyright`, `/usr/share/doc/systemd/copyright`, `/usr/share/doc/systemd-sysv/copyright`, `/usr/share/doc/udev/copyright`)
 
@@ -11789,10 +11810,10 @@ Licenses: (parsed from: `/usr/share/doc/libnss-systemd/copyright`, `/usr/share/d
 Source:
 
 ```console
-$ apt-get source -qq --print-uris systemd=237-3ubuntu10.11
-'http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_237-3ubuntu10.11.dsc' systemd_237-3ubuntu10.11.dsc 4656 SHA256:fe8e56fc87d480d22da44f0d6c260e233f58a9b29f4e2ac3eda76d37fca24cd0
+$ apt-get source -qq --print-uris systemd=237-3ubuntu10.33
+'http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_237-3ubuntu10.33.dsc' systemd_237-3ubuntu10.33.dsc 5182 SHA256:78101584287f635d1212912eff26b4fd9bcec505f73e38e2f8fd09506577df55
 'http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_237.orig.tar.gz' systemd_237.orig.tar.gz 6871350 SHA256:c83dabbe1c9de6b9db1dafdb7e04140c7d0535705c68842f6c0768653ba4913c
-'http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_237-3ubuntu10.11.debian.tar.xz' systemd_237-3ubuntu10.11.debian.tar.xz 199440 SHA256:c94d76a2379bcddb299287b7ff6d132c128af8be6ee912c581bd1a257a6a61f4
+'http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_237-3ubuntu10.33.debian.tar.xz' systemd_237-3ubuntu10.33.debian.tar.xz 237528 SHA256:7530e3de2264645ba057564dbb4d6c23a34362292441ebb075839e11963c38c7
 ```
 
 ### `dpkg` source package: `sysvinit=2.88dsf-59.10ubuntu1`
@@ -11814,11 +11835,11 @@ $ apt-get source -qq --print-uris sysvinit=2.88dsf-59.10ubuntu1
 'http://archive.ubuntu.com/ubuntu/pool/main/s/sysvinit/sysvinit_2.88dsf-59.10ubuntu1.debian.tar.xz' sysvinit_2.88dsf-59.10ubuntu1.debian.tar.xz 132736 SHA256:faee591309aa0065aa43f44a1e840eb01db7f55379af2b45949534bd0317b734
 ```
 
-### `dpkg` source package: `tar=1.29b-2`
+### `dpkg` source package: `tar=1.29b-2ubuntu0.1`
 
 Binary Packages:
 
-- `tar=1.29b-2`
+- `tar=1.29b-2ubuntu0.1`
 
 Licenses: (parsed from: `/usr/share/doc/tar/copyright`)
 
@@ -11828,10 +11849,10 @@ Licenses: (parsed from: `/usr/share/doc/tar/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris tar=1.29b-2
-'http://archive.ubuntu.com/ubuntu/pool/main/t/tar/tar_1.29b-2.dsc' tar_1.29b-2.dsc 1965 SHA256:cae92504d2622b0a3d353df387c44beb1e9040ed2d527272a226f0ba247a17f1
+$ apt-get source -qq --print-uris tar=1.29b-2ubuntu0.1
+'http://archive.ubuntu.com/ubuntu/pool/main/t/tar/tar_1.29b-2ubuntu0.1.dsc' tar_1.29b-2ubuntu0.1.dsc 1426 SHA256:a926fddb2d770936f8925c84bb665bb7cf6fae020ff7573dd85126a54aa6acb5
 'http://archive.ubuntu.com/ubuntu/pool/main/t/tar/tar_1.29b.orig.tar.xz' tar_1.29b.orig.tar.xz 1822008 SHA256:6a59706ebee384a6cd2fb3ee1dbfbfc20c5c66c7efd7cedb28edc054fca8ba00
-'http://archive.ubuntu.com/ubuntu/pool/main/t/tar/tar_1.29b-2.debian.tar.xz' tar_1.29b-2.debian.tar.xz 28552 SHA256:caa4e76e821b87e842d0bfc8285abd47103d47d56e93dae0a8df4b787f7c8d72
+'http://archive.ubuntu.com/ubuntu/pool/main/t/tar/tar_1.29b-2ubuntu0.1.debian.tar.xz' tar_1.29b-2ubuntu0.1.debian.tar.xz 31672 SHA256:4fbae6a9aaf492dabed71d6a5e07fb1d5bad89d88eaea4c398791cd326fe44d5
 ```
 
 ### `dpkg` source package: `tbb=2017~U7-8`
@@ -11916,14 +11937,14 @@ $ apt-get source -qq --print-uris tesseract=4.00~git2288-10f4998a-2
 'http://archive.ubuntu.com/ubuntu/pool/universe/t/tesseract/tesseract_4.00~git2288-10f4998a-2.debian.tar.xz' tesseract_4.00~git2288-10f4998a-2.debian.tar.xz 25640 SHA256:a2e7bd4b8c4ef32c6c51c4656740c0e7c2637b6ef4de24e6c1d873bb9a837c3e
 ```
 
-### `dpkg` source package: `tiff=4.0.9-5ubuntu0.1`
+### `dpkg` source package: `tiff=4.0.9-5ubuntu0.3`
 
 Binary Packages:
 
-- `libtiff-dev=4.0.9-5ubuntu0.1`
-- `libtiff5:amd64=4.0.9-5ubuntu0.1`
-- `libtiff5-dev:amd64=4.0.9-5ubuntu0.1`
-- `libtiffxx5:amd64=4.0.9-5ubuntu0.1`
+- `libtiff-dev=4.0.9-5ubuntu0.3`
+- `libtiff5:amd64=4.0.9-5ubuntu0.3`
+- `libtiff5-dev:amd64=4.0.9-5ubuntu0.3`
+- `libtiffxx5:amd64=4.0.9-5ubuntu0.3`
 
 Licenses: (parsed from: `/usr/share/doc/libtiff-dev/copyright`, `/usr/share/doc/libtiff5/copyright`, `/usr/share/doc/libtiff5-dev/copyright`, `/usr/share/doc/libtiffxx5/copyright`)
 
@@ -11932,10 +11953,10 @@ Licenses: (parsed from: `/usr/share/doc/libtiff-dev/copyright`, `/usr/share/doc/
 Source:
 
 ```console
-$ apt-get source -qq --print-uris tiff=4.0.9-5ubuntu0.1
-'http://archive.ubuntu.com/ubuntu/pool/main/t/tiff/tiff_4.0.9-5ubuntu0.1.dsc' tiff_4.0.9-5ubuntu0.1.dsc 2299 SHA256:ba50d0bcb97552e6f6b74e2728565f4164f5d1942d29ef2516ab977da4e60913
+$ apt-get source -qq --print-uris tiff=4.0.9-5ubuntu0.3
+'http://archive.ubuntu.com/ubuntu/pool/main/t/tiff/tiff_4.0.9-5ubuntu0.3.dsc' tiff_4.0.9-5ubuntu0.3.dsc 2299 SHA256:4d94bb13865a4fa532439c1302ed53b2abbe75ded475a9f039b02f0adbc3ce65
 'http://archive.ubuntu.com/ubuntu/pool/main/t/tiff/tiff_4.0.9.orig.tar.gz' tiff_4.0.9.orig.tar.gz 2305681 SHA256:6e7bdeec2c310734e734d19aae3a71ebe37a4d842e0e23dbb1b8921c0026cfcd
-'http://archive.ubuntu.com/ubuntu/pool/main/t/tiff/tiff_4.0.9-5ubuntu0.1.debian.tar.xz' tiff_4.0.9-5ubuntu0.1.debian.tar.xz 26020 SHA256:af565f62c19b54ffceceb7c2d1884f10e13b6710bab9927f5e22ffeb41ab8f59
+'http://archive.ubuntu.com/ubuntu/pool/main/t/tiff/tiff_4.0.9-5ubuntu0.3.debian.tar.xz' tiff_4.0.9-5ubuntu0.3.debian.tar.xz 32200 SHA256:112756eb47b85ec49b13f697319740f682884c1cdcd4623a2b75434892c9d1fd
 ```
 
 ### `dpkg` source package: `tinyxml2=6.0.0+dfsg-1`
@@ -12041,11 +12062,11 @@ $ apt-get source -qq --print-uris twolame=0.3.13-3
 'http://archive.ubuntu.com/ubuntu/pool/main/t/twolame/twolame_0.3.13-3.debian.tar.xz' twolame_0.3.13-3.debian.tar.xz 4352 SHA256:5d1806d16825de652a1c956afbd77739a7d7f1494cf8b238f2f85ed4c94d173f
 ```
 
-### `dpkg` source package: `tzdata=2018i-0ubuntu0.18.04`
+### `dpkg` source package: `tzdata=2019c-0ubuntu0.18.04`
 
 Binary Packages:
 
-- `tzdata=2018i-0ubuntu0.18.04`
+- `tzdata=2019c-0ubuntu0.18.04`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -12054,10 +12075,10 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris tzdata=2018i-0ubuntu0.18.04
-'http://archive.ubuntu.com/ubuntu/pool/main/t/tzdata/tzdata_2018i-0ubuntu0.18.04.dsc' tzdata_2018i-0ubuntu0.18.04.dsc 2122 SHA256:f4f73893ab97f73d8a1f68daa91d933b090275c6399b7e7c56960242bd524b21
-'http://archive.ubuntu.com/ubuntu/pool/main/t/tzdata/tzdata_2018i.orig.tar.gz' tzdata_2018i.orig.tar.gz 377009 SHA256:82c45ef84ca3bc01d0a4a397ba8adeb8f7f199c6550740587c6ac5a7108c00d9
-'http://archive.ubuntu.com/ubuntu/pool/main/t/tzdata/tzdata_2018i-0ubuntu0.18.04.debian.tar.xz' tzdata_2018i-0ubuntu0.18.04.debian.tar.xz 104556 SHA256:ef65b3782fc78a72ef5dc1297173941b3ccf7dfce01f62a375cbb3c7384a8398
+$ apt-get source -qq --print-uris tzdata=2019c-0ubuntu0.18.04
+'http://archive.ubuntu.com/ubuntu/pool/main/t/tzdata/tzdata_2019c-0ubuntu0.18.04.dsc' tzdata_2019c-0ubuntu0.18.04.dsc 2122 SHA256:625bd3cae6a160cb54abd3048080115dc1e9f03948e17c4c90ac2ebaea79a431
+'http://archive.ubuntu.com/ubuntu/pool/main/t/tzdata/tzdata_2019c.orig.tar.gz' tzdata_2019c.orig.tar.gz 392087 SHA256:79c7806dab09072308da0e3d22c37d3b245015a591891ea147d3b133b60ffc7c
+'http://archive.ubuntu.com/ubuntu/pool/main/t/tzdata/tzdata_2019c-0ubuntu0.18.04.debian.tar.xz' tzdata_2019c-0ubuntu0.18.04.debian.tar.xz 104772 SHA256:0d683e58ceb5af7fb61f23745b0ced7afe7cbb22429b61e0697513842326842d
 ```
 
 ### `dpkg` source package: `u-msgpack-python=2.1-1`
@@ -12246,20 +12267,20 @@ $ apt-get source -qq --print-uris usb-modeswitch=2.5.2+repack0-2ubuntu1
 'http://archive.ubuntu.com/ubuntu/pool/main/u/usb-modeswitch/usb-modeswitch_2.5.2+repack0-2ubuntu1.debian.tar.xz' usb-modeswitch_2.5.2+repack0-2ubuntu1.debian.tar.xz 29116 SHA256:014d01d3200986dd8403b8723b8bef3c7f4020de320cba51c789ed269901603f
 ```
 
-### `dpkg` source package: `util-linux=2.31.1-0.4ubuntu3.3`
+### `dpkg` source package: `util-linux=2.31.1-0.4ubuntu3.4`
 
 Binary Packages:
 
-- `bsdutils=1:2.31.1-0.4ubuntu3.3`
-- `fdisk=2.31.1-0.4ubuntu3.3`
-- `libblkid1:amd64=2.31.1-0.4ubuntu3.3`
-- `libfdisk1:amd64=2.31.1-0.4ubuntu3.3`
-- `libmount1:amd64=2.31.1-0.4ubuntu3.3`
-- `libsmartcols1:amd64=2.31.1-0.4ubuntu3.3`
-- `libuuid1:amd64=2.31.1-0.4ubuntu3.3`
-- `mount=2.31.1-0.4ubuntu3.3`
-- `util-linux=2.31.1-0.4ubuntu3.3`
-- `uuid-dev:amd64=2.31.1-0.4ubuntu3.3`
+- `bsdutils=1:2.31.1-0.4ubuntu3.4`
+- `fdisk=2.31.1-0.4ubuntu3.4`
+- `libblkid1:amd64=2.31.1-0.4ubuntu3.4`
+- `libfdisk1:amd64=2.31.1-0.4ubuntu3.4`
+- `libmount1:amd64=2.31.1-0.4ubuntu3.4`
+- `libsmartcols1:amd64=2.31.1-0.4ubuntu3.4`
+- `libuuid1:amd64=2.31.1-0.4ubuntu3.4`
+- `mount=2.31.1-0.4ubuntu3.4`
+- `util-linux=2.31.1-0.4ubuntu3.4`
+- `uuid-dev:amd64=2.31.1-0.4ubuntu3.4`
 
 Licenses: (parsed from: `/usr/share/doc/bsdutils/copyright`, `/usr/share/doc/fdisk/copyright`, `/usr/share/doc/libblkid1/copyright`, `/usr/share/doc/libfdisk1/copyright`, `/usr/share/doc/libmount1/copyright`, `/usr/share/doc/libsmartcols1/copyright`, `/usr/share/doc/libuuid1/copyright`, `/usr/share/doc/mount/copyright`, `/usr/share/doc/util-linux/copyright`, `/usr/share/doc/uuid-dev/copyright`)
 
@@ -12283,10 +12304,10 @@ Licenses: (parsed from: `/usr/share/doc/bsdutils/copyright`, `/usr/share/doc/fdi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris util-linux=2.31.1-0.4ubuntu3.3
-'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.31.1-0.4ubuntu3.3.dsc' util-linux_2.31.1-0.4ubuntu3.3.dsc 4148 SHA256:04812d13b3420078a683d8a068efe31b104eb70de991bf79207ca0ae1de88dd0
+$ apt-get source -qq --print-uris util-linux=2.31.1-0.4ubuntu3.4
+'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.31.1-0.4ubuntu3.4.dsc' util-linux_2.31.1-0.4ubuntu3.4.dsc 3777 SHA256:a831e841fc31bd3209086f6cbacbd151dc223c0fcbd3c9d6e66130df2787f384
 'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.31.1.orig.tar.xz' util-linux_2.31.1.orig.tar.xz 4514032 SHA256:cfd5789570e9ff75e079471faeca1511ade1607f650523a6ad25d1e26516ae4e
-'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.31.1-0.4ubuntu3.3.debian.tar.xz' util-linux_2.31.1-0.4ubuntu3.3.debian.tar.xz 99496 SHA256:9a57b1680f325060f147db00ecfbe6ced03ee563fe20f0d9dcbd22b34f70020e
+'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.31.1-0.4ubuntu3.4.debian.tar.xz' util-linux_2.31.1-0.4ubuntu3.4.debian.tar.xz 100008 SHA256:15d990f699466be03ab16e2ff8e30f3629c0314a038aa79f98e02085cc2eebc1
 ```
 
 ### `dpkg` source package: `vtk6=6.3.0+dfsg1-11build1`
@@ -12323,11 +12344,11 @@ $ apt-get source -qq --print-uris vtk6=6.3.0+dfsg1-11build1
 'http://archive.ubuntu.com/ubuntu/pool/universe/v/vtk6/vtk6_6.3.0+dfsg1-11build1.debian.tar.xz' vtk6_6.3.0+dfsg1-11build1.debian.tar.xz 30600 SHA256:bf2539da557282332ec89446e46e79e8abe6ceb90f0c186f51b93f55e6dbf86b
 ```
 
-### `dpkg` source package: `wavpack=5.1.0-2ubuntu1.2`
+### `dpkg` source package: `wavpack=5.1.0-2ubuntu1.4`
 
 Binary Packages:
 
-- `libwavpack1:amd64=5.1.0-2ubuntu1.2`
+- `libwavpack1:amd64=5.1.0-2ubuntu1.4`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -12336,33 +12357,33 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris wavpack=5.1.0-2ubuntu1.2
-'http://archive.ubuntu.com/ubuntu/pool/main/w/wavpack/wavpack_5.1.0-2ubuntu1.2.dsc' wavpack_5.1.0-2ubuntu1.2.dsc 2196 SHA256:5390721c4830c8a1ae4b4f19fcc52fffa8425e35a418a8bb593e90a237837641
+$ apt-get source -qq --print-uris wavpack=5.1.0-2ubuntu1.4
+'http://archive.ubuntu.com/ubuntu/pool/main/w/wavpack/wavpack_5.1.0-2ubuntu1.4.dsc' wavpack_5.1.0-2ubuntu1.4.dsc 2199 SHA256:a68550c7168de18a63674ebe314357ad730cb01a9b41f6c6e20752e258926db0
 'http://archive.ubuntu.com/ubuntu/pool/main/w/wavpack/wavpack_5.1.0.orig.tar.bz2' wavpack_5.1.0.orig.tar.bz2 824331 SHA256:1939627d5358d1da62bc6158d63f7ed12905552f3a799c799ee90296a7612944
-'http://archive.ubuntu.com/ubuntu/pool/main/w/wavpack/wavpack_5.1.0-2ubuntu1.2.debian.tar.xz' wavpack_5.1.0-2ubuntu1.2.debian.tar.xz 9888 SHA256:d0ff12fb8c273773ec6106d852ad544f213ce2d516c83e81d9b00bf1ec745fc7
+'http://archive.ubuntu.com/ubuntu/pool/main/w/wavpack/wavpack_5.1.0-2ubuntu1.4.debian.tar.xz' wavpack_5.1.0-2ubuntu1.4.debian.tar.xz 11632 SHA256:693d918df7f4d69ba87bad1678f1dc179fb3ab23c017f44d20ee7c3065a59438
 ```
 
-### `dpkg` source package: `wayland=1.14.0-2`
+### `dpkg` source package: `wayland=1.16.0-1ubuntu1.1~18.04.1`
 
 Binary Packages:
 
-- `libwayland-bin=1.14.0-2`
-- `libwayland-client0:amd64=1.14.0-2`
-- `libwayland-cursor0:amd64=1.14.0-2`
-- `libwayland-dev:amd64=1.14.0-2`
-- `libwayland-server0:amd64=1.14.0-2`
+- `libwayland-bin=1.16.0-1ubuntu1.1~18.04.1`
+- `libwayland-client0:amd64=1.16.0-1ubuntu1.1~18.04.1`
+- `libwayland-cursor0:amd64=1.16.0-1ubuntu1.1~18.04.1`
+- `libwayland-dev:amd64=1.16.0-1ubuntu1.1~18.04.1`
+- `libwayland-egl1:amd64=1.16.0-1ubuntu1.1~18.04.1`
+- `libwayland-server0:amd64=1.16.0-1ubuntu1.1~18.04.1`
 
-Licenses: (parsed from: `/usr/share/doc/libwayland-bin/copyright`, `/usr/share/doc/libwayland-client0/copyright`, `/usr/share/doc/libwayland-cursor0/copyright`, `/usr/share/doc/libwayland-dev/copyright`, `/usr/share/doc/libwayland-server0/copyright`)
+Licenses: (parsed from: `/usr/share/doc/libwayland-bin/copyright`, `/usr/share/doc/libwayland-client0/copyright`, `/usr/share/doc/libwayland-cursor0/copyright`, `/usr/share/doc/libwayland-dev/copyright`, `/usr/share/doc/libwayland-egl1/copyright`, `/usr/share/doc/libwayland-server0/copyright`)
 
 - `X11`
 
 Source:
 
 ```console
-$ apt-get source -qq --print-uris wayland=1.14.0-2
-'http://archive.ubuntu.com/ubuntu/pool/main/w/wayland/wayland_1.14.0-2.dsc' wayland_1.14.0-2.dsc 2404 SHA256:bd10ee4e17a0cc97590890d74fc3094ca06f6f1eca1d022260b85717717d6fa1
-'http://archive.ubuntu.com/ubuntu/pool/main/w/wayland/wayland_1.14.0.orig.tar.gz' wayland_1.14.0.orig.tar.gz 673438 SHA256:6042516a27d56ad78dab123fbde7ba697ae6af1080ab9f9ca9f9783a888ce8db
-'http://archive.ubuntu.com/ubuntu/pool/main/w/wayland/wayland_1.14.0-2.diff.gz' wayland_1.14.0-2.diff.gz 10855 SHA256:06db73e127907b3033a1caf1fd36a6701b427795763d369f914d836d5d8a7c05
+$ apt-get source -qq --print-uris wayland=1.16.0-1ubuntu1.1~18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/w/wayland/wayland_1.16.0-1ubuntu1.1~18.04.1.dsc' wayland_1.16.0-1ubuntu1.1~18.04.1.dsc 2389 SHA256:3485caf43ff9eafcc275e7d75450985d8592920cc028b107d829a994feb2863a
+'http://archive.ubuntu.com/ubuntu/pool/main/w/wayland/wayland_1.16.0-1ubuntu1.1~18.04.1.tar.gz' wayland_1.16.0-1ubuntu1.1~18.04.1.tar.gz 324969 SHA256:5ea61767340ec029b99186ffd91ad341645b54f6fb8879bac05e756bd42da10d
 ```
 
 ### `dpkg` source package: `woff2=1.0.2-1build0.1`
@@ -12384,11 +12405,11 @@ $ apt-get source -qq --print-uris woff2=1.0.2-1build0.1
 'http://archive.ubuntu.com/ubuntu/pool/main/w/woff2/woff2_1.0.2-1build0.1.debian.tar.xz' woff2_1.0.2-1build0.1.debian.tar.xz 3256 SHA256:d9604e798bcfa10addc1a4d10bdca06b24f5aa06abee37b03a2e967a176bb413
 ```
 
-### `dpkg` source package: `wpa=2:2.6-15ubuntu2.1`
+### `dpkg` source package: `wpa=2:2.6-15ubuntu2.5`
 
 Binary Packages:
 
-- `wpasupplicant=2:2.6-15ubuntu2.1`
+- `wpasupplicant=2:2.6-15ubuntu2.5`
 
 Licenses: (parsed from: `/usr/share/doc/wpasupplicant/copyright`)
 
@@ -12400,10 +12421,10 @@ Licenses: (parsed from: `/usr/share/doc/wpasupplicant/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris wpa=2:2.6-15ubuntu2.1
-'http://archive.ubuntu.com/ubuntu/pool/main/w/wpa/wpa_2.6-15ubuntu2.1.dsc' wpa_2.6-15ubuntu2.1.dsc 2491 SHA256:fecf49b8e27f6a77309f4069b7c71b96b1bab8e701d8d35408748a6ba0de7b4b
+$ apt-get source -qq --print-uris wpa=2:2.6-15ubuntu2.5
+'http://archive.ubuntu.com/ubuntu/pool/main/w/wpa/wpa_2.6-15ubuntu2.5.dsc' wpa_2.6-15ubuntu2.5.dsc 2491 SHA256:5aaa57942ce5e96024b77d0d60516bd99cea690b9ee7933747cee6dfe5a6a035
 'http://archive.ubuntu.com/ubuntu/pool/main/w/wpa/wpa_2.6.orig.tar.xz' wpa_2.6.orig.tar.xz 2009476 SHA256:4492629ea15c9b571ac5e41679dca6703a25b637828272a0e72f3349dd1b4eac
-'http://archive.ubuntu.com/ubuntu/pool/main/w/wpa/wpa_2.6-15ubuntu2.1.debian.tar.xz' wpa_2.6-15ubuntu2.1.debian.tar.xz 105968 SHA256:216d642328a20eef7afbe52956f88eb4f6283ada01c3879d514a278dbe894e84
+'http://archive.ubuntu.com/ubuntu/pool/main/w/wpa/wpa_2.6-15ubuntu2.5.debian.tar.xz' wpa_2.6-15ubuntu2.5.debian.tar.xz 126516 SHA256:8580ba5398fe293a8508468611712158c48f274034fabb496b0599c5c64e6c72
 ```
 
 ### `dpkg` source package: `wxpython3.0=3.0.2.0+dfsg-7`
@@ -12707,11 +12728,11 @@ $ apt-get source -qq --print-uris xft=2.3.2-1
 'http://archive.ubuntu.com/ubuntu/pool/main/x/xft/xft_2.3.2-1.diff.gz' xft_2.3.2-1.diff.gz 11645 SHA256:e72df82575f6942a326c0bf414650b9be1fd6e8624e3746dc39286d5017b1333
 ```
 
-### `dpkg` source package: `xkeyboard-config=2.23.1-1ubuntu1`
+### `dpkg` source package: `xkeyboard-config=2.23.1-1ubuntu1.18.04.1`
 
 Binary Packages:
 
-- `xkb-data=2.23.1-1ubuntu1`
+- `xkb-data=2.23.1-1ubuntu1.18.04.1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -12720,10 +12741,10 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris xkeyboard-config=2.23.1-1ubuntu1
-'http://archive.ubuntu.com/ubuntu/pool/main/x/xkeyboard-config/xkeyboard-config_2.23.1-1ubuntu1.dsc' xkeyboard-config_2.23.1-1ubuntu1.dsc 2253 SHA256:52c9b25d9abf15a5fd8d120321f9c2d0ac5a924e2253da8a2729165e9c3ff6a5
+$ apt-get source -qq --print-uris xkeyboard-config=2.23.1-1ubuntu1.18.04.1
+'http://archive.ubuntu.com/ubuntu/pool/main/x/xkeyboard-config/xkeyboard-config_2.23.1-1ubuntu1.18.04.1.dsc' xkeyboard-config_2.23.1-1ubuntu1.18.04.1.dsc 1645 SHA256:27cb81e9e2793b8b06559c20cf81c893b40506bd21d7d2ee7eaa9bf383d26247
 'http://archive.ubuntu.com/ubuntu/pool/main/x/xkeyboard-config/xkeyboard-config_2.23.1.orig.tar.gz' xkeyboard-config_2.23.1.orig.tar.gz 1599103 SHA256:6567ccf5d134aae19ef110f5c847d5326aed01fc671167a6b8f8c47aeada0b85
-'http://archive.ubuntu.com/ubuntu/pool/main/x/xkeyboard-config/xkeyboard-config_2.23.1-1ubuntu1.diff.gz' xkeyboard-config_2.23.1-1ubuntu1.diff.gz 51798 SHA256:8079e7f1e7f2eea54c30c40389e02ddcf68e1d79d57e309a5dfd612416001f31
+'http://archive.ubuntu.com/ubuntu/pool/main/x/xkeyboard-config/xkeyboard-config_2.23.1-1ubuntu1.18.04.1.diff.gz' xkeyboard-config_2.23.1-1ubuntu1.18.04.1.diff.gz 52509 SHA256:3f0d971376a9856ca8014e37919cd759086eb5e0c3338d684b3c23d57968e800
 ```
 
 ### `dpkg` source package: `xml-core=0.18`
@@ -12790,9 +12811,7 @@ Binary Packages:
 - `x11proto-core-dev=2018.4-4`
 - `x11proto-damage-dev=1:2018.4-4`
 - `x11proto-dev=2018.4-4`
-- `x11proto-dri2-dev=2018.4-4`
 - `x11proto-fixes-dev=1:2018.4-4`
-- `x11proto-gl-dev=2018.4-4`
 - `x11proto-input-dev=2018.4-4`
 - `x11proto-randr-dev=2018.4-4`
 - `x11proto-scrnsaver-dev=2018.4-4`
@@ -12800,7 +12819,7 @@ Binary Packages:
 - `x11proto-xf86vidmode-dev=2018.4-4`
 - `x11proto-xinerama-dev=2018.4-4`
 
-Licenses: (parsed from: `/usr/share/doc/x11proto-composite-dev/copyright`, `/usr/share/doc/x11proto-core-dev/copyright`, `/usr/share/doc/x11proto-damage-dev/copyright`, `/usr/share/doc/x11proto-dev/copyright`, `/usr/share/doc/x11proto-dri2-dev/copyright`, `/usr/share/doc/x11proto-fixes-dev/copyright`, `/usr/share/doc/x11proto-gl-dev/copyright`, `/usr/share/doc/x11proto-input-dev/copyright`, `/usr/share/doc/x11proto-randr-dev/copyright`, `/usr/share/doc/x11proto-scrnsaver-dev/copyright`, `/usr/share/doc/x11proto-xext-dev/copyright`, `/usr/share/doc/x11proto-xf86vidmode-dev/copyright`, `/usr/share/doc/x11proto-xinerama-dev/copyright`)
+Licenses: (parsed from: `/usr/share/doc/x11proto-composite-dev/copyright`, `/usr/share/doc/x11proto-core-dev/copyright`, `/usr/share/doc/x11proto-damage-dev/copyright`, `/usr/share/doc/x11proto-dev/copyright`, `/usr/share/doc/x11proto-fixes-dev/copyright`, `/usr/share/doc/x11proto-input-dev/copyright`, `/usr/share/doc/x11proto-randr-dev/copyright`, `/usr/share/doc/x11proto-scrnsaver-dev/copyright`, `/usr/share/doc/x11proto-xext-dev/copyright`, `/usr/share/doc/x11proto-xf86vidmode-dev/copyright`, `/usr/share/doc/x11proto-xinerama-dev/copyright`)
 
 - `MIT`
 - `SGI`

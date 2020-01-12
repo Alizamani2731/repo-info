@@ -1,7 +1,7 @@
 ## `sl:latest`
 
 ```console
-$ docker pull sl@sha256:a45a41cf3b8f73cff2028d5b4f3d62dc62198836b2608fedf5a68c4effba562d
+$ docker pull sl@sha256:6376b56c34988d5522c063c59de863975aeeb14d5b374a5563a258d35964a9e4
 ```
 
 -	Manifest MIME: `application/vnd.docker.distribution.manifest.list.v2+json`
@@ -11,27 +11,27 @@ $ docker pull sl@sha256:a45a41cf3b8f73cff2028d5b4f3d62dc62198836b2608fedf5a68c4e
 ### `sl:latest` - linux; amd64
 
 ```console
-$ docker pull sl@sha256:f7fe097c46970fb22bed9a6b9fb13ed7a47b7bf79d8f215f8db04615f8214510
+$ docker pull sl@sha256:54d4ecbcfaea18666772c861337ce638de98b575fbc49440f5bd36d653552741
 ```
 
 -	Docker Version: 18.06.1-ce
 -	Manifest MIME: `application/vnd.docker.distribution.manifest.v2+json`
--	Total Size: **63.9 MB (63898146 bytes)**  
+-	Total Size: **66.3 MB (66300705 bytes)**  
 	(compressed transfer size, not on-disk size)
--	Image ID: `sha256:9b50a39b236adfe8b67cac1d80de8ac62ca5e6721ece7e4187ebdffa6b9c9e5c`
+-	Image ID: `sha256:7627a7481044a21cd54ea6e2a21c8cb2eaa487d177e463809fbfd17a0df8f517`
 -	Default Command: `["\/bin\/bash"]`
 
 ```dockerfile
-# Sat, 19 Jan 2019 00:22:17 GMT
-ADD file:746b291b424ed3c70e710c2e9deaee3b911173f3c0cdb4108c644723046fbf11 in / 
-# Sat, 19 Jan 2019 00:22:17 GMT
-LABEL name=SL7 Base Image vendor=Scientific Linux build-date=20190118
-# Sat, 19 Jan 2019 00:22:17 GMT
+# Tue, 07 Jan 2020 23:33:39 GMT
+ADD file:6d36af906ad27b9563549bc1f2ce739341c4ff13d4928fde461267e0f6eae357 in / 
+# Tue, 07 Jan 2020 23:33:40 GMT
+LABEL name=SL7 Base Image vendor=Scientific Linux build-date=20200107
+# Tue, 07 Jan 2020 23:33:40 GMT
 CMD ["/bin/bash"]
 ```
 
 -	Layers:
-	-	`sha256:a472bbc9ec23ae10d19c45fad432fd7ba91e26eb7df118f516e3d023242f46a5`  
-		Last Modified: Fri, 18 Jan 2019 20:16:08 GMT  
-		Size: 63.9 MB (63898146 bytes)  
+	-	`sha256:e5ce37e7fe4bfc6beaea9ee8469ac3c494c362dcff3a1f03496f56b3755bb57a`  
+		Last Modified: Tue, 07 Jan 2020 14:43:38 GMT  
+		Size: 66.3 MB (66300705 bytes)  
 		MIME: application/vnd.docker.image.rootfs.diff.tar.gzip
